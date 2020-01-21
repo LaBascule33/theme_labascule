@@ -1,7 +1,7 @@
 # La Bascule
 
 Author: Thomas Dubernet 
-Collaborateurs: JohnVy & Demiot
+Collaborateurs: JohnVy & FreDC
 
 Pour commencer il faut ouvrir un **terminal** dans le dossier ```labasculeBASE\wp-content\themes\theme_labascule```
 ## Initialiser le projet avec un 1er commit
