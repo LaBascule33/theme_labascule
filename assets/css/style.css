@@ -1,0 +1,465 @@
+/* ---------------------------------------- */
+/* INDEX */
+/* ---------------------------------------- */
+/* GLOBAL
+    > Media query
+    > Container
+
+/* TYPOGRAPHY
+    > Texts
+    > Titles
+    > Specials titles
+
+/* NAVBAR
+    > Logo
+    > Navbar
+    > Top Navbar
+
+/* BUTTONS
+    > Specials btn
+
+/* MODALS
+    > Modal FAQ
+
+/* CONTENT
+    > Style
+    > Content block
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- GLOBAL --*/
+/*-----------------------------------------------*/
+html{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+/* ---------------------------------------- */
+/* Media query */
+/* ---------------------------------------- */
+@media (min-width: 1250px) {
+    .container{
+        max-width: 1366px;
+    }
+}
+
+/* ---------------------------------------- */
+/* Container */
+/* ---------------------------------------- */
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- TYPOGRAPHY --*/
+/*-----------------------------------------------*/
+@font-face{
+	font-family: "Avenir-Medium";
+    src: url('./Avenir/Avenir-Medium.woff2');
+}
+
+@font-face{
+	font-family: "Avenir-Black";
+    src: url('./Avenir/Avenir-Black.woff2');
+}
+
+/* ---------------------------------------- */
+/* Texts */
+/* ---------------------------------------- */
+body {
+    font-family: "Avenir-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #000;
+}
+
+span.bf,.bf-under{
+    font-family: "Avenir-Black";
+}
+
+.p-blc{
+    color: #fff;
+}
+
+
+/* ---------------------------------------- */
+/* Titles */
+/* ---------------------------------------- */
+
+/* first-title */
+h1.heading{
+    font-family: "Avenir-Black";
+    font-size: 30px !important;
+    position: relative;
+}
+
+/* sub-title */
+h2,h3{
+    font-family: "Avenir-Black";
+    font-size: 20px;
+}
+
+h4,h5,h6{
+    font-family: "Avenir-Medium";
+    font-size: 20px;
+}
+/* Line
+.heading::before {
+    width: 280px;
+    height: 20px;
+    background: #bebebe;
+    border-radius: 1rem;
+    opacity: 0.8;
+    position: absolute;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-7%);
+    content: "";
+}*/
+
+/* ---------------------------------------- */
+/* Specials Titles */
+/* ---------------------------------------- */
+.text-center {
+    text-align: center;
+}
+
+h3.text-center{
+    letter-spacing: 6px;
+}
+
+/* title-primary */
+.text-center.primary{
+    color: #83B4FF;
+}
+
+/* title-danger */
+.text-center.danger{
+    color: #F786BE;
+}
+
+/* title-warning */
+.text-center.warning{
+    color: #F9A485;
+}
+
+/* title-success */
+.text-center.success{
+    color: #C4E36A;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- NAVBAR --*/
+/*-----------------------------------------------*/
+
+/* ---------------------------------------- */
+/* Logo */
+/* ---------------------------------------- */
+.logo{
+    max-width: 165px;
+    width: 165px;
+}
+
+/* ---------------------------------------- */
+/* Navbar */
+/* ---------------------------------------- */
+#header{
+    position: fixed;
+    /* top: 0; sans wpadminbar */
+    top: 32px; /* avec wpadminbar */
+    width: 100%;
+    z-index: 99999;
+}
+#pageContent{
+    margin-top: 126px;
+}
+
+#menu-home-menu > li a{
+    font-family: "Avenir-Black";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #002B5E;
+    background: #fff;
+    border: 1px solid #fff;
+}
+#menu-home-menu > li
+a:hover{
+    background: #002B5E !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.nav-link{
+    margin: 0.1rem;
+}
+
+/* ---------------------------------------- */
+/* Top Navbar */
+/* ---------------------------------------- */
+#topNavbar{
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.agenda {
+    border-right: 1px solid #1F2650;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- BUTTON --*/
+/*-----------------------------------------------*/
+.btn{
+    font-size: 14px;
+    font-family: "Avenir-Black";
+    box-shadow: 0px 3px 6px #00000029;
+    color: #ffff;
+    border: 2px solid #FAFAFA;
+    border-radius: 1rem;
+    padding: .2rem 1rem;
+    opacity: 1;
+}
+
+/* ---------------------------------------- */
+/* Specials Btn */
+/* ---------------------------------------- */
+
+/* Btn-primary */
+.btn.btn-primary{
+    background: #83B4FF;
+}
+.btn-primary:hover{
+    background: #fff;
+    color:#83B4FF;
+    border: 2px solid #83B4FF;
+}
+
+/* Btn-danger */
+.btn.btn-danger{
+    background: #F786BE;
+}
+.btn-danger:hover{
+    background: #fff;
+    color:#F786BE;
+    border: 2px solid #F786BE;
+}
+.btn.r-100{
+    border-radius: 50%;
+    padding: 0.5rem  0.8rem;
+}
+
+/* Btn-warning */
+.btn.btn-warning{
+    background: #F9A485;
+}
+.btn-warning:hover{
+    background: #fff;
+    color:#F9A485;
+    border: 2px solid #F9A485;
+}
+
+/* Btn-success */
+.btn.btn-success{
+    background: #C4E36A;
+}
+.btn-success:hover{
+    background: #fff;
+    color:#C4E36A;
+    border: 2px solid #C4E36A;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- MODALS --*/
+/*-----------------------------------------------*/
+
+/* ---------------------------------------- */
+/* Modal FAQ */
+/* ---------------------------------------- */
+
+/* Modal style */
+.block-faq{
+    padding: 60px;
+    margin-left: auto;
+    background-color: #002B5E;
+    max-width: 926px;
+    max-height: 559px;
+}
+
+span.faq{
+    font-family: "Avenir-Black";
+    font-size: 18px;
+    letter-spacing: 0.9px;
+}
+
+/* Btn Modal */
+.btn-block{
+    background: #002B5E;
+    border: 4px solid #83B4FF;
+    color: #fff;
+    padding: 2rem;
+    margin-block-end: 20px;
+    opacity: 1;
+    flex-wrap: wrap;
+}
+.btn-block:hover{
+    background: #83B4FF;
+    border: 4px solid #83B4FF;
+    color: #fff;
+}
+
+
+/* Modal-header */
+.modal-header{
+    padding: none;
+    border-bottom: none;
+}
+
+.modal-header > button.close{
+    font-size: 3rem;
+    color: #00204A;
+    opacity: 1;
+    padding-top: 32px;
+    padding-right: 42px;
+}
+
+/* Modal-body */
+.modal-body{
+    background-color: rgb(204, 223, 252);
+}
+
+.modal-body .img-faq{
+    max-width: 522px;
+}
+
+/* Modal-footer */
+.modal-footer > .btn-faq{
+    border: 4px solid #83B4FF;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- CONTENT --*/
+/*-----------------------------------------------*/
+
+/* ---------------------------------------- */
+/* Style */
+/* ---------------------------------------- */
+
+/* colors */
+.bc{
+    color: #83B4FF;
+}
+
+.bf{
+    color: #1F2650;
+}
+
+.bf-under{
+    text-decoration: underline;
+    color: #1F2650;
+    font-weight: 700;
+}
+
+.bgbc{
+    background: #E9F1FF;
+}
+
+.bgj{
+    background: #F4E1A0;
+}
+
+/* ---------------------------------------- */
+/* Content block */
+/* ---------------------------------------- */
+
+/* hero-block */
+.hero-block{
+    background-color: #002B5E;
+    /*transform: matrix(1, -0.09, 0.09, 1, 0, 0);*/
+}
+
+
+.text-asso-row{
+    padding:100px 64px 50px 108px ;
+}
+
+.titre-asso{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}p-blc-bascule{
+    background-image: url('../../img/groupe-bascule.png');
+    background-size: cover;
+}
+
+.img-archipel{
+    transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+    width: 607px;
+    right: 10%;
+}
+
+.bloc-archipel{
+    height: 440px;
+}
+
+#section-equipe{
+    background:rgba(233, 241, 255, 0.6) url('../../img/texture-bleu.svg');
+    background-size: cover;
+}
+
+.col-chiffres{
+    border: 1px solid #C0CAD7;
+}
+
+
+/* ---------------------------------------- */
+/* List-style */
+/* ---------------------------------------- */
+
+.list-style-custom{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.list-style-custom li {
+    padding-inline-start: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.arrow-right{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- Page association --*/
+/*-----------------------------------------------*/
+
+.picto-chiffres{
+    position: absolute;
+    top: -20%;
+    left: 40%;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- FOOTER --*/
+/*-----------------------------------------------*/
+
+.footer{
+    background-color: #002B5E;
+    width: 100%;
+    height: 221px;
+}
