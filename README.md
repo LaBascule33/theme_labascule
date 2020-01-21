@@ -28,7 +28,7 @@ Pour commencer il faut ouvrir un **terminal** dans le dossier ```labasculeBASE\w
 
 8. Se positionner sur la branche de suivi **dev** ```git checkout dev```
 
-9. Création de la branche de travail ````git checkout -b <branchname>```
+9. Création de la branche de travail ```git checkout -b branchname```
 
 # Après la première journée de travail...
 
@@ -53,7 +53,7 @@ Pour commencer il faut ouvrir un **terminal** dans le dossier ```labasculeBASE\w
 
 17. On regarde les conflits, on accepte les bons changements et on sauvegarde !
 
-18. On ajoute tous les fichiers modifiés sur la branche locale ```git add ."
+18. On ajoute tous les fichiers modifiés sur la branche locale ```git add .```
 
 19. On commit ```git commit -m "message"```
 
@@ -65,7 +65,7 @@ Pour commencer il faut ouvrir un **terminal** dans le dossier ```labasculeBASE\w
 
 ## On pense aux autres et on met en ligne la mise à jour
 
-22. On pousse la branche de suivi sur le repo ``` git push```
+22. On pousse la branche de suivi sur le repo ```git push```
     23. Si erreur ```git push origin dev```
 
 
