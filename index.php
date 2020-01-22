@@ -129,6 +129,9 @@
                                         </span> de citoyens engagés à temps plein autour desquels gravitent
                                         <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un
                                         <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -171,6 +174,9 @@
                                         Majoritairement portée par la jeunesse (étudiants et jeunes actifs entre 20 et 30 ans), le groupe se compose aussi d’une dizaine de volontaires plus expérimentés (entre 30 et 60 ans).
                                         L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.
                                         </p>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -220,6 +226,9 @@
                                             <li>Il n’y a pas de coopération sans posture de coopération, tout comme il n’y aura pas de transition sans évolution de nos consciences. Développer notre empathie avec le vivant, notre capacité à écouter, s’exprimer et vivre en communauté sont autant d’éléments clés.</li>
                                             <li>Tout changement à la hauteur des enjeux passera par un réveil citoyen d’ampleur. Il est en cela crucial que chaque individu se sente légitime et outillé pour agir à toutes les échelles (son quotidien, son organisation, son territoire, la société).</li>
                                         </ul>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -269,6 +278,9 @@
                                             <li><span class="bf">La protection du vivant</span> et sa régénération</li>
                                             <li>La réappropriation par le citoyen du <span class="bf">pouvoir d'agir et de décider</span></li>
                                         </ul>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -317,6 +329,9 @@
                                         la pression citoyenne
                                         les solutions existantes
                                         </p>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -365,6 +380,9 @@
                                             <li><span class="bf-under">Soutien aux Mobilisations:</span> pour augmenter l’impact des mobilisations qui servent la même cause que La Bascule. 
                                                 Ce soutien se traduit par un appui sur la préparation de l’événement (mise en réseau, animation de réunion), sa diffusion (communication sur les réseaux et pédagogie sur la cause défendue) et son déroulé (logistique, sensibilisation des passants, et facilitation d’assemblées populaires).</li>
                                         </ul>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
