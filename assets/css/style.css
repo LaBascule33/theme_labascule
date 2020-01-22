@@ -27,11 +27,6 @@
 
 
 
-/*comment test Fred */
-
-
-
-
 /*----------------------------------------------------------------------------------------------*/
 /*-- GLOBAL --*/
 /*-----------------------------------------------*/
@@ -179,6 +174,7 @@ h3.text-center{
     top: 32px; /* avec wpadminbar */
     width: 100%;
     z-index: 99999;
+    background:#fff;
 }
 #pageContent{
     margin-top: 126px;
@@ -208,6 +204,7 @@ a:hover{
 /* ---------------------------------------- */
 #topNavbar{
     box-shadow: 0px 3px 6px #00000029;
+    background: #fff;
 }
 
 .agenda {
