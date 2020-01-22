@@ -27,11 +27,6 @@
 
 
 
-/*comment test Fred */
-
-
-
-
 /*----------------------------------------------------------------------------------------------*/
 /*-- GLOBAL --*/
 /*-----------------------------------------------*/
@@ -208,6 +203,7 @@ a:hover{
 /* ---------------------------------------- */
 #topNavbar{
     box-shadow: 0px 3px 6px #00000029;
+    background: #fff;
 }
 
 .agenda {
@@ -357,6 +353,49 @@ span.faq{
 /*-----------------------------------------------*/
 
 /* ---------------------------------------- */
+/* & moi dans tout ça */
+/* ---------------------------------------- */
+.row-home-moi{
+    background: #F7F9FA;
+    height: 426px;
+    max-height: 100%;
+    padding: 15px;
+}
+
+.text-home-moi{
+    position: absolute;
+    top: 42%;
+    left: 0;
+}
+
+.img-home-moi{
+    width: 164px;
+    height: 165px;
+    object-fit: contain;
+}
+
+.list-home-moi{
+    
+}
+.list-style-custom{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.list-style-custom li {
+    padding-inline-start: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent;
+    
+}
+
+.home-moi-item:hover{
+
+}
+/* ---------------------------------------- */
 /* Style */
 /* ---------------------------------------- */
 
@@ -447,6 +486,7 @@ span.faq{
     top: 5px;
     left: 0;
 }
+
 
 /*----------------------------------------------------------------------------------------------*/
 /*-- Page association --*/

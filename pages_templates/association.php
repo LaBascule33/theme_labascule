@@ -6,7 +6,7 @@
 <!-- LA BASCULE C'EST QUOI -->
 <!------------------------------------->
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-6 groupe-bascule position-relative">
             <h3 class="bf titre-asso">L'association</h3>
