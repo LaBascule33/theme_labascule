@@ -30,7 +30,7 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-xl bg-white text-center justify-content-center align-self-center">
+        <div class="col-xl text-center justify-content-center align-self-center">
             <img class="prog_bascule w-75 mt-0" src="<?php echo get_template_directory_uri(); ?>/img/prog_bascule.png" alt="prog_bascule"/>
         </div>
 
@@ -529,27 +529,27 @@
 
     <nav>
         <div class="nav nav-tabs my-5" id="nav-tab" role="tablist">
-            <a class="px-5 mx-2 nav-item nav-link active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
+            <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
                 <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
             </a>
-            <a class="px-5 mx-2 nav-item nav-link" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
+            <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_2.svg" alt="tracé_2">
                 <h2 class="bf pt-4">Je passe<br>à l'<span class="text-uppercase">Action</span></h2>
             </a>
-            <a class="px-5 mx-2 nav-item nav-link" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
+            <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_3.svg" alt="tracé_3">
                 <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Rejoins</span></h2>
             </a>
-            <a class="px-5 mx-2 nav-item nav-link" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
+            <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_4.svg" alt="tracé_4">
                 <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Soutiens</span></h2>
             </a>
-            <a class="px-5 mx-2 nav-item nav-link" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
+            <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_5.svg" alt="tracé_5">
                 <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Suis</span></h2>
             </a>
-            <a class="px-5 mx-2 nav-item nav-link" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
+            <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_6.svg" alt="tracé_6">
                 <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Contacte</span></h2>
             </a>
@@ -564,17 +564,23 @@
                         <p class="text-home-moi">Avoir les bons ordres de grandeur et liens de cause à effet est crucial pour agir efficacement.</p>
                     </div>
                     <div class="col-4 px-3">
-                    <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/imago2.png" alt="imago">
-                    <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/sidh2.png" alt="sidh">
-                    <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/climat2.png" alt="climat">
-                    <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/osons2.png" alt="osons">
+                    <div class="py-4">
+                        <div class="row m-auto">
+                            <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/imago2.png" alt="imago">
+                            <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/sidh2.png" alt="sidh">
+                        </div>
+                        <div class="row m-auto">
+                            <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/climat2.png" alt="climat">
+                            <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/osons2.png" alt="osons">
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <ul class="list-style-custom">
-                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</li>
-                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</li>
-                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</li>
-                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</li>
+                    </div>
+                    <div class="col-4 text-center">
+                        <ul class="list-style-custom list-home-moi">
+                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</li>
+                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</li>
+                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</li>
+                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</li>
                         </ul>
                     </div>
                 </div>

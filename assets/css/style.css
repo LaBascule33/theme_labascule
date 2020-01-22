@@ -174,7 +174,6 @@ h3.text-center{
     top: 32px; /* avec wpadminbar */
     width: 100%;
     z-index: 99999;
-    background:#fff;
 }
 #pageContent{
     margin-top: 126px;
@@ -356,6 +355,12 @@ span.faq{
 /* ---------------------------------------- */
 /* & moi dans tout ça */
 /* ---------------------------------------- */
+.row-home-moi{
+    background: #F7F9FA;
+    height: 426px;
+    max-height: 100%;
+    padding: 15px;
+}
 
 .text-home-moi{
     position: absolute;
@@ -366,6 +371,29 @@ span.faq{
 .img-home-moi{
     width: 164px;
     height: 165px;
+    object-fit: contain;
+}
+
+.list-home-moi{
+    
+}
+.list-style-custom{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.list-style-custom li {
+    padding-inline-start: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent;
+    
+}
+
+.home-moi-item:hover{
+
 }
 /* ---------------------------------------- */
 /* Style */
@@ -458,6 +486,7 @@ span.faq{
     top: 5px;
     left: 0;
 }
+
 
 /*----------------------------------------------------------------------------------------------*/
 /*-- Page association --*/
