@@ -556,6 +556,7 @@
         </div>
     </nav>
 
+                <!-- Content & moi dans tout ça -->
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fane show active" id="nav-informe" role="tabpanel" aria-labelledby="nav-informe-tab">
                 <div class="row row-home-moi">
