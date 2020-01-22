@@ -279,10 +279,10 @@ a:hover{
 /*-----------------------------------------------*/
 
 /* ---------------------------------------- */
-/* Modal FAQ */
+/* FAQ */
 /* ---------------------------------------- */
 
-/* Modal style */
+/* Style Block */
 .block-faq{
     padding: 60px;
     margin-left: auto;
@@ -297,7 +297,7 @@ span.faq{
     letter-spacing: 0.9px;
 }
 
-/* Btn Modal */
+/* Btn Block */
 .btn-block{
     background: #002B5E;
     border: 4px solid #83B4FF;
@@ -307,38 +307,51 @@ span.faq{
     opacity: 1;
     flex-wrap: wrap;
 }
+
 .btn-block:hover{
     background: #83B4FF;
     border: 4px solid #83B4FF;
     color: #fff;
 }
 
+/* ---------------------------------------- */
+/* FAQ Modals */
+/* ---------------------------------------- */
 
 /* Modal-header */
-.modal-header{
-    padding: none;
-    border-bottom: none;
+.modal-header button.close{
+    font-size: 4rem;
+    color: #00204A;
+    margin-bottom: -70px;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
 }
 
-.modal-header > button.close{
-    font-size: 3rem;
-    color: #00204A;
-    opacity: 1;
-    padding-top: 32px;
-    padding-right: 42px;
+.modal-header{
+    border: none;
+    padding: 1.4rem;
 }
 
 /* Modal-body */
 .modal-body{
     background-color: rgb(204, 223, 252);
+    position: static;
+    max-width: 96%;
+    margin: auto;
 }
 
 .modal-body .img-faq{
-    max-width: 522px;
+    max-width: 100%;
 }
 
 /* Modal-footer */
-.modal-footer > .btn-faq{
+.modal-footer{
+    border: none;
+    padding: 1.4rem;
+}
+
+.modal-footer .btn-faq{
     border: 4px solid #83B4FF;
     padding: 10px;
     font-size: 20px;

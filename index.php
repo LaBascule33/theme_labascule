@@ -117,30 +117,34 @@
                         <div class="modal-body">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-6">
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Cest_Quoi.jpg" alt="CestQuoi"/>
                                     </div>
-                                    <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
-                                        <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.</p>
-                                        <p>Il a pour objectif, face à la <span class="bf-under">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
-                                        <p><span class="bf-under">Fonctionnant en gouvernance partagée</span>
-                                        , et constitué d'<span class="bf-under">une équipe
-                                        </span> de citoyens engagés à temps plein autour desquels gravitent
-                                        <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un
-                                        <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
-                                        <div class="pt-4">
-                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                    <!------------------------------------->
+                                    <div class="col-6">
+                                        <div class="text-faq">
+                                            <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
+                                            <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.</p>
+                                            <p>Il a pour objectif, face à la <span class="bf-under">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
+                                            <p><span class="bf-under">Fonctionnant en gouvernance partagée</span>
+                                            , et constitué d'<span class="bf-under">une équipe
+                                            </span> de citoyens engagés à temps plein autour desquels gravitent
+                                            <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un
+                                            <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
+
+                                            <div class="pt-4">
+                                                <a href="" class="btn btn-primary">En savoir +</a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!------------------------------------->
                                 </div>
                             </div>
                         </div>
-                        <!------------------------------------->
                         <div class="modal-footer">
-                            <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est qui ?</span></button>
+                            <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
-                        <!------------------------------------->
                     </div>
                 </div>
             </div>
@@ -169,21 +173,26 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/CestQui.jpg" alt="CestQui"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h2>
-                                        <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole.
-                                        Majoritairement portée par la jeunesse (étudiants et jeunes actifs entre 20 et 30 ans), le groupe se compose aussi d’une dizaine de volontaires plus expérimentés (entre 30 et 60 ans).
-                                        L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.
-                                        </p>
-                                        <div class="pt-4">
-                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        <div class="text-faq">
+                                            <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h2>
+                                            <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole.
+                                            Majoritairement portée par la jeunesse (étudiants et jeunes actifs entre 20 et 30 ans), le groupe se compose aussi d’une dizaine de volontaires plus expérimentés (entre 30 et 60 ans).
+                                            L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre 
+                                            modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.</p>
+                                            
+                                            <div class="pt-4">
+                                            <a href="" class="btn btn-primary">En savoir +</a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!------------------------------------->
                                 </div>
                             </div>
                         </div>
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -236,6 +245,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -288,6 +298,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-faire"><span class="bf">La <span class="text-uppercase">Bascule</span>, comment vous-comptez faire ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -339,6 +350,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -390,6 +402,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens"><span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyen ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -441,6 +454,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand"><span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -485,6 +499,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-ou"><span class="bf">Ça se passe ou ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
@@ -526,6 +541,7 @@
                         <!------------------------------------->
                         <div class="modal-footer">
                             <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est qui ?</span></button>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
                         </div>
                         <!------------------------------------->
                     </div>
