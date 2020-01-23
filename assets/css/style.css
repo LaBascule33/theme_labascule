@@ -388,7 +388,9 @@ span.faq{
 }
 
 .list-home-moi{
-    
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 16px;
 }
 .list-style-custom{
     list-style-type: none;
@@ -405,9 +407,54 @@ span.faq{
     
 }
 
-.home-moi-item:hover{
+.row-tab-rejoindre{
+    background: #FFF297;
+}
+.tab-rejoindre {
+    position: absolute;
+    width: 45%;
+    top: 10%;
+    padding: 50px;
+}
+.tab-rejoindre a {
+    margin-top: 55px;
+}
+
+
+.p-tab-soutien-left {
+    position: absolute;
+    top: 108px;
+    left: 35px;
+    width: 308px;
+}
+
+.p-tab-soutien-right {
+    position: absolute;
+    right: 60px;
+    width: 308px;
 
 }
+
+.tab-suivre{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.fleche-tab-suivre{
+    font-size: 39px;
+}
+
+.img-tab-suivre{
+    height: 44px;
+}
+
+.list-style-contact{
+    list-style: none;
+    padding-inline-start: 30px;
+    width: 70%;
+}
+
+
 /* ---------------------------------------- */
 /* Style */
 /* ---------------------------------------- */

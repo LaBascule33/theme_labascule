@@ -609,12 +609,12 @@
                         </div>
                     </div>
                     </div>
-                    <div class="col-4 text-center">
-                        <ul class="list-style-custom list-home-moi">
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</li>
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</li>
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</li>
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</li>
+                    <div class="col-4">
+                        <ul class="list-style-custom list-home-moi my-4">
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</br> <span class="bf pl-4">CPLC</span> </li>
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</br> <span class="bf pl-4">Arthur Keller</span> </li>
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</br> <span class="bf pl-4">Avenir Climatique</span> </li>
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</br> <span class="bf pl-4">Jean-Marc Jancovici</span> </li>
                         </ul>
                     </div>
                 </div>
@@ -623,16 +623,73 @@
         
         </div>
         <div class="tab-pane fane" id="nav-rejoins" role="tabpanel" aria-labelledby="nav-rejoins-tab">
-        
+                <div class="row row-home-moi position-relative row-tab-rejoindre">
+                    <div class="tab-rejoindre">
+                        <p>"Nous sommes ceux que nous attendions."</p>
+                        <p>La Bascule est un mouvement citoyen qui n’attend que toi pour grandir. Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
+                        <a href="" class="btn btn-primary">Nous rejoindre</a>
+                    </div>
+                </div>
         </div>
         <div class="tab-pane fane" id="nav-soutien" role="tabpanel" aria-labelledby="nav-soutien-tab">
-        
+            <div class="row row-home-moi">
+                <div class="col-6">
+                    <p class="p-tab-soutien-left"><span class="bf pb-2">Faire un don</span></br> pour contribuer à l'indépendance financière du mouvement</p>
+                </div>
+                <div class="col-6">
+                    <p class="p-tab-soutien-left"><span class="bf pb-2">Mettre un lieu à disposition</span></br>pour contribuer à grandir la communauté</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-6">
+                    <p class="p-tab-soutien-right"><span class="bf pb-2">Offrir ses compétences</span></br>pour contribuer à la qualité des actions</p>
+                </div>
+                <div class="col-6">
+                    <p class="p-tab-soutien-right"><span class="bf pb-2">Relayer des actions</span></br>pour contribuer à leur diffusion au plus grand nombre</p>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fane" id="nav-suis" role="tabpanel" aria-labelledby="nav-suis-tab">
-        
+            <div class="row row-home-moi">
+                <div class="col-4">
+                    <div class="tab-suivre text-center">
+                        <h1>Réseaux sociaux</h1>
+                        <div class="mt-5"><i class="fleche-tab-suivre fas fa-arrow-down bf"></i></div>
+                        <ul class="nav justify-content-center mt-4">
+                            <li><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter.svg" alt=""></a></li>
+                            <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook.svg" alt=""></a></li>
+                            <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-suivre text-center">
+                        <h1>Inscription Newsletter</h1>
+                        <form class="form-inline" action="">
+                            <div class="form-groupe">
+                                <input type="email" class="form-control" id="" placeholder="votre email">
+                                <button type="submit" class="btn btn-succes mb-2">Ok</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fane" id="nav-contacte" role="tabpanel" aria-labelledby="nav-contacte-tab">
-        
+            <div class="row row-home-moi">
+                <div class="col-6">
+                    <h4><span class="bf">Pour les organisations</span></br>ecosystem@la-bascule.org</h4>
+                </div>
+                <div class="col-6">
+                    <h4><span class="bf">Pour les citoyens</span></br>richesses.humaine@la-bascule.org</h4>
+                </div>
+                <div class="col-12">
+                    <ul class="list-style-contact">
+                        <li class="my-2"><p class="bf">Pour toute demande concernant un partenariat ou l’organisation d’un évènement, merci de contacter ecosysteme@la-bascule.org</p></li>
+                        <li class="my-2"><p class="bf">Pour toute volonté de soutien financier, cela se passe ici et pour les questions à ce sujet merci de contacter agitateurs@la-bascule.org</p></li>
+                        <li class="my-2"><p class="bf">Si vous souhaitez rejoindre La Bascule, contactez-nous directement à l’adresse: rh@la-bascule.org</p></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
