@@ -562,7 +562,7 @@
         <h1 class="heading text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h1>
 
     <nav>
-        <div class="nav nav-tabs my-5" id="nav-tab" role="tablist">
+        <div class="nav nav-tabs my-5 justify-content-center text-center" id="nav-tab" role="tablist">
             <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
                 <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
