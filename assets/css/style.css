@@ -126,8 +126,9 @@ h4,h5,h6{
     font-family: "Avenir-Medium";
     font-size: 1.25em;
 }
-/* Line */
-/* .heading::before {
+
+/*Line
+.heading::before {
     width: 280px;
     height: 20px;
     background-color: #bebebe;
@@ -139,7 +140,8 @@ h4,h5,h6{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%) translateX(-7%);
     content: "";
-} */
+}
+*/
 
 /* ---------------------------------------- */
 /* Specials Titles */
@@ -193,7 +195,7 @@ h3.text-center{
     /* top: 0; sans wpadminbar */
     top: 32px; /* avec wpadminbar */
     width: 100%;
-    z-index: 99999;
+    z-index: 999;
 }
 #pageContent{
     margin-top: 126px;
