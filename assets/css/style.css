@@ -337,10 +337,11 @@ span.faq{
 
 /* Modal-body */
 .modal-body{
-    background-color: rgb(204, 223, 252);
+    background-color: #E7F0FC;
     position: static;
     max-width: 96%;
     margin: auto;
+    padding: 2rem 1rem;
 }
 
 .modal-body .img-faq{
