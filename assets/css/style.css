@@ -309,8 +309,7 @@ a:hover{
     padding: 60px;
     margin-left: auto;
     background-color: #002B5E;
-    max-width: 926px;
-    max-height: 559px;
+    max-width: 100%;
 }
 
 span.faq{
@@ -364,7 +363,7 @@ span.faq{
     padding: 2rem 1rem;
 }
 
-.modal-body .img-faq{
+.img-faq{
     max-width: 100%;
 }
 
