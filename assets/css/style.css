@@ -504,6 +504,16 @@ span.faq{
     top: 20%;
     left: 20%;
 }
+.col-suivre{
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+.suivre-right{
+    border-left: 5px solid #002B5E;
+    height: 311px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
 .fleche-tab-suivre{
     font-size: 39px;
 }

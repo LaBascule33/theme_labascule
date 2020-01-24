@@ -644,24 +644,31 @@
         </div>
         <div class="tab-pane fane" id="nav-soutien" role="tabpanel" aria-labelledby="nav-soutien-tab">
             <div class="row row-home-moi">
-                <div class="col-6">
-                    <p class="p-tab-soutien-left"><span class="bf pb-2">Faire un don</span></br> pour contribuer à l'indépendance financière du mouvement</p>
+                <div class="col-3 col-chiffres text-center">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <h2 class="bf pt-4">Faire un don</h2>
+                    <p>pour contribuer à l'indépendance financière du mouvement</p>
                 </div>
-                <div class="col-6">
-                    <p class="p-tab-soutien-left"><span class="bf pb-2">Mettre un lieu à disposition</span></br>pour contribuer à grandir la communauté</p>
+                <div class="col-3 col-chiffres text-center">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <h2 class="bf pt-4">Mettre un lieu à disposition</h2>
+                    <p>pour contribuer à grandir la communauté</p>
                 </div>
-                <div class="w-100"></div>
-                <div class="col-6">
-                    <p class="p-tab-soutien-right"><span class="bf pb-2">Offrir ses compétences</span></br>pour contribuer à la qualité des actions</p>
+                <div class="col-3 col-chiffres text-center">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <h2 class="bf pt-4">Offrir ses compétences</h2>
+                    <p>pour contribuer à la qualité des actions</p>
                 </div>
-                <div class="col-6">
-                    <p class="p-tab-soutien-right"><span class="bf pb-2">Relayer des actions</span></br>pour contribuer à leur diffusion au plus grand nombre</p>
+                <div class="col-3 col-chiffres text-center">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <h2 class="bf pt-4">Relayer des actions</h2>
+                    <p>pour contribuer à leur diffusion au plus grand nombre</p>
                 </div>
             </div>
         </div>
         <div class="tab-pane fane" id="nav-suis" role="tabpanel" aria-labelledby="nav-suis-tab">
             <div class="row row-home-moi">
-                <div class="col-4">
+                <div class="col-4 col-suivre">
                     <div class="tab-suivre text-center">
                         <h1>Réseaux sociaux</h1>
                         <div class="mt-5"><i class="fleche-tab-suivre fas fa-arrow-down bf"></i></div>
@@ -672,7 +679,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 col-suivre suivre-right">
                     <div class="tab-suivre text-center">
                         <h1>Inscription Newsletter</h1>
                         <form class="form-inline" action="">
