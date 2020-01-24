@@ -565,37 +565,37 @@
         <div class="nav nav-tabs my-5 text-center" id="nav-tab" role="tablist">
             <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
                 <div class="col-item mx-5">
-                    <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
+                    <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_1.svg" alt="trace_1">
                     <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
                 </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
                 <div class="col-item mx-5">
-                    <img class="pad-l-40" src="<?php echo get_template_directory_uri(); ?>/img/tracé_2.svg" alt="tracé_2">
+                    <img class="pad-l-40" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_2.svg" alt="trace_2">
                     <h2 class="bf pt-4">Je passe<br>à l'<span class="text-uppercase">Action</span></h2>
                 </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
                 <div class="col-item mx-5">
-                    <img class="pad-l-30" src="<?php echo get_template_directory_uri(); ?>/img/tracé_3.svg" alt="tracé_3">
+                    <img class="pad-l-30" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_3.svg" alt="trace_3">
                     <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Rejoins</span></h2>
                 </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
                 <div class="col-item mx-5">
-                    <img class="pad-l-20" src="<?php echo get_template_directory_uri(); ?>/img/tracé_4.svg" alt="tracé_4">
+                    <img class="pad-l-20" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_4.svg" alt="trace_4">
                     <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Soutiens</span></h2>
                 </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
                 <div class="col-item mx-5">
-                    <img class="pad-l-10" src="<?php echo get_template_directory_uri(); ?>/img/tracé_5.svg" alt="tracé_5">
+                    <img class="pad-l-10" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_5.svg" alt="trace_5">
                     <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Suis</span></h2>
                 </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
                 <div class="col-item mx-5">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_6.svg" alt="tracé_6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_6.svg" alt="trace_6">
                     <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Contacte</span></h2>
                 </div>
             </a>
@@ -635,10 +635,10 @@
         
         </div>
         <div class="tab-pane fane" id="nav-rejoins" role="tabpanel" aria-labelledby="nav-rejoins-tab">
-                <div class="row row-home-moi position-relative row-tab-rejoindre">
+                <div class="row row-home-moi position-relative row-tab-rejoindre text-center">
                     <div class="tab-rejoindre">
-                        <p>"Nous sommes ceux que nous attendions."</p>
-                        <p>La Bascule est un mouvement citoyen qui n’attend que toi pour grandir. Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
+                        <h2 class="pb-4">"Nous sommes ceux que nous attendions."</h2>
+                        <p>La Bascule est un mouvement citoyen qui n’attend que toi pour grandir.</br>Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
                         <a href="" class="btn btn-primary">Nous rejoindre</a>
                     </div>
                 </div>

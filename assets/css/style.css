@@ -119,7 +119,7 @@ h1.heading{
 /* sub-title */
 h2,h3{
     font-family: "Avenir-Black";
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 h4,h5,h6{
@@ -451,16 +451,34 @@ span.faq{
 }
 
 .row-tab-rejoindre{
-    background: #FFF297;
+    background: url('../../img/jevousrejoins.png');
+    background-size: cover;
+}
+.row-tab-rejoindre:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #002B5E;
+    opacity: 0.80;
+    content: "";
 }
 .tab-rejoindre {
     position: absolute;
-    width: 45%;
-    top: 10%;
-    padding: 50px;
+    width: 40%;
+    top: 0;
+    left: 30%;
+    color: #fff;
+    height: inherit;
 }
 .tab-rejoindre a {
-    margin-top: 55px;
+    position: absolute;
+    bottom: 50px;
+    left: 38%;
+}
+.tab-rejoindre h2 {
+    padding-top: 54px;
 }
 
 
