@@ -564,28 +564,40 @@
     <nav>
         <div class="nav nav-tabs my-5 justify-content-center text-center" id="nav-tab" role="tablist">
             <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
-                <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
+                    <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_2.svg" alt="tracé_2">
-                <h2 class="bf pt-4">Je passe<br>à l'<span class="text-uppercase">Action</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_2.svg" alt="tracé_2">
+                    <h2 class="bf pt-4">Je passe<br>à l'<span class="text-uppercase">Action</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_3.svg" alt="tracé_3">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Rejoins</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_3.svg" alt="tracé_3">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Rejoins</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_4.svg" alt="tracé_4">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Soutiens</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_4.svg" alt="tracé_4">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Soutiens</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_5.svg" alt="tracé_5">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Suis</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_5.svg" alt="tracé_5">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Suis</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_6.svg" alt="tracé_6">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Contacte</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_6.svg" alt="tracé_6">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Contacte</span></h2>
+                </div>
             </a>
         </div>
     </nav>
@@ -681,13 +693,6 @@
                 </div>
                 <div class="col-6">
                     <h4><span class="bf">Pour les citoyens</span></br>richesses.humaine@la-bascule.org</h4>
-                </div>
-                <div class="col-12">
-                    <ul class="list-style-contact">
-                        <li class="my-2"><p class="bf">Pour toute demande concernant un partenariat ou l’organisation d’un évènement, merci de contacter ecosysteme@la-bascule.org</p></li>
-                        <li class="my-2"><p class="bf">Pour toute volonté de soutien financier, cela se passe ici et pour les questions à ce sujet merci de contacter agitateurs@la-bascule.org</p></li>
-                        <li class="my-2"><p class="bf">Si vous souhaitez rejoindre La Bascule, contactez-nous directement à l’adresse: rh@la-bascule.org</p></li>
-                    </ul>
                 </div>
             </div>
         </div>

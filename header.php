@@ -18,7 +18,7 @@
 <!----------------------------------------------------------------------------------------------->
 <!-- TOP-NAVBAR -->
 <!------------------------------------->
-<header id="header">
+<header id="header" class="bg-white">
     <div id="topNavbar">
         <nav class="navbar container">
             <div class="container-fluid">

@@ -72,7 +72,7 @@ html{
 /* ---------------------------------------- */
 body {
     font-family: "Avenir-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
+    font-size: 0.87em;
     color: #000;
 }
 
@@ -92,19 +92,19 @@ span.bf,.bf-under{
 /* first-title */
 h1.heading{
     font-family: "Avenir-Black";
-    font-size: 30px !important;
+    font-size: 1.9em !important;
     position: relative;
 }
 
 /* sub-title */
 h2,h3{
     font-family: "Avenir-Black";
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 h4,h5,h6{
     font-family: "Avenir-Medium";
-    font-size: 20px;
+    font-size: 1.25em;
 }
 /* Line */
 /* .heading::before {
@@ -368,6 +368,23 @@ span.faq{
 /* ---------------------------------------- */
 /* & moi dans tout ça */
 /* ---------------------------------------- */
+.nav-tabs{
+    border-bottom: none;
+}
+
+.col-item{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 179px;
+}
+
+.home-moi-item{
+    position: relative;
+    margin: 0 50px;
+    width: 179px;
+}
+
 .row-home-moi{
     background: #F7F9FA;
     height: 426px;
@@ -390,7 +407,7 @@ span.faq{
 .list-home-moi{
     background-color: #fff;
     border: 1px solid black;
-    font-size: 16px;
+    font-size: 1em;
 }
 .list-style-custom{
     list-style-type: none;
@@ -501,7 +518,8 @@ span.faq{
     position: absolute;
     top: 5%;
     left: 10%;
-}p-blc-bascule{
+}
+.groupe-bascule{
     background-image: url('../../img/groupe-bascule.png');
     background-size: cover;
 }
