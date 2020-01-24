@@ -91,7 +91,7 @@
     <div class="row">
 
         <div class="col-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/Rectangle81.png" alt="FAQ"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/FAQ.jpg" alt="FAQ"/>
         </div>
 
         <div class="col-9">
@@ -123,7 +123,7 @@
                                     <!------------------------------------->
                                     <div class="col-6">
                                         <div class="text-faq">
-                                            <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
+                                            <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
                                             <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.</p>
                                             <p>Il a pour objectif, face à la <span class="bf-under">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
                                             <p><span class="bf-under">Fonctionnant en gouvernance partagée</span>
@@ -133,7 +133,7 @@
                                             <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
 
                                             <div class="pt-4">
-                                                <a href="" class="btn btn-primary">En savoir +</a>
+                                                <a href="" class="btn btn-primary">En lire +</a>
                                             </div>
                                         </div>
                                     </div>
@@ -174,14 +174,14 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="text-faq">
-                                            <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h2>
+                                            <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h2>
                                             <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole.
                                             Majoritairement portée par la jeunesse (étudiants et jeunes actifs entre 20 et 30 ans), le groupe se compose aussi d’une dizaine de volontaires plus expérimentés (entre 30 et 60 ans).
                                             L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre 
                                             modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.</p>
                                             
                                             <div class="pt-4">
-                                            <a href="" class="btn btn-primary">En savoir +</a>
+                                            <a href="" class="btn btn-primary">En lire +</a>
                                             </div>
                                         </div>
                                     </div>
@@ -223,20 +223,13 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Pourquoi.jpg" alt="Pourquoi"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pourquoi ?</span></h2>
+                                        <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pourquoi ?</span></h2>
                                         <p>Parce que nous n’avons plus le choix. Parce qu’il n’est pas question de laisser le dernier mot au “business as usual” ni aux effondrements qu’il cause.
                                         Malgré les cris d’alarme des scientifiques sur les catastrophes écologiques et le soulèvement des peuples face à des mesures inéquitables et éloignées des réels enjeux,
                                         <span class="bf">l’immense majorité des entreprises et des politiques continue de nous propulser vers le ravin.</span>
                                         La Bascule naît d’une d’une <span class="bf">détermination sincère et profonde à changer de cap chez des milliers de citoyens.</span> Elle s’est formé sur les principes suivants:</p>
-                                        <ul>
-                                            <li>Les défis démocratiques, sociaux et écologiques ne peuvent être relevés qu’en les considérant comme un Tout.</li>
-                                            <li>Ce sont moins les solutions qui manquent que la faculté de celles-ci à se développer plus largement.</li>
-                                            <li>Trop d’énergie est gaspillée à “réinventer la roue”. Permettre la mutualisation et coopération entre porteurs de projets (citoyens, organisations, élus engagés), est indispensable.</li>
-                                            <li>Il n’y a pas de coopération sans posture de coopération, tout comme il n’y aura pas de transition sans évolution de nos consciences. Développer notre empathie avec le vivant, notre capacité à écouter, s’exprimer et vivre en communauté sont autant d’éléments clés.</li>
-                                            <li>Tout changement à la hauteur des enjeux passera par un réveil citoyen d’ampleur. Il est en cela crucial que chaque individu se sente légitime et outillé pour agir à toutes les échelles (son quotidien, son organisation, son territoire, la société).</li>
-                                        </ul>
                                         <div class="pt-4">
-                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        <a href="" class="btn btn-primary">En lire +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -276,20 +269,14 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Pour_Quoi.jpg" alt="Quoi"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pour quoi ?</span></h2>
+                                        <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pour quoi ?</span></h2>
                                         <p>Pour être au service de tous ceux qui s’engagent pour un futur souhaitable.
                                         Pour réveiller et outiller le citoyen qui sommeille en chacun d’entre nous.
                                         Pour faire partie de la solution plutôt que de la dénonciation.</p>
                                         <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'humain.</span>
                                         Nous agissons pour:</p>
-                                        <ul>
-                                            <li><span class="bf">L'évolution de nos consciences</span> vers plus d’empathie avec le vivant dont nous faisons partie ainsi que les générations futures</li>
-                                            <li><span class="bf">L'amplification des solutions existantes</span> qui permettent une transition démocratique, écologique et solidaire</li>
-                                            <li><span class="bf">La protection du vivant</span> et sa régénération</li>
-                                            <li>La réappropriation par le citoyen du <span class="bf">pouvoir d'agir et de décider</span></li>
-                                        </ul>
                                         <div class="pt-4">
-                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        <a href="" class="btn btn-primary">En lire +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -331,17 +318,12 @@
                                     <div class="col-md-6">
                                         <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">comment vous comptez faire ?</span></h2>
                                         <p>Proposer une démarche personnelle d’engagements que chacun peut s’approprier que ce soit avec ou sans La Bascule autour de 5 types d’actions:
-                                        Créer :
-                                        des lieux de bascule
-                                        Faciliter:
-                                        l’engagement citoyen
-                                        l’entraide entre porteurs de projets
-                                        Amplifier:
-                                        la pression citoyenne
-                                        les solutions existantes
+                                        <span class="bf-under">Créer :</span>des lieux de bascule
+                                        <span class="bf-under">Faciliter:</span>l’engagement citoyen l’entraide entre porteurs de projets
+                                        <span class="bf-under">Amplifier:</span>la pression citoyenne les solutions existantes
                                         </p>
                                         <div class="pt-4">
-                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        <a href="" class="btn btn-primary">En lire +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -381,19 +363,17 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Concretement.jpg" alt="Concretement"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
+                                        <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
                                         <p>Nous agissons au travers de 4 programmes d’actions:</p>
                                         <ul>
-                                            <li><span class="bf-under">Service de la Transition:</span> pour former une communauté apprenante sur des sujets de Transition et proposer différents formats d’expérience fondatrice pour nourrir son engagement et soutenir des projets existants. 
-                                                Les champs d’apprentissages concernent la posture de coopération, la reconnexion au vivant, la facilitation, les pratiques de l’intelligence collective et la gouvernance partagée, la sensibilisation aux enjeux énergie-climat, la rénovation thermique de bâtiments, le maraîchage, l’autogestion d’un lieu de vie collectif, la gestion de projets, la communication, la comptabilité, etc.</li>
+                                            <li><span class="bf-under">Service de la Transition:</span> pour former une communauté apprenante sur des sujets de Transition et proposer différents formats d’expérience fondatrice pour nourrir son engagement et soutenir des projets existants.</li>
                                             <li><span class="bf-under">Coopération & Evénements:</span> pour permettre aux acteurs qui le souhaitent de coopérer via un suivi au long cours, l’organisation d’ateliers de travail en intelligence collective, un soutien de communication, et de la mise en réseau.
                                             <li><span class="bf-under">Lobbying Citoyen:</span> pour donner les moyens aux citoyens de comprendre, débattre et agir sur tous les sujets de Transition qui touchent notre société. 
                                                 Cela au travers d’ateliers de sensibilisation auprès des citoyens, des salariés et des élus d’une part, et d’actions de lobbying législatif et local d’autre part.</li>
-                                            <li><span class="bf-under">Soutien aux Mobilisations:</span> pour augmenter l’impact des mobilisations qui servent la même cause que La Bascule. 
-                                                Ce soutien se traduit par un appui sur la préparation de l’événement (mise en réseau, animation de réunion), sa diffusion (communication sur les réseaux et pédagogie sur la cause défendue) et son déroulé (logistique, sensibilisation des passants, et facilitation d’assemblées populaires).</li>
+                                            <li><span class="bf-under">Soutien aux Mobilisations:</span> pour augmenter l’impact des mobilisations qui servent la même cause que La Bascule.</li>
                                         </ul>
                                         <div class="pt-4">
-                                        <a href="" class="btn btn-primary">En savoir +</a>
+                                        <a href="" class="btn btn-primary">En lire +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -433,7 +413,7 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Avec_Quels_Moyens.jpg" alt="moyens"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">avec quels moyens ?</span></h2>
+                                        <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">avec quels moyens ?</span></h2>
                                         <p>Tout cela est rendu possible grâce:</p>
                                         <ul>
                                             <li>au travail bénévole d’une cinquantaine de volontaires à temps plein investis depuis des mois</li>
@@ -444,9 +424,9 @@
                                             <li>aux dons matériels de voisins et d’organisations</li>
                                             <li>au mécénat de compétences de nombreuses personnes et entreprises</li>
                                         </ul>
-                                        <p>Nous effectuons aussi des prestations afin de subvenir à nos besoins quotidiens en toute indépendance:
-                                        organisation de séminaires d’entreprises, formations à la posture de coopération, animation d’événements.</p>
-
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En lire +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -485,13 +465,16 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Depuis_Quand.jpg" alt="Quand"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">depuis quand ?</span></h2>
+                                        <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">depuis quand ?</span></h2>
                                         <p><span class="bf-under">La Bascule s’est lancé en février 2019</span> à l’initiative de Maxime de Rostolan (entrepreneur fondateur de <span class="bf-under">Blue Bees</span> et <span class="bf-under">Fermes d’Avenirs</span>) et d’une dizaine d’étudiants.
                                         Durant les 6 premiers mois nous avons vécu une phase de structuration (mise en place de notre gouvernance partagée, 
                                         accompagné par <span class="bf-under">l’Université Du Nous</span>) de montée en compétences (diagnostic des solutions existantes, outils de gestion de projets, outils de facilitation, etc) et d’expérimentations marqués notamment par l’aventure de l’<span class="bf-under">An Zéro</span>.
                                         Ce rassemblement n’a finalement pas pu avoir lieu sous son format initial (ouvert au grand public) et s’est transformée en événement de coopération regroupant une centaine d’organisations de la Transition pendant 3 jours. 
                                         Entre Septembre et Décembre nous avons pris le temps du retour d’expérience en discutant avec de nombreux acteurs engagés afin de définir notre stratégie pour 2020. Nous entamons maintenant une phase “preuve de concept” basée sur 4 programmes d’actions et un fonctionnement sur plusieurs lieux de bascule.
                                         </p>
+                                        <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En lire +</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -530,10 +513,13 @@
                                         <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/Ile_Archipel.jpg" alt="Ou"/>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">ça se passe ou ?</span></h2>
+                                        <h2 class="bf pt-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">ça se passe ou ?</span></h2>
                                         <p>Dans sa volonté de jouer un rôle moteur dans l’amplification des solutions existantes et l’entraide entre porteurs de projets, La Bascule s’inscrit totalement dans <span class="bf">la philosophie de coopération de l’Archipel</span>, prôné par le collectif <span class="bf-under">Archipel Citoyen “Osons Les Jours Heureux”.</span>
                                         Nous coopérons avec d’autres sans pour autant être d’accord sur tout. Nous choisissons nos actions en conscience qu’il existe de nombreuses autres îles (organisations) ayant toute une histoire, des valeurs, un fonctionnement qui leurs sont propres et respectables.
                                         Et plus nous prenons part à la “vie de l’Archipel” (les projets en cours et à venir des autres), plus nous “bonifions” notre positionnement et notre singularité (autrement appelé “identité racine”) au sein de celui-ci.</p>
+                                    </div>
+                                    <div class="pt-4">
+                                        <a href="" class="btn btn-primary">En lire +</a>
                                     </div>
                                 </div>
                             </div>
@@ -562,30 +548,42 @@
         <h1 class="heading text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h1>
 
     <nav>
-        <div class="nav nav-tabs my-5" id="nav-tab" role="tablist">
+        <div class="nav nav-tabs my-5 justify-content-center text-center" id="nav-tab" role="tablist">
             <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
-                <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_1.svg" alt="tracé_1">
+                    <h2 class="bf pt-4">Je <br>m'<span class="text-uppercase">Informe</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_2.svg" alt="tracé_2">
-                <h2 class="bf pt-4">Je passe<br>à l'<span class="text-uppercase">Action</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_2.svg" alt="tracé_2">
+                    <h2 class="bf pt-4">Je passe<br>à l'<span class="text-uppercase">Action</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_3.svg" alt="tracé_3">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Rejoins</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_3.svg" alt="tracé_3">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Rejoins</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_4.svg" alt="tracé_4">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Soutiens</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_4.svg" alt="tracé_4">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Soutiens</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_5.svg" alt="tracé_5">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Suis</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_5.svg" alt="tracé_5">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Suis</span></h2>
+                </div>
             </a>
             <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_6.svg" alt="tracé_6">
-                <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Contacte</span></h2>
+                <div class="col-item mx-5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/tracé_6.svg" alt="tracé_6">
+                    <h2 class="bf pt-4">Je vous<br><span class="text-uppercase">Contacte</span></h2>
+                </div>
             </a>
         </div>
     </nav>
@@ -609,12 +607,12 @@
                         </div>
                     </div>
                     </div>
-                    <div class="col-4 text-center">
-                        <ul class="list-style-custom list-home-moi">
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</li>
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</li>
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</li>
-                            <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</li>
+                    <div class="col-4">
+                        <ul class="list-style-custom list-home-moi my-4">
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</br> <span class="bf pl-4">CPLC</span> </li>
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</br> <span class="bf pl-4">Arthur Keller</span> </li>
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</br> <span class="bf pl-4">Avenir Climatique</span> </li>
+                            <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</br> <span class="bf pl-4">Jean-Marc Jancovici</span> </li>
                         </ul>
                     </div>
                 </div>
@@ -623,16 +621,66 @@
         
         </div>
         <div class="tab-pane fane" id="nav-rejoins" role="tabpanel" aria-labelledby="nav-rejoins-tab">
-        
+                <div class="row row-home-moi position-relative row-tab-rejoindre">
+                    <div class="tab-rejoindre">
+                        <p>"Nous sommes ceux que nous attendions."</p>
+                        <p>La Bascule est un mouvement citoyen qui n’attend que toi pour grandir. Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
+                        <a href="" class="btn btn-primary">Nous rejoindre</a>
+                    </div>
+                </div>
         </div>
         <div class="tab-pane fane" id="nav-soutien" role="tabpanel" aria-labelledby="nav-soutien-tab">
-        
+            <div class="row row-home-moi">
+                <div class="col-6">
+                    <p class="p-tab-soutien-left"><span class="bf pb-2">Faire un don</span></br> pour contribuer à l'indépendance financière du mouvement</p>
+                </div>
+                <div class="col-6">
+                    <p class="p-tab-soutien-left"><span class="bf pb-2">Mettre un lieu à disposition</span></br>pour contribuer à grandir la communauté</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-6">
+                    <p class="p-tab-soutien-right"><span class="bf pb-2">Offrir ses compétences</span></br>pour contribuer à la qualité des actions</p>
+                </div>
+                <div class="col-6">
+                    <p class="p-tab-soutien-right"><span class="bf pb-2">Relayer des actions</span></br>pour contribuer à leur diffusion au plus grand nombre</p>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fane" id="nav-suis" role="tabpanel" aria-labelledby="nav-suis-tab">
-        
+            <div class="row row-home-moi">
+                <div class="col-4">
+                    <div class="tab-suivre text-center">
+                        <h1>Réseaux sociaux</h1>
+                        <div class="mt-5"><i class="fleche-tab-suivre fas fa-arrow-down bf"></i></div>
+                        <ul class="nav justify-content-center mt-4">
+                            <li><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter.svg" alt=""></a></li>
+                            <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook.svg" alt=""></a></li>
+                            <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-suivre text-center">
+                        <h1>Inscription Newsletter</h1>
+                        <form class="form-inline" action="">
+                            <div class="form-groupe">
+                                <input type="email" class="form-control" id="" placeholder="votre email">
+                                <button type="submit" class="btn btn-succes mb-2">Ok</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fane" id="nav-contacte" role="tabpanel" aria-labelledby="nav-contacte-tab">
-        
+            <div class="row row-home-moi">
+                <div class="col-6">
+                    <h4><span class="bf">Pour les organisations</span></br>ecosystem@la-bascule.org</h4>
+                </div>
+                <div class="col-6">
+                    <h4><span class="bf">Pour les citoyens</span></br>richesses.humaine@la-bascule.org</h4>
+                </div>
+            </div>
         </div>
     </div>
 </div>
