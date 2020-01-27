@@ -206,7 +206,6 @@ h3.text-center{
     font-size: 14px;
     text-transform: uppercase;
     color: #002B5E;
-    background: #fff;
     border: 1px solid #fff;
 }
 #menu-home-menu > li
@@ -453,11 +452,11 @@ span.faq{
     
 }
 
-.row-tab-rejoindre{
+.row-tab-bg{
     background: url('../../img/jevousrejoins.png');
     background-size: cover;
 }
-.row-tab-rejoindre:before{
+.row-tab-bg:before{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -498,10 +497,15 @@ span.faq{
 }
 
 .tab-suivre{
-    position: absolute;
-    top: 20%;
-    left: 20%;
+    height: 238px;
+    background-color: #fff;
 }
+
+.tab-suivre h2.bf{
+    padding-top: 47px;
+    padding-bottom: 45px;
+}
+
 .col-suivre{
     padding-top: 57px;
     padding-bottom: 57px;
@@ -512,10 +516,6 @@ span.faq{
     padding-top: auto;
     padding-bottom: auto;
 }
-.fleche-tab-suivre{
-    font-size: 39px;
-}
-
 .img-tab-suivre{
     height: 44px;
 }
@@ -540,8 +540,7 @@ span.faq{
     color: #1F2650;
 }
 .bgw{
-    background-color: #fff;
-    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0px 3px 6px #00000029;
 }
 
@@ -644,4 +643,37 @@ span.faq{
     background-color: #002B5E;
     width: 100%;
     height: 221px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- LUNDI --*/
+/*-----------------------------------------------*/
+
+.card-action{
+    border: 1px solid #D3D3D3;
+    width: 282px;
+    height: 169px;
+}
+
+.card-action.action-1{
+    background: url('../../img/png/action-1.png');
+    background-size: cover;
+}
+
+.card-action.action-2{
+    background: url('../../img/png/action-2.png');
+    background-size: cover;
+}
+
+.card-action.action-3{
+    background: url('../../img/png/action-3.png');
+    background-size: cover;
+}
+
+.card-action.action-4{
+    background: url('../../img/png/action-4.png');
+    background-size: cover;
 }

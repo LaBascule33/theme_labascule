@@ -148,7 +148,7 @@
     </div>
 </div>
 
-<?php include 'components/modal-faq.php' ?>
+<?php include 'inc/modal-faq.php' ?>
 
 
 <!----------------------------------------------------------------------------------------------->
@@ -199,7 +199,7 @@
     </nav>
 
     <!-- Content & moi dans tout ça -->
-    <?php include 'components/contenu-home-moi.php' ?>
+    <?php include 'inc/contenu-home-moi.php' ?>
 
 </div>
 
