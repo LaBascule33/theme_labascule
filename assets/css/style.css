@@ -224,8 +224,8 @@ a:hover{
 /* Top Navbar */
 /* ---------------------------------------- */
 #topNavbar{
+    background-color: #fff;
     box-shadow: 0px 3px 6px #00000029;
-    background: #fff;
 }
 
 .agenda {
@@ -484,19 +484,17 @@ span.faq{
     padding-top: 54px;
 }
 
-
-.p-tab-soutien-left {
-    position: absolute;
-    top: 108px;
-    left: 35px;
-    width: 308px;
+.card-soutien{
+    border: 1px solid #C0CAD7;
+    background-color: #fff;
+    margin-top: 59px;
+    height: 238px;
+    padding-top: 47px;
 }
-
-.p-tab-soutien-right {
+.picto-home-moi{
     position: absolute;
-    right: 60px;
-    width: 308px;
-
+    top: 5%;
+    left: 42%;
 }
 
 .tab-suivre{
@@ -540,6 +538,11 @@ span.faq{
 
 .bf{
     color: #1F2650;
+}
+.bgw{
+    background-color: #fff;
+    opacity: 0.7;
+    box-shadow: 0px 3px 6px #00000029;
 }
 
 .bf-under{

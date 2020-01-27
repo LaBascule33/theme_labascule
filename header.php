@@ -18,7 +18,7 @@
 <!----------------------------------------------------------------------------------------------->
 <!-- TOP-NAVBAR -->
 <!------------------------------------->
-<header id="header" class="bg-white">
+<header id="header">
     <div id="topNavbar">
         <nav class="navbar container">
             <div class="container-fluid">
@@ -49,7 +49,7 @@
 <!----------------------------------------------------------------------------------------------->
 <!-- NAVBAR -->
 <!------------------------------------->
-
+    <div class="bgw container-fluid">
         <nav class="navbar container">
             <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
                 <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-bascule.svg" alt="logo">
@@ -70,6 +70,7 @@
                 ?>
             <a href="" class="btn btn-danger r-100 "> <i class="fas fa-heart"></i> </a>
         </nav>
+    </div>
 
     </header>
 
