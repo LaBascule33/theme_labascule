@@ -1,5 +1,5 @@
 <?php
-define('LABASC_VERSION', '1.1.7');
+define('LABASC_VERSION', '1.1.8');
 
 
 function delete_jquery_wp() {
