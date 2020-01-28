@@ -36,7 +36,7 @@
             </div>
 
             <div class="modal-footer">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui" data-dismiss="modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
         </div>
