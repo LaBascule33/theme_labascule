@@ -2,18 +2,20 @@
 
 
 <!-- ASSOCIATION -->
+
+
+<div id="pAssociation" class="container">
+    <div class="row">
+        <div class="col-6 bg-img position-relative">
+            <h3 class="bf page-title">L'association</h3>
+
+        </div>
+
 <!----------------------------------------------------------------------------------------------->
 <!-- LA BASCULE C'EST QUOI -->
 <!------------------------------------->
 
-<div class="container">
-    <div class="row">
-        <div class="col-6 groupe-bascule position-relative">
-            <h3 class="bf titre-asso">L'association</h3>
-
-        </div>
-
-        <div class="col-6 text-asso-row">
+        <div class="col-6 block-text-title">
             <h1 class="bf heading">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h1>
 
             <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.</p>
@@ -23,7 +25,7 @@
             <p><span class="bf-under">Fonctionnant en gouvernance partagée</span>
             , et constitué d'<span class="bf-under">une équipe
             </span> de citoyens engagés à temps plein autour desquels gravitent 
-            <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un 
+            <span class="bf-under">de nombreux acteurs</span> des transitions écologique,<strong> sociale et démocratique</strong>, la Bascule déploie un 
             <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
 
             <div class="row pt-4">
@@ -37,7 +39,8 @@
 <!-- UNE RAISON D'ETRE -->
 <!------------------------------------->
     <div class="row">
-        <div class="col-6 text-asso-row">
+
+        <div class="col-6 block-text">
             <h3 class="bf heading text-uppercase">Une raison d'être</h3>
 
             <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme</span></p>
@@ -48,10 +51,9 @@
                 <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i> <span class="bf">La protection du vivant et de sa génération</span></li>
                 <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i> La réappropriation par le citoyen du <span class="bf">pouvoir d'agir et de décider</span></li>
             </ul>
-
         </div>
-        <div class="col-6 bgbc">
 
+        <div class="col-6 bgbc">
             <div class="p-4">
                 <div class="row pt-4 pb-3">
                     <div class="col-3">
@@ -84,17 +86,19 @@
                 </div>
             </div>
         </div>
-    </div>
 
+    </div>
 
 <!----------------------------------------------------------------------------------------------->
 <!-- UNE DEMARCHE PERSO -->
 <!------------------------------------->
     <div class="row">
+
         <div class="col-6">
-            <img src="" alt="visuel de l'imaginaire">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/illustration_programmes-actions-la-bascule.png" alt="Programme Bascule">
         </div>
-        <div class="col-6 text-asso-row">
+
+        <div class="col-6 block-text">
             <h3 class="bf text-uppercase">Une démarche personnelle<br>d'engagements</h3>
             <p>pour faire la bascule avec ou sans nous</p>
             
@@ -102,14 +106,14 @@
             <a href="" class="btn btn-primary">En savoir +</a>
             </div>
         </div>
-    </div>
 
+    </div>
 
 <!----------------------------------------------------------------------------------------------->
 <!-- PHILOSOPHIE DE COOPERATION -->
 <!------------------------------------->
     <div class="row">
-        <div class="col-6 text-asso-row">
+        <div class="col-6 block-text">
             <h3 class="bf text-uppercase">Une philosophie de coopération</h3>
             <p>pour que nous, citoyens et organisations, puissions bâtir une unité dans nos diversités.</p>
 
@@ -117,6 +121,7 @@
             <a href="" class="btn btn-primary">Plonger dans l'archipel</a>
             </div>
         </div>
+
         <div class="col-6 bgj">
             <div class="position-relative bloc-archipel">
                 <img class="position-absolute img-archipel" src="<?php echo get_template_directory_uri(); ?>/img/archipel.jpg" alt="img_archipel"/>
@@ -128,11 +133,12 @@
 <!----------------------------------------------------------------------------------------------->
 <!-- UNE EQUIPE -->
 <!------------------------------------->
-    <div class="row">
-        <div class="col-6">
-            <img src="" alt="archipel">
+    <div id="bloc-equipe" class="row">
+        <div class="col-6 bg-img position-relative">
+            &nbsp;
         </div>
-        <div id="section-equipe" class="col-6 text-asso-row">
+
+        <div id="section-equipe" class="col-6 block-text">
             <h3 class="bf text-uppercase">Une équipe</h3>
             <p>portée par une jeunesse qui a su bien s'entourer.</p>
             <p><span class="bf">Des citoyens de tout âges</span> en quête de sens qui apportent recul et expériences.</p>
@@ -148,7 +154,7 @@
 <!-- DES LIEUX DE BASCULE -->
 <!------------------------------------->
     <div class="row">
-        <div class="col-6 text-asso-row">
+        <div class="col-6 block-text">
             <h3 class="bf"><span class="text-uppercase">Des lieux</span> de bascule</h3>
             <p>Espaces uniques de vie-travail-transformation, accueillant pendant plusieurs semaines des volontaires à plein temps pour:</p>
             <ul>
@@ -161,7 +167,7 @@
             <a href="" class="btn btn-primary">En savoir +</a>
             </div>
         </div>
-        <div class="col-6 text-asso-row">
+        <div class="col-6 block-text">
             <h3 class="bf"><span class="text-uppercase">Une ambition</span> d'<span class="text-uppercase">implantations</span> sur le territoire</h3>
             <p>Notre objectif:</p>
             <p>passer en deux ans de 3 à 30 lieux de bascule répartis sur autant de communes différentes; et d'une équipe de 50 à 300 volontaires à temps plein, secondés sur le territoire par de nombreux citoyens engagés.</p>

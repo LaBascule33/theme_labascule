@@ -28,7 +28,22 @@
 
 
 /*----------------------------------------------------------------------------------------------*/
-/*-- GLOBAL --*/
+/*-- 
+
+   ____   ____        ____    ________          _      ____
+  6MMMMb/ `MM'       6MMMMb   `MMMMMMMb.       dM.     `MM'
+ 8P    YM  MM       8P    Y8   MM    `Mb      ,MMb      MM
+6M      Y  MM      6M      Mb  MM     MM      d'YM.     MM
+MM         MM      MM      MM  MM    .M9     ,P `Mb     MM
+MM         MM      MM      MM  MMMMMMM(      d'  YM.    MM
+MM     ___ MM      MM      MM  MM    `Mb    ,P   `Mb    MM
+MM     `M' MM      MM      MM  MM     MM    d'    YM.   MM
+YM      M  MM      YM      M9  MM     MM   ,MMMMMMMMb   MM
+ 8b    d9  MM    /  8b    d8   MM    .M9   d'      YM.  MM    /
+  YMMMM9  _MMMMMMM   YMMMM9   _MMMMMMM9' _dM_     _dMM__MMMMMMM
+
+
+ --*/
 /*-----------------------------------------------*/
 html{
     padding: 0!important;
@@ -92,7 +107,7 @@ html{
 /* ---------------------------------------- */
 body {
     font-family: "Avenir-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 0.9em;
+    font-size: 1em;
     color: #000;
 }
 
@@ -549,7 +564,7 @@ span.faq{
 .bf-under{
     text-decoration: underline;
     color: #1F2650;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .bgbc{
@@ -571,19 +586,20 @@ span.faq{
 }
 
 
-.text-asso-row{
+/*.text-asso-row{
     padding:100px 64px 50px 108px ;
-}
+}*/
 
-.titre-asso{
+/*.titre-asso{
     position: absolute;
     top: 5%;
     left: 10%;
-}
-.groupe-bascule{
+}*/
+
+/*.groupe-bascule{
     background-image: url('../../img/groupe-bascule.png');
     background-size: cover;
-}
+}*/
 
 .img-archipel{
     transform: matrix(1, -0.09, 0.09, 1, 0, 0);
@@ -628,7 +644,58 @@ span.faq{
 
 
 /*----------------------------------------------------------------------------------------------*/
-/*-- Page association --*/
+/*-- 
+
+________          _         ____   __________   ____
+`MMMMMMMb.       dM.       6MMMMb/ `MMMMMMMMM  6MMMMb\
+ MM    `Mb      ,MMb      8P    YM  MM      \ 6M'    `
+ MM     MM      d'YM.    6M      Y  MM        MM
+ MM     MM     ,P `Mb    MM         MM    ,   YM.
+ MM    .M9     d'  YM.   MM         MMMMMMM    YMMMMb
+ MMMMMMM9'    ,P   `Mb   MM     ___ MM    `        `Mb
+ MM           d'    YM.  MM     `M' MM              MM
+ MM          ,MMMMMMMMb  YM      M  MM              MM
+ MM          d'      YM.  8b    d9  MM      / L    ,M9
+_MM_       _dM_     _dMM_  YMMMM9  _MMMMMMMMM MYMMMM9
+
+
+ --*/
+/*-----------------------------------------------*/
+
+.page-title {
+    position: absolute;
+    top: 5%;
+}
+
+.bg-img {
+    background-size: cover;
+}
+
+.block-text-title{
+    padding:100px 64px 50px 108px ;
+}
+
+.block-text{
+    padding:100px 64px 50px 15px ;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- 
+
+       _
+      dM.                                          68b                   68b
+     ,MMb                                          Y89             /     Y89
+     d'YM.      ____     ____     _____     ____   ___    ___     /M     ___   _____   ___  __
+    ,P `Mb     6MMMMb\  6MMMMb\  6MMMMMb   6MMMMb. `MM  6MMMMb   /MMMMM  `MM  6MMMMMb  `MM 6MMb
+    d'  YM.   MM'    ` MM'    ` 6M'   `Mb 6M'   Mb  MM 8M'  `Mb   MM      MM 6M'   `Mb  MMM9 `Mb
+   ,P   `Mb   YM.      YM.      MM     MM MM    `'  MM     ,oMM   MM      MM MM     MM  MM'   MM
+   d'    YM.   YMMMMb   YMMMMb  MM     MM MM        MM ,6MM9'MM   MM      MM MM     MM  MM    MM
+  ,MMMMMMMMb       `Mb      `Mb MM     MM MM        MM MM'   MM   MM      MM MM     MM  MM    MM
+  d'      YM. L    ,MM L    ,MM YM.   ,M9 YM.   d9  MM MM.  ,MM   YM.  ,  MM YM.   ,M9  MM    MM
+_dM_     _dMM_MYMMMM9  MYMMMM9   YMMMMM9   YMMMM9  _MM_`YMMM9'Yb.  YMMM9 _MM_ YMMMMM9  _MM_  _MM_
+
+
+ --*/
 /*-----------------------------------------------*/
 
 .picto-chiffres{
@@ -637,8 +704,62 @@ span.faq{
     left: 40%;
 }
 
+#pAssociation .bg-img  {
+    background-image: url('../../img/img_titre_association.jpg');
+}
+
+#bloc-equipe .bg-img {
+    background-image: url('../../img/img_titre_rejoindre.jpg');
+}
+
+
+
+
+
 /*----------------------------------------------------------------------------------------------*/
-/*-- FOOTER --*/
+/*-- 
+
+___      ___                                                                                         ___
+`MM\     `M'                                                        68b           68b                `MM
+ MMM\     M                                                         Y89           Y89                 MM
+ M\MM\    M   _____   ___   ___   ____         ___  __   ____       ___   _____   ___ ___  __     ____MM ___  __   ____
+ M \MM\   M  6MMMMMb  `MM    MM  6MMMMb\       `MM 6MM  6MMMMb      `MM  6MMMMMb  `MM `MM 6MMb   6MMMMMM `MM 6MM  6MMMMb
+ M  \MM\  M 6M'   `Mb  MM    MM MM'    `        MM69 " 6M'  `Mb      MM 6M'   `Mb  MM  MMM9 `Mb 6M'  `MM  MM69 " 6M'  `Mb
+ M   \MM\ M MM     MM  MM    MM YM.             MM'    MM    MM      MM MM     MM  MM  MM'   MM MM    MM  MM'    MM    MM
+ M    \MM\M MM     MM  MM    MM  YMMMMb         MM     MMMMMMMM      MM MM     MM  MM  MM    MM MM    MM  MM     MMMMMMMM
+ M     \MMM MM     MM  MM    MM      `Mb        MM     MM            MM MM     MM  MM  MM    MM MM    MM  MM     MM
+ M      \MM YM.   ,M9  YM.   MM L    ,MM        MM     YM    d9      MM YM.   ,M9  MM  MM    MM YM.  ,MM  MM     YM    d9
+_M_      \M  YMMMMM9    YMMM9MM_MYMMMM9        _MM_     YMMMM9       MM  YMMMMM9  _MM__MM_  _MM_ YMMMMMM__MM_     YMMMM9
+                                                                     MM
+                                                                 (8) M9
+                                                                  YMM9 --*/
+/*-----------------------------------------------*/
+
+#pRejoindre .bg-title-page {
+    background-image: url('../../img/img_titre_rejoindre.jpg');
+    background-size: cover;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- 
+
+________    ____       ____    __________ __________ ________
+`MMMMMMM   6MMMMb     6MMMMb   MMMMMMMMMM `MMMMMMMMM `MMMMMMMb.
+ MM    \  8P    Y8   8P    Y8  /   MM   \  MM      \  MM    `Mb
+ MM      6M      Mb 6M      Mb     MM      MM         MM     MM
+ MM   ,  MM      MM MM      MM     MM      MM    ,    MM     MM
+ MMMMMM  MM      MM MM      MM     MM      MMMMMMM    MM    .M9
+ MM   `  MM      MM MM      MM     MM      MM    `    MMMMMMM9'
+ MM      MM      MM MM      MM     MM      MM         MM  \M\
+ MM      YM      M9 YM      M9     MM      MM         MM   \M\
+ MM       8b    d8   8b    d8      MM      MM      /  MM    \M\
+_MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
+
+
+ --*/
 /*-----------------------------------------------*/
 
 .footer{
@@ -648,7 +769,6 @@ span.faq{
 }
 
 
-/*----------------------------------------------------------------------------------------------*/
 /*-- LUNDI --*/
 /*-----------------------------------------------*/
 .block-img-faq {
@@ -686,4 +806,4 @@ span.faq{
 .card-action.action-4{
     background: url('../../img/png/action-4.png');
     background-size: cover;
-}
+
