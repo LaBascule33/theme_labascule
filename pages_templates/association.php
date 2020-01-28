@@ -41,7 +41,7 @@
     <div class="row">
 
         <div class="col-6 block-text">
-            <h3 class="bf heading text-uppercase">Une raison d'être</h3>
+            <h1 class="bf heading text-uppercase">Une raison d'être</h1>
 
             <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme</span></p>
             <p>Nous agissons pour:</p>
@@ -99,7 +99,7 @@
         </div>
 
         <div class="col-6 block-text">
-            <h3 class="bf text-uppercase">Une démarche personnelle<br>d'engagements</h3>
+            <h1 class="bf text-uppercase">Une démarche personnelle<br>d'engagements</h1>
             <p>pour faire la bascule avec ou sans nous</p>
             
             <div class="pt-4">
@@ -114,7 +114,7 @@
 <!------------------------------------->
     <div class="row">
         <div class="col-6 block-text">
-            <h3 class="bf text-uppercase">Une philosophie de coopération</h3>
+            <h1 class="bf text-uppercase">Une philosophie de coopération</h1>
             <p>pour que nous, citoyens et organisations, puissions bâtir une unité dans nos diversités.</p>
 
             <div class="pt-4">
@@ -139,7 +139,7 @@
         </div>
 
         <div id="section-equipe" class="col-6 block-text">
-            <h3 class="bf text-uppercase">Une équipe</h3>
+            <h1 class="bf text-uppercase">Une équipe</h1>
             <p>portée par une jeunesse qui a su bien s'entourer.</p>
             <p><span class="bf">Des citoyens de tout âges</span> en quête de sens qui apportent recul et expériences.</p>
             <p><span class="bf">Des professionnels engagés de tout horizons</span> qui donnent de leur temps pour transmettre leur savoir-faire.</p>
@@ -155,7 +155,7 @@
 <!------------------------------------->
     <div class="row">
         <div class="col-6 block-text">
-            <h3 class="bf"><span class="text-uppercase">Des lieux</span> de bascule</h3>
+            <h1 class="bf"><span class="text-uppercase">Des lieux</span> de bascule</h1>
             <p>Espaces uniques de vie-travail-transformation, accueillant pendant plusieurs semaines des volontaires à plein temps pour:</p>
             <ul>
                 <li><span class="bf text-uppercase font-weight-bold">Agir</span> au service des solutions existantes</li>

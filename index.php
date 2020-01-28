@@ -9,9 +9,9 @@
 <div class="container bg-dark text-center justify-content-center align-self-center" style="position:absolute">
     <div class="row">
         <div class="col-md-6 text-center">
-            <h2 class="text-uppercase bf">
+            <h1 class="text-uppercase bf">
             Un mouvement citoyen<br>au service de tous ceux<br>qui s'engagent pour<br>un futur souhaitable.
-            </h2>
+            </h1>
         </div>
         <div class="col-md-6 text-center">
             <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-bascule.svg" alt="image placeholder"/>
@@ -39,7 +39,7 @@
     <div class="row">
         <div class="col-3 card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center success">Service de<br>La Transition</h3>
+                <h1 class="text-uppercase text-center success">Service de<br>La Transition</h1>
                 <p class="text-center mb-5 position-relative">Pour permettre à chacun de vivre une expérience de Transition fondatrice <br>dans un de nos lieux de bascule.</p>
                 <button type="button" class="btn btn-success">En lire +</button>
             </div>
@@ -47,7 +47,7 @@
         
         <div class="col-3 card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center warning">Coopération<br>& événements</h3>
+                <h1 class="text-uppercase text-center warning">Coopération<br>& événements</h1>
                 <p class="text-center mb-5 position-relative">Pour faciliter le passage à l’action <br>collective via du suivi, de la mise en <br>réseau et l’animation de temps fort.</p>
                 <button type="button" class="btn btn-warning">En lire +</button>
             </div>
@@ -55,7 +55,7 @@
         
         <div class="col-3 card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center primary">Lobbying<br>& citoyen</h3>
+                <h1 class="text-uppercase text-center primary">Lobbying<br>& citoyen</h1>
                 <p class="text-center mb-5 position-relative">Pour nous donner les moyens<br>d'interpeller nos proches, nos <br>organisations et nos élus.</p>
                 <button type="button" class="btn btn-primary">En lire +</button>
             </div>
@@ -63,7 +63,7 @@
         
         <div class="col-3 card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center danger">Soutien aux<br>Mobilisations</h3>
+                <h1 class="text-uppercase text-center danger">Soutien aux<br>Mobilisations</h1>
                 <p class="text-center mb-5 position-relative">Pour en faire de véritables leviers de <br>Transition à travers un appui humain,<br> logistique et de communication.</p>
                 <button type="button" class="btn btn-danger">En lire +</button>
             </div>
