@@ -75,13 +75,14 @@
 <!----------------------------------------------------------------------------------------------->
 <!-- MODAL FAQ -->
 <!------------------------------------->
-<div class="container my-5">
-    <div class="row">
-        <div class="col-3">
-            <img class="block-img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/FAQ.jpg" alt="FAQ"/>
-        </div>
+<div id="section-faq">
+    <div class="container my-5 ">
+        <div class="row">
+            <div class="col-3">
+                <img class="block-img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/FAQ.jpg" alt="FAQ"/>
+            </div>
 
-        <div class="col-9">
+            <div class="col-9">
             <div class="block-faq">
                 <div class="row">
                     <div class="col-md-4 mb-3">
@@ -143,12 +144,13 @@
                     </div>
 
                 </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<?php include 'components/modal-faq.php' ?>
+<?php include 'inc/modal-faq.php' ?>
 
 
 <!----------------------------------------------------------------------------------------------->
@@ -199,7 +201,7 @@
     </nav>
 
     <!-- Content & moi dans tout ça -->
-    <?php include 'components/contenu-home-moi.php' ?>
+    <?php include 'inc/contenu-home-moi.php' ?>
 
 </div>
 

@@ -20,9 +20,10 @@
                         <div class="col-6">
                             <div class="text-faq">
                                 <h1 class="heading text-center bf pt-4 pb-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h1>
-                                <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.</p>
-                                <p>Il a pour objectif, face à la <span class="bf-under">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
-                                <p><span class="bf-under">Fonctionnant en gouvernance partagée</span>, et constitué d'<span class="bf-under">une équipe</span> de citoyens engagés à temps plein autour desquels gravitent <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
+                                <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.
+                                Il a pour objectif, face à la <span class="bf-under">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.
+                                <span class="bf-under">Fonctionnant en gouvernance partagée</span>, et constitué d'<span class="bf-under">une équipe</span> de citoyens engagés à temps plein autour desquels gravitent 
+                                <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique.</p>
 
                                 <div class="pt-4 text-center">
                                     <a href="" class="btn btn-primary">En lire +</a>
@@ -35,7 +36,7 @@
             </div>
 
             <div class="modal-footer">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui" data-dismiss="modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
         </div>
@@ -65,7 +66,7 @@
                         <div class="col-md-6">
                             <div class="text-faq">
                                 <h1 class="heading text-center bf pt-4 pb-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h1>
-                                <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole. Majoritairement portée par la jeunesse (étudiants et jeunes actifs entre 20 et 30 ans), le groupe se compose aussi d’une dizaine de volontaires plus expérimentés (entre 30 et 60 ans). L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.</p>
+                                <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole. L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.</p>
                                 
                                 <div class="pt-4 text-center">
                                     <a href="" class="btn btn-primary">En lire +</a>
@@ -77,6 +78,9 @@
             </div>
 
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est quoi ?</span></button>
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>  
@@ -116,6 +120,9 @@
             </div>
             
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est qui ?</span></button>
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
@@ -156,6 +163,9 @@
             </div>
             
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-faire"><span class="bf">La <span class="text-uppercase">Bascule</span>, comment faites-vous ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
@@ -198,6 +208,9 @@
             </div>
             
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span></button>
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
@@ -241,6 +254,10 @@
             </div>
             
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, comment faites-vous ?</span></button>
+                    
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens"><span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyen ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
@@ -270,13 +287,13 @@
                             <h1 class="heading text-center bf pt-4 pb-4">La <span class="text-uppercase">BASCULE,</span> <span class="bc">avec quels moyens ?</span></h1>
                             <span class="bf-under">Tout cela est rendu possible grâce:</span>
                             <ul class="list-style-custom">
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> au travail bénévole d’une cinquantaine de volontaires à temps plein investis depuis des mois</li>
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> à l’allocation d’une partie des fonds levés pour mener les projets pour couvrir les frais de fonctionnement.</li>
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> aux dons de centaines de citoyens</li>
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> à l’échange de service avec des maraîchers et boulangers locaux</li>
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> à la récupération d’invendus alimentaires</li>
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> aux dons matériels de voisins et d’organisations</li>
-                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i> au mécénat de compétences de nombreuses personnes et entreprises</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>au travail bénévole d’une cinquantaine de volontaires à temps plein investis depuis des mois</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>à l’allocation d’une partie des fonds levés pour mener les projets pour couvrir les frais de fonctionnement.</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>aux dons de centaines de citoyens</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>à l’échange de service avec des maraîchers et boulangers locaux</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>à la récupération d’invendus alimentaires</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>aux dons matériels de voisins et d’organisations</li>
+                                <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>au mécénat de compétences de nombreuses personnes et entreprises</li>
                             
                             <div class="pt-4 text-center">
                                 <a href="" class="btn btn-primary">En lire +</a>
@@ -287,6 +304,9 @@
             </div>
             
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span></button>
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand"><span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
@@ -326,6 +346,9 @@
             </div>
             
             <div class="modal-footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens"><span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyens ?</span></button>
+
                 <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-ou"><span class="bf">Ça se passe ou ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
@@ -364,7 +387,10 @@
             </div>
             
             <div class="modal-footer">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est qui ?</span></button>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand"><span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span></button>
+
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est quoi ?</span></button>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
             </div>
         </div>

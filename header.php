@@ -68,7 +68,7 @@
                         'walker' => new WP_Bootstrap_Navwalker(),
                     ) ); 
                 ?>
-            <a href="" class="btn btn-danger r-100 " data-toggle="popover" data-placement="bottom" data-content="Faites un don"> <i class="fas fa-heart"></i> </a>
+            <a href="" class="btn btn-danger r-100" tabindex="0" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Faites un don"> <i class="fas fa-heart"></i> </a>
         </nav>
     </div>
 

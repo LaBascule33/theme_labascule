@@ -92,7 +92,7 @@ html{
 /* ---------------------------------------- */
 body {
     font-family: "Avenir-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 0.87em;
+    font-size: 0.9em;
     color: #000;
 }
 
@@ -130,7 +130,7 @@ h4,h5,h6{
 /* line */
 .heading::before {
     width: 24%;
-    height: 20%;
+    height: 50%;
     background-color: #bebebe;
     border-radius: 1rem;
     opacity: 0.8;
@@ -207,7 +207,6 @@ h3.text-center{
     font-size: 14px;
     text-transform: uppercase;
     color: #002B5E;
-    background: #fff;
     border: 1px solid #fff;
 }
 #menu-home-menu > li
@@ -238,7 +237,7 @@ a:hover{
 /*-- BUTTON --*/
 /*-----------------------------------------------*/
 .btn{
-    font-size: 14px;
+    font-size: 0.8em;
     font-family: "Avenir-Black";
     box-shadow: 0px 3px 6px #00000029;
     color: #ffff;
@@ -307,7 +306,7 @@ a:hover{
 
 /* Style Block */
 .block-faq{
-    padding: 60px;
+    padding: 6%;
     margin-left: auto;
     background-color: #002B5E;
     max-width: 100%;
@@ -358,6 +357,7 @@ span.faq{
 /* Modal-body */
 .modal-body{
     background-color: #E7F0FC;
+    text-align: justify;
     position: static;
     max-width: 96%;
     margin: auto;
@@ -375,9 +375,13 @@ span.faq{
 }
 
 .modal-footer .btn-faq{
-    border: 4px solid #83B4FF;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.25em;
+    border: 4px solid #FFFF;
+}
+
+.modal-footer .btn-faq:hover{
+    border: 4px solid #83B4FF;
 }
 
 
@@ -450,11 +454,11 @@ span.faq{
     
 }
 
-.row-tab-rejoindre{
+.row-tab-bg{
     background: url('../../img/jevousrejoins.png');
     background-size: cover;
 }
-.row-tab-rejoindre:before{
+.row-tab-bg:before{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -495,10 +499,15 @@ span.faq{
 }
 
 .tab-suivre{
-    position: absolute;
-    top: 20%;
-    left: 20%;
+    height: 238px;
+    background-color: #fff;
 }
+
+.tab-suivre h2.bf{
+    padding-top: 47px;
+    padding-bottom: 45px;
+}
+
 .col-suivre{
     padding-top: 57px;
     padding-bottom: 57px;
@@ -509,10 +518,6 @@ span.faq{
     padding-top: auto;
     padding-bottom: auto;
 }
-.fleche-tab-suivre{
-    font-size: 39px;
-}
-
 .img-tab-suivre{
     height: 44px;
 }
@@ -537,8 +542,7 @@ span.faq{
     color: #1F2650;
 }
 .bgw{
-    background-color: #fff;
-    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0px 3px 6px #00000029;
 }
 
@@ -653,3 +657,33 @@ span.faq{
     bottom: -4%;
 }
 
+#section-faq{
+    background: url('../../img/faq/Bckgd-FAQ.svg');
+    background-size: cover;
+}
+
+.card-action{
+    border: 1px solid #D3D3D3;
+    width: 282px;
+    height: 169px;
+}
+
+.card-action.action-1{
+    background: url('../../img/png/action-1.png');
+    background-size: cover;
+}
+
+.card-action.action-2{
+    background: url('../../img/png/action-2.png');
+    background-size: cover;
+}
+
+.card-action.action-3{
+    background: url('../../img/png/action-3.png');
+    background-size: cover;
+}
+
+.card-action.action-4{
+    background: url('../../img/png/action-4.png');
+    background-size: cover;
+}
