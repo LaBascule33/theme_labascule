@@ -387,15 +387,22 @@ span.faq{
 .modal-footer{
     border: none;
     padding: 1.4rem;
+    justify-content: space-between;
 }
 
 .modal-footer .btn-faq{
-    padding: 10px;
-    font-size: 1.25em;
-    border: 4px solid #FFFF;
+    -webkit-appearance: none;
+    border: none;
 }
 
-.modal-footer .btn-faq:hover{
+.modal-footer .btn-faq span.bf{
+    padding: 14px;
+    font-size: 1.25em;
+    border: 4px solid #FFFF;
+    vertical-align: middle;
+}
+
+.modal-footer .btn-faq span.bf:hover{
     border: 4px solid #83B4FF;
 }
 

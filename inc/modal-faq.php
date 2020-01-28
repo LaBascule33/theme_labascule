@@ -36,8 +36,16 @@
             </div>
 
             <div class="modal-footer">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-ou">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, ça se passe ou ?</span>
+                </button>
+
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                </button>
             </div>
         </div>
     </div>
@@ -78,11 +86,16 @@
             </div>
 
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est quoi ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, c'est quoi ?</span>
+                </button>
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                </button>
             </div>  
         </div>
     </div>
@@ -120,11 +133,20 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est qui ?</span></button>
+            
+                
+                    <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-qui">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                        <span class="bf">La <span class="text-uppercase">Bascule</span>, c'est qui ?</span>
+                    </button>
+                
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                
+                    <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi">
+                        <span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                    </button>
+                
             </div>
         </div>
     </div>
@@ -163,11 +185,17 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-pourquoi">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, pourquoi ?</span>
+                </button>
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-faire"><span class="bf">La <span class="text-uppercase">Bascule</span>, comment faites-vous ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-faire">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, comment faites-vous ?</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                </button>
+
             </div>
         </div>
     </div>
@@ -208,11 +236,17 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quoi">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, pour quoi ?</span>
+                </button>
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span>
+                </button>
+                
             </div>
         </div>
     </div>
@@ -254,12 +288,17 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, comment faites-vous ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, comment faites-vous ?</span>
+                </button>
                     
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens"><span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyen ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyen ?</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                </button>
             </div>
         </div>
     </div>
@@ -304,11 +343,16 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement"><span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-concretement">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, oui mais concrètement ?</span>
+                </button>
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand"><span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                </button>
             </div>
         </div>
     </div>
@@ -346,11 +390,17 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens"><span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyens ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-moyens">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, avec quels moyens ?</span>
+                </button>
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-ou"><span class="bf">Ça se passe ou ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-ou">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                    <span class="bf">Ça se passe ou ?</span>
+                </button>
+
             </div>
         </div>
     </div>
@@ -387,11 +437,16 @@
             </div>
             
             <div class="modal-footer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand"><span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span></button>
+                
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-quand">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/precedent.svg" alt="back">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, depuis quand ?</span>
+                </button>
 
-                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi"><span class="bf">La <span class="text-uppercase">Bascule</span>, c'est quoi ?</span></button>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                <button class="btn-faq" data-toggle="modal" data-target="#modal-faq-cquoi">
+                    <span class="bf">La <span class="text-uppercase">Bascule</span>, c'est quoi ?</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/suivant.svg" alt="next">
+                </button>
             </div>
         </div>
     </div>
