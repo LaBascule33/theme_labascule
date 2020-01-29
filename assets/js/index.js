@@ -60,3 +60,12 @@ window.addEventListener('keydown', function (e) {
      slideIndex++;
      slides[slideIndex].classList.add('slide-active');
  })
+
+ prev.addEventListener('click', function () {
+     slides[slideIndex].classList.remove('slide-active');
+     if (slideIndex == 0){
+         slideIndex = 9;
+     }
+     slideIndex--;
+     slides[slideIndex].classList.add('slide-active');
+ })
