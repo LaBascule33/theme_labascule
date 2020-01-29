@@ -18,7 +18,7 @@
         <a class="bc mr-auto" href="">Mentions légales</a>
 
         <p class="ml-auto p-blc text-right">
-            Co-conception & réalisation<br/> <a  class="bc" href="">Thomas Dubernet</a> + <a  class="bc" href="">www.jpgraphie.com</a> + <a  class="bc" href="">La BASCULE</a> + <a  class="bc" href="">Patte Blanche</a>
+            Co-conception & réalisation<br/> <a  class="bc" href="">Thomas Dubernet</a> + <a  class="bc" href="spiritvy.com">spiritvy.com</a> + <a  class="bc" href="">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>
         </p>
     </nav>
 
