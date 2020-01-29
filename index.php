@@ -37,7 +37,7 @@
 
 <div class="container my-5">
     <div class="row">
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h1 class="text-uppercase text-center success">Service de<br>La Transition</h1>
                 <p class="text-center mb-5 position-relative">Pour permettre à chacun de vivre une expérience de Transition fondatrice <br>dans un de nos lieux de bascule.</p>
@@ -45,7 +45,7 @@
             </div>
         </div>
         
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h1 class="text-uppercase text-center warning">Coopération<br>& événements</h1>
                 <p class="text-center mb-5 position-relative">Pour faciliter le passage à l’action <br>collective via du suivi, de la mise en <br>réseau et l’animation de temps fort.</p>
@@ -53,7 +53,7 @@
             </div>
         </div>
         
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h1 class="text-uppercase text-center primary">Lobbying<br>& citoyen</h1>
                 <p class="text-center mb-5 position-relative">Pour nous donner les moyens<br>d'interpeller nos proches, nos <br>organisations et nos élus.</p>
@@ -61,7 +61,7 @@
             </div>
         </div>
         
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h1 class="text-uppercase text-center danger">Soutien aux<br>Mobilisations</h1>
                 <p class="text-center mb-5 position-relative">Pour en faire de véritables leviers de <br>Transition à travers un appui humain,<br> logistique et de communication.</p>
@@ -83,74 +83,74 @@
             </div>
 
             <div class="col-9">
-            <div class="block-faq">
-                <div class="row">
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-cquoi">
-                            <span class="faq">La Bascule,<br>c'est quoi?</span>
-                        </button>
-                    </div>
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-qui">
-                            <span class="faq">La Bascule,<br>c'est qui ?</span>
-                        </button>
-                    </div>
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-pourquoi">
-                            <span class="faq">La Bascule,<br>pourquoi ?</span>
-                        </button>
-                    </div>
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-quoi">
-                            <span class="faq">La Bascule,<br>pour quoi ?</span>
-                        </button>
-                    </div>
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-faire">
-                            <span class="faq">Comment vous comptez faire ?</span>
-                        </button>
-                    </div>
+                <div class="block-faq">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                La Bascule,<br>c'est quoi?
+                            </a>
+                        </div>
                     
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-concretement">
-                            <span class="faq">Oui mais concrètement ?</span>
-                        </button>
-                    </div>
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                La Bascule,<br>c'est qui ?
+                            </a>
+                        </div>
                     
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-moyens">
-                            <span class="faq">Avec quels<br>moyens ?</span>
-                        </button>
-                    </div>
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                La Bascule,<br>pourquoi ?
+                            </a>
+                        </div>
                     
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-quand">
-                            <span class="faq">Depuis<br>quand ?</span>
-                        </button>
-                    </div>
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                La Bascule,<br>pour quoi ?
+                            </a>
+                        </div>
                     
-                
-                    <div class="col-md-4 mb-3">
-                        <button class="btn-block text-center" data-toggle="modal" data-target="#modal-faq-ou">
-                            <span class="faq">Ça se passe<br>ou ?</span>
-                        </button>
-                    </div>
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                Comment vous comptez faire ?
+                            </a>
+                        </div>
+                        
+                    
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                Oui mais concrètement ?
+                            </a>
+                        </div>
+                        
+                    
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                Avec quels<br>moyens ?
+                            </a>
+                        </div>
+                        
+                    
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                Depuis<br>quand ?
+                            </a>
+                        </div>
+                        
+                    
+                        <div class="col-md-4 mb-3">
+                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                                Ça se passe<br>ou ?
+                            </a>
+                        </div>
 
-                </div>
+                    </div>
                 </div>
             </div>
+
+            <?php include 'inc/modal-perso-faq.php' ?>
         </div>
     </div>
 </div>
-
-<?php include 'inc/modal-faq.php' ?>
 
 
 <!----------------------------------------------------------------------------------------------->
