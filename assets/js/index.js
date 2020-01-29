@@ -50,7 +50,13 @@ window.addEventListener('keydown', function (e) {
  var prev = document.querySelector('.prev-modal');
  var next = document.querySelector('.next-modal');
 
+ var slideIndex = 0
+
  next.addEventListener('click', function () {
-     slides[0].classList.remove('slide-active');
-     slides[1].classList.add('slide-active');
+     slides[slideIndex].classList.remove('slide-active');
+     if (slideIndex == 8){
+         slideIndex = -1;
+     }
+     slideIndex++;
+     slides[slideIndex].classList.add('slide-active');
  })
