@@ -325,6 +325,7 @@ a:hover{
     margin-left: auto;
     background-color: #002B5E;
     max-width: 100%;
+    box-shadow: 0px 10px 10px #0000002E;
 }
 
 a.faq{
@@ -384,6 +385,11 @@ a.faq{
 
 .img-faq{
     max-width: 100%;
+    margin: 30px 0 30px 30px;
+}
+
+.text-faq{
+    margin: 42px 33px;
 }
 
 /* Modal-footer */
@@ -884,7 +890,7 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
     width: calc(100% - 80px);
     height: calc(100% - 80px);
     margin: 40px;
-    background-color: skyblue;
+    background-color: rgba(131, 180, 255, 0.6);
     opacity: 0;
 }
 .slide-active{

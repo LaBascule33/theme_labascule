@@ -37,7 +37,7 @@
 
 <div class="container my-5">
     <div class="row">
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h3 class="text-uppercase text-center success">Service de<br>La Transition</h3>
                 <p class="text-center mb-5 position-relative">Pour permettre à chacun de vivre une expérience de Transition fondatrice <br>dans un de nos lieux de bascule.</p>
@@ -45,7 +45,7 @@
             </div>
         </div>
         
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h3 class="text-uppercase text-center warning">Coopération<br>& événements</h3>
                 <p class="text-center mb-5 position-relative">Pour faciliter le passage à l’action <br>collective via du suivi, de la mise en <br>réseau et l’animation de temps fort.</p>
@@ -53,7 +53,7 @@
             </div>
         </div>
         
-        <div class="col-3 card-body text-center">
+        <div class="col-3 border-right card-body text-center">
             <div class="bg-white mt-0">
                 <h3 class="text-uppercase text-center primary">Lobbying<br>& citoyen</h3>
                 <p class="text-center mb-5 position-relative">Pour nous donner les moyens<br>d'interpeller nos proches, nos <br>organisations et nos élus.</p>

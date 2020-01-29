@@ -73,30 +73,30 @@
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
                     <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
-                    <h2 class="bf pt-4">Faire un don</h2>
-                    <p>pour contribuer à l'indépendance financière du mouvement</p>
+                    <h2 class="bf pt-4 title-soutien">Faire un don</h2>
+                    <p class="text-soutien">pour contribuer à l'indépendance financière du mouvement</p>
                     <a href="" class="btn btn-danger r-100"> <i class="fas fa-heart"></i> </a>
                 </div>
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
                     <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
-                    <h2 class="bf pt-4">Offrir ses compétences</h2>
-                    <p>pour contribuer à la qualité des actions</p>
+                    <h2 class="bf pt-4 title-soutien">Offrir ses compétences</h2>
+                    <p class="text-soutien">pour contribuer à la qualité des actions</p>
                 </div>
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
                     <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
-                    <h2 class="bf pt-4">Mettre un lieu à disposition</h2>
-                    <p>pour contribuer à grandir la communauté</p>
+                    <h2 class="bf pt-4 title-soutien">Mettre un lieu à disposition</h2>
+                    <p class="text-soutien">pour contribuer à grandir la communauté</p>
                 </div>
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
                     <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
-                    <h2 class="bf pt-4">Relayer des actions</h2>
-                    <p>pour contribuer à leur diffusion au plus grand nombre</p>
+                    <h2 class="bf pt-4 title-soutien">Relayer des actions</h2>
+                    <p class="text-soutien">pour contribuer à leur diffusion au plus grand nombre</p>
                 </div>
             </div>
         </div>
