@@ -46,49 +46,104 @@ window.addEventListener('keydown', function (e) {
  * CAROUSEL FAQ
  */
 
- var slides = document.querySelectorAll('.slide'); // Tableau de chaque div.slide
- var prev = document.querySelector('.js-modal-prev');
- var next = document.querySelector('.js-modal-next');
+var slides = document.querySelectorAll('.slide'); // Tableau de chaque div.slide
+var prev = document.querySelector('.js-modal-prev');
+var next = document.querySelector('.js-modal-next');
 
- var slideIndex = 0;
+var slideIndex = 0;
 
+
+var btnPrev = document.querySelector('.js-text-prev-modal');
+var btnNext = document.querySelector('.js-text-next-modal');
  
-var titles = document.querySelectorAll('.js-title-faq'); // Tableau de chaque titres
+var titles = document.querySelectorAll('.js-title-faq'); // Tbaleau de chaque titres
 var prevTitleIndex = 8;
 var nextTitleIndex = 1;
 
- next.addEventListener('click', function () {
-     slides[slideIndex].classList.remove('slide-active');
-     if (slideIndex == 8){
-         slideIndex = -1;
-     }
-     if(nextTitleIndex == 8) {
-         nextTitleIndex= -1;
-     }
-     if(prevTitleIndex == 8) {
-         prevTitleIndex= -1;
-     }
-     slideIndex++;
-     nextTitleIndex++;
-     prevTitleIndex++;
-     slides[slideIndex].classList.add('slide-active');
- })
 
- prev.addEventListener('click', function () {
-     slides[slideIndex].classList.remove('slide-active');
-     if (slideIndex == 0){
-         slideIndex = 9;
-     }
-     if (nextTitleIndex == 0){
-         nextTitleIndex = 9;
-     }
-     if (prevTitleIndex == 0){
-         prevTitleIndex = 9;
-     }
-     slideIndex--;
-     prevTitleIndex--;
-     nextTitleIndex--;
-     slides[slideIndex].classList.add('slide-active');
- })
+
+
+next.addEventListener('click', function () {
+    slides[slideIndex].classList.remove('slide-active');
+    if (slideIndex == 8){
+        slideIndex = -1;
+    }
+    if(nextTitleIndex == 8) {
+        nextTitleIndex= -1;
+    }
+    if(prevTitleIndex == 8) {
+        prevTitleIndex= -1;
+    }
+    slideIndex++;
+    nextTitleIndex++;
+    prevTitleIndex++;
+    slides[slideIndex].classList.add('slide-active');
+    var textPrev = titles[prevTitleIndex].innerText;
+    var textNext = titles[nextTitleIndex].innerText;
+    
+    btnNext.innerHTML = "";
+    btnNext.innerHTML = textNext;
+    btnPrev.innerHTML = "";
+    btnPrev.innerHTML = textPrev;
+})
+
+prev.addEventListener('click', function () {
+    slides[slideIndex].classList.remove('slide-active');
+    if (slideIndex == 0){
+        slideIndex = 9;
+    }
+    if (nextTitleIndex == 0){
+        nextTitleIndex = 9;
+    }
+    if (prevTitleIndex == 0){
+        prevTitleIndex = 9;
+    }
+    slideIndex--;
+    prevTitleIndex--;
+    nextTitleIndex--;
+    slides[slideIndex].classList.add('slide-active');
+    var textPrev = titles[prevTitleIndex].innerText;
+    var textNext = titles[nextTitleIndex].innerText;
+    
+    btnNext.innerHTML = "";
+    btnNext.innerHTML = textNext;
+    btnPrev.innerHTML = "";
+    btnPrev.innerHTML = textPrev;
+})
+
+
+// next.addEventListener('click', function () {
+//     slides[slideIndex].classList.remove('slide-active');
+//     if (slideIndex == 8){
+//         slideIndex = -1;
+//     }
+//     if(nextTitleIndex == 8) {
+//         nextTitleIndex= -1;
+//     }
+//     if(prevTitleIndex == 8) {
+//         prevTitleIndex= -1;
+//     }
+//     slideIndex++;
+//     nextTitleIndex++;
+//     prevTitleIndex++;
+//     slides[slideIndex].classList.add('slide-active');
+// })
+
+// prev.addEventListener('click', function () {
+//     slides[slideIndex].classList.remove('slide-active');
+//     if (slideIndex == 0){
+//         slideIndex = 9;
+//     }
+//     if (nextTitleIndex == 0){
+//         nextTitleIndex = 9;
+//     }
+//     if (prevTitleIndex == 0){
+//         prevTitleIndex = 9;
+//     }
+//     slideIndex--;
+//     prevTitleIndex--;
+//     nextTitleIndex--;
+//     slides[slideIndex].classList.add('slide-active');
+// })
 
 console.log(prevTitleIndex + " < " + slideIndex + " > " + nextTitleIndex );

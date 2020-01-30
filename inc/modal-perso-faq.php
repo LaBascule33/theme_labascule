@@ -6,8 +6,8 @@
     <div class="modal-wrapper js-modal-stop">
         <!-- Buttons -->
         <button class="js-modal-close closed">&times;</button>
-        <button class="js-modal-prev prev-modal"><i class="arrow-faq fas fa-arrow-left bf mr-2"></i><span class="bf js-text-prev-modal text-prev-modal">La Bascule, c'est qui ?</span></button>
-        <button class="js-modal-next next-modal"><span class="bf js-text-next-modal text-next-modal">La Bascule, c'est quoi?</span><i class="arrow-faq fas fa-arrow-right bf ml-2"></i></button>
+        <button class="js-modal-prev prev-modal"><i class="arrow-faq fas fa-arrow-left bf mr-2"></i><span class="bf js-text-prev-modal text-prev-modal">Prev</span></button>
+        <button class="js-modal-next next-modal"><span class="bf js-text-next-modal text-next-modal">Next</span><i class="arrow-faq fas fa-arrow-right bf ml-2"></i></button>
         
 
         <!-- Modal-content -->
