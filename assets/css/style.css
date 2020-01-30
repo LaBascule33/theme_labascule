@@ -107,7 +107,7 @@ html{
 /* ---------------------------------------- */
 body {
     font-family: "Avenir-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 0.9rem;
+    font-size: 1em;
     color: #000;
 }
 
@@ -127,19 +127,19 @@ span.bf,.bf-under{
 /* first-title */
 h1.heading{
     font-family: "Avenir-Black";
-    font-size: 1.8rem !important;
+    font-size: 1.9em !important;
     position: relative;
 }
 
 /* sub-title */
-h1,h2,h3{
+h2,h3{
     font-family: "Avenir-Black";
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 h4,h5,h6{
     font-family: "Avenir-Medium";
-    font-size: 1.25rem;
+    font-size: 1.25em;
 }
 
 /* line */
@@ -219,7 +219,7 @@ h3.text-center{
 
 #menu-home-menu > li a{
     font-family: "Avenir-Black";
-    font-size: 0.9rem;
+    font-size: 14px;
     text-transform: uppercase;
     color: #002B5E;
     border: 1px solid #fff;
@@ -252,7 +252,7 @@ a:hover{
 /*-- BUTTON --*/
 /*-----------------------------------------------*/
 .btn{
-    font-size: 0.9rem;
+    font-size: 0.8em;
     font-family: "Avenir-Black";
     box-shadow: 0px 3px 6px #00000029;
     color: #ffff;
@@ -325,12 +325,10 @@ a:hover{
     margin-left: auto;
     background-color: #002B5E;
     max-width: 100%;
-    box-shadow: 0px 10px 10px #0000002E;
 }
 
 a.faq{
     font-family: "Avenir-Black";
-    font-size: 1.25rem;
     color: white !important;
     text-decoration: none;
     font-size: 18px;
@@ -386,33 +384,21 @@ a.faq{
 
 .img-faq{
     max-width: 100%;
-    margin: 30px 0 30px 30px;
-}
-
-.text-faq{
-    margin: 42px 33px;
 }
 
 /* Modal-footer */
 .modal-footer{
     border: none;
     padding: 1.4rem;
-    justify-content: space-between;
 }
 
 .modal-footer .btn-faq{
-    -webkit-appearance: none;
-    border: none;
-}
-
-.modal-footer .btn-faq span.bf{
-    padding: 14px;
-    font-size: 1.25rem;
+    padding: 10px;
+    font-size: 1.25em;
     border: 4px solid #FFFF;
-    vertical-align: middle;
 }
 
-.modal-footer .btn-faq span.bf:hover{
+.modal-footer .btn-faq:hover{
     border: 4px solid #83B4FF;
 }
 
@@ -898,7 +884,7 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
     width: calc(100% - 80px);
     height: calc(100% - 80px);
     margin: 40px;
-    background-color: rgba(131, 180, 255, 0.6);
+    background-color: skyblue;
     opacity: 0;
 }
 .slide-active{

@@ -5,7 +5,7 @@
 <div id="carousel" class="modal-perso" aria-hidden="true" role="dialog" aria-modal="false" style="display:none;">
     <div class="modal-wrapper js-modal-stop">
         <!-- Buttons -->
-        <button class="js-modal-close closed">&times;</button>
+        <button class="js-modal-close close ">&times;</button>
         <button class="js-modal-prev prev-modal"></button>
         <button class="js-modal-next next-modal"></button>
         
