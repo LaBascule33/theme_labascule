@@ -6,8 +6,8 @@
 
 <div id="pAssociation" class="container">
     <div class="row">
-        <div class="col-6 bg-title-page position-relative">
-            <h1 class="bf page-title">L'association</h1>
+        <div class="col-6 bg-img position-relative">
+            <h3 class="bf page-title">L'association</h3>
 
         </div>
 
@@ -16,13 +16,17 @@
 <!------------------------------------->
 
         <div class="col-6 block-text-title">
-            <h2 class="bf">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
+            <h1 class="bf heading">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h1>
 
-            <p>La Bascule est un mouvement citoyen lancé en <span class="bf">février 2019</span>.</p>
+            <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.</p>
 
-            <p>Il a pour objectif, face à la <span class="bf">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
+            <p>Il a pour objectif, face à la <span class="bf-under">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
 
-            <p><span class="bf">Fonctionnant en gouvernance partagée</span>, et constitué d'<span class="bf">une équipe</span> de citoyens engagés à temps plein autour desquels gravitent <span class="bf">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un <span class="bf">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
+            <p><span class="bf-under">Fonctionnant en gouvernance partagée</span>
+            , et constitué d'<span class="bf-under">une équipe
+            </span> de citoyens engagés à temps plein autour desquels gravitent 
+            <span class="bf-under">de nombreux acteurs</span> des transitions écologique,<strong> sociale et démocratique</strong>, la Bascule déploie un 
+            <span class="bf-under">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
 
             <div class="row pt-4">
                 <a href="" class="pl-3"><i class="fas fa-download bc"></i> <span class="bf">Télécharger la présentation</span></a>
@@ -37,7 +41,7 @@
     <div class="row">
 
         <div class="col-6 block-text">
-            <h3 class="bf heading text-uppercase">Une raison d'être</h3>
+            <h1 class="bf heading text-uppercase">Une raison d'être</h1>
 
             <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme</span></p>
             <p>Nous agissons pour:</p>
@@ -95,7 +99,7 @@
         </div>
 
         <div class="col-6 block-text">
-            <h3 class="bf text-uppercase">Une démarche personnelle<br>d'engagements</h3>
+            <h1 class="bf text-uppercase">Une démarche personnelle<br>d'engagements</h1>
             <p>pour faire la bascule avec ou sans nous</p>
             
             <div class="pt-4">
@@ -110,7 +114,7 @@
 <!------------------------------------->
     <div class="row">
         <div class="col-6 block-text">
-            <h3 class="bf text-uppercase">Une philosophie de coopération</h3>
+            <h1 class="bf text-uppercase">Une philosophie de coopération</h1>
             <p>pour que nous, citoyens et organisations, puissions bâtir une unité dans nos diversités.</p>
 
             <div class="pt-4">
@@ -135,7 +139,7 @@
         </div>
 
         <div id="section-equipe" class="col-6 block-text">
-            <h3 class="bf text-uppercase">Une équipe</h3>
+            <h1 class="bf text-uppercase">Une équipe</h1>
             <p>portée par une jeunesse qui a su bien s'entourer.</p>
             <p><span class="bf">Des citoyens de tout âges</span> en quête de sens qui apportent recul et expériences.</p>
             <p><span class="bf">Des professionnels engagés de tout horizons</span> qui donnent de leur temps pour transmettre leur savoir-faire.</p>
@@ -151,7 +155,7 @@
 <!------------------------------------->
     <div class="row">
         <div class="col-6 block-text">
-            <h3 class="bf"><span class="text-uppercase">Des lieux</span> de bascule</h3>
+            <h1 class="bf"><span class="text-uppercase">Des lieux</span> de bascule</h1>
             <p>Espaces uniques de vie-travail-transformation, accueillant pendant plusieurs semaines des volontaires à plein temps pour:</p>
             <ul>
                 <li><span class="bf text-uppercase font-weight-bold">Agir</span> au service des solutions existantes</li>
@@ -179,17 +183,17 @@
 <!-- CHIFFRES CLEFS -->
 <!------------------------------------->
     <div class="container my-5">
-        <h2 class="text-center text-uppercase bf my-5">Chiffres clés</h2>
+        <h1 class="heading text-center bf my-5">Chiffres clés</h1>
 
         <div class="row">
             <div class="col-3 col-chiffres text-center">
                 <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
-                <h3 class="bf pt-4">000</h3>
+                <h1 class="bf pt-4">000</h1>
                 <p><span class="bf">Citoyens</span> passés dans un lieu de bascule</p>
             </div>
             <div class="col-3 col-chiffres text-center">
                 <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
-                <h3 class="bf pt-4">3</h3>
+                <h1 class="bf pt-4">3</h1>
                 <ul class="list-unstyled text-center">
                     <li><span class="bf">Joigny</span> (89), à l'echelle nationale</li>
                     <li><span class="bf">Plouray</span> (22), à l'echelle régionale</li>
@@ -198,7 +202,7 @@
             </div>
             <div class="col-3 col-chiffres text-center">
                 <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/event.svg" alt="petit logo top">
-                <h3 class="bf pt-4">000</h3>
+                <h1 class="bf pt-4">000</h1>
                 <p><span class="bf">Evénements animés</span> dans le cadre de</p>
                 <ul class="list-unstyled">
                     <li>*formations*</li>
@@ -208,7 +212,7 @@
             </div>
             <div class="col-3 col-chiffres text-center">
                 <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/organisations.svg" alt="petit logo top">
-                <h3 class="bf pt-4">000</h3>
+                <h1 class="bf pt-4">000</h1>
                 <p><span class="bf">Organisations</span> différentes ont participé à un de vos événements</p>
             </div>
         </div>
