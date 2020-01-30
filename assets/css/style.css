@@ -665,11 +665,6 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 /*-- MODAL-PERSO --*/
 /*-----------------------------------------------*/
 
-.closed:hover{
-    background: #F786BE;
-    padding: 7px;
-    cursor: pointer;
-}
 .title{
     font-size: 2rem;
 }
