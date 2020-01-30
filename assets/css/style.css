@@ -253,6 +253,7 @@ MMMMMMMMMM 68b         `MM
 h1{
     font-family: "Avenir-Black";
     font-size: 1.438em;
+    color: #1F2650;
     position: relative;
 }
 
@@ -276,6 +277,7 @@ h1::before {
 h2{
     font-family: "Avenir-Black";
     font-size: 1.938em !important;
+    color: #1F2650;
     position: relative;
     margin-bottom: 50px !important;
 }
@@ -300,9 +302,10 @@ h2::before {
 h3{
     font-family: "Avenir-Black";
     font-size: 1.438em;
-    text-transform: uppercase;
+    line-height: 1.6em;
+    color: #1F2650;
+    /*text-transform: uppercase;*/
     position: relative;
-    /* ajouter bg pastille */
 }
 
 /* line */
@@ -621,158 +624,6 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
     height: 221px;
 }
 
-
-/*-- LUNDI --*/
-/*-----------------------------------------------*/
-.block-img-faq {
-    height: 80%;
-    position: absolute;
-    bottom: -4%;
-}
-
-#section-faq{
-    background: url('../../img/faq/Bckgd-FAQ.svg');
-    background-size: cover;
-}
-
-.card-action{
-    border: 1px solid #D3D3D3;
-    width: 282px;
-    height: 169px;
-}
-
-.card-action.action-1{
-    background: url('../../img/png/action-1.png');
-    background-size: cover;
-}
-
-.card-action.action-2{
-    background: url('../../img/png/action-2.png');
-    background-size: cover;
-}
-
-.card-action.action-3{
-    background: url('../../img/png/action-3.png');
-    background-size: cover;
-}
-
-.card-action.action-4{
-    background: url('../../img/png/action-4.png');
-    background-size: cover;
-
-}
-
-/*-- MODAL-PERSO --*/
-/*-----------------------------------------------*/
-
-.title{
-    font-size: 2rem;
-}
-
-.modal-perso{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-wrapper{
-    overflow: auto;
-    background: #fff;
-    width: 1266px;
-    height: 642px;
-    max-width: calc(100vw - 150px);
-    max-height: calc(100vh - 100px);
-    padding: 75px;
-    position: relative;
-}
-
-/* .btn-faq{
-    padding: 10px;
-    font-size: 1.25em;
-    border: 4px solid #FFFF;
-}
-
-.btn-faq:hover{
-    border: 4px solid #83B4FF;
-} */
-
-button.prev-modal{
-    position: absolute;
-    height: 67px;
-    bottom: 38px;
-    left: 10px;
-    z-index: 1;
-    border: none;
-    background: transparent;
-}
-button.prev-modal:focus{
-    border: none;
-    outline: none;
-}
-button.prev-modal:active{
-    border: none;
-    outline: none;
-}
-button.next-modal{
-    position: absolute;
-    height: 67px;
-    bottom: 38px;
-    right: 10px;
-    z-index: 1;
-    border: none;
-    background: transparent;
-}
-button.next-modal:focus{
-    border: none;
-    outline: none;
-}
-button.next-modal:active{
-    border: none;
-    outline: none;
-}
-
-
-span.text-prev-modal{
-    border: 4px solid #fff;
-    padding: 10px;
-}
-span.text-next-modal{
-    border: 4px solid #fff;
-    padding: 10px;
-}
-.text-prev-modal:hover{
-    border: 4px solid #83B4FF;
-}
-.text-next-modal:hover{
-    border: 4px solid #83B4FF;
-}
-.slide{
-    position: absolute;
-    top: 52px;
-    left: 50%;
-    width: 1154px;
-    height: 463px;
-    background-color: #E7F0FC;
-    opacity: 0;
-    transform: translateX(-50%);
-}
-.slide-active{
-    animation: effet-modal 3s step-end infinite;
-}
-@keyframes effet-modal {
-    from,
-    to {
-        opacity: 1;
-    }
-}
-
 /*----------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
@@ -813,6 +664,17 @@ _MM_     _dM_     _dMM_  YMMMM9
                             `Mo */
 /* ---------------------------------------- */
 
+#section-faq{
+    background: url('../../img/faq/Bckgd-FAQ.svg');
+    background-size: cover;
+}
+
+.block-img-faq {
+    height: 80%;
+    position: absolute;
+    bottom: -4%;
+}
+
 /* Style Block */
 .block-faq{
     padding: 6%;
@@ -822,11 +684,19 @@ _MM_     _dM_     _dMM_  YMMMM9
 }
 
 a.faq{
-    font-family: "Avenir-Black";
+    font-family: "Avenir-Medium";
     color: white !important;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125em;
     letter-spacing: 0.9px;
+}
+
+a.faq span.FAQsize1{
+    font-size: 1.625em;
+}
+
+a.faq span.FAQsize2{
+    font-size: 1.25em;
 }
 
 /* Btn Block */
@@ -889,13 +759,130 @@ _MM_     _dM_     _dMM_  YMMMM9         _M_      _MM_ YMMMMM9   YMMMMMM_`YMMM9'Y
 }
 
 .btn-faq:hover{
-    border: 4px solid #83B4FF; 
+    border: 4px solid #83B4FF;
 }*/
 
-
-/*----------------------------------------------------------------------------------------------*/
-/*-- CONTENT --*/
+/*-- MODAL-PERSO --*/
 /*-----------------------------------------------*/
+
+.container-faq{
+    margin: 0 33px;
+}
+
+button.closed{
+    font-size: 4rem;
+    color: #00204A;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    align-self: end;
+    z-index: 1;
+    border: none;
+    background: none;
+}
+.title{
+    font-size: 2rem;
+}
+
+.modal-perso{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-wrapper{
+    overflow: hidden;
+    background: #fff;
+    width: 1266px;
+    height: 642px;
+    max-width: calc(100vw - 150px);
+    max-height: calc(100vh - 100px);
+    padding: 75px;
+    position: relative;
+}
+
+button.prev-modal{
+    position: absolute;
+    height: 67px;
+    bottom: 38px;
+    left: 10px;
+    z-index: 1;
+    border: none;
+    background: transparent;
+}
+button.prev-modal:focus{
+    border: none;
+    outline: none;
+}
+button.prev-modal:active{
+    border: none;
+    outline: none;
+}
+button.next-modal{
+    position: absolute;
+    height: 67px;
+    bottom: 38px;
+    right: 10px;
+    z-index: 1;
+    border: none;
+    background: transparent;
+}
+button.next-modal:focus{
+    border: none;
+    outline: none;
+}
+button.next-modal:active{
+    border: none;
+    outline: none;
+}
+
+span.text-prev-modal{
+    border: 4px solid #fff;
+    padding: 10px;
+}
+
+span.text-next-modal{
+    border: 4px solid #fff;
+    padding: 10px;
+}
+
+.text-prev-modal:hover{
+    border: 4px solid #83B4FF;
+}
+
+.text-next-modal:hover{
+    border: 4px solid #83B4FF;
+}
+
+.slide{
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    width: 1154px;
+    height: 463px;
+    background-color: #E7F0FC;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+.slide-active{
+    animation: effet-modal 3s step-end infinite;
+}
+
+@keyframes effet-modal {
+    from,
+    to {
+        opacity: 1;
+    }
+}
 
 /* ---------------------------------------- */
 /* 
@@ -1071,8 +1058,32 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     width: 70%;
 }
 
+.card-action{
+    border: 1px solid #D3D3D3;
+    width: 282px;
+    height: 169px;
+}
 
+.card-action.action-1{
+    background: url('../../img/png/action-1.png');
+    background-size: cover;
+}
 
+.card-action.action-2{
+    background: url('../../img/png/action-2.png');
+    background-size: cover;
+}
+
+.card-action.action-3{
+    background: url('../../img/png/action-3.png');
+    background-size: cover;
+}
+
+.card-action.action-4{
+    background: url('../../img/png/action-4.png');
+    background-size: cover;
+
+}
 
 /* ---------------------------------------- */
 /* Content block */
@@ -1141,8 +1152,12 @@ _MM_       _dM_     _dMM_  YMMMM9  _MMMMMMMMM MYMMMM9
     padding:50px 64px 75px 108px ;
 }
 
-.block-text{
+.block-text-left{
     padding:50px 64px 75px 15px ;
+}
+
+.block-text-right{
+    padding:50px 64px 75px 40px ;
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -1171,11 +1186,11 @@ _dM_     _dMM_MYMMMM9  MYMMMM9   YMMMMM9   YMMMM9  _MM_`YMMM9'Yb.  YMMM9 _MM_ YM
 }
 
 #pAssociation .bg-title-page  {
-    background-image: url('../../img/img_titre_association.jpg');
+    background-image: url('../../img/p_association/img_titre_association.jpg');
 }
 
 #bloc-equipe .bg-img {
-    background-image: url('../../img/img_titre_rejoindre.jpg');
+    background-image: url('../../img/p_association/img_bloc_equipe.jpg');
 }
 
 
@@ -1202,133 +1217,49 @@ _M_      \M  YMMMMM9    YMMM9MM_MYMMMM9        _MM_     YMMMM9       MM  YMMMMM9
 /*-----------------------------------------------*/
 
 #pRejoindre .bg-title-page {
-    background-image: url('../../img/nous_rejoindre/img_titre_rejoindre.jpg');
+    background-image: url('../../img/p_nous_rejoindre/img_titre_rejoindre.jpg');
 }
 
 
 #pRejoindre .bg-title-page:before{
     position: absolute;
-    bottom: -4%;
-}
-
-#section-faq{
-    background: url('../../img/faq/Bckgd-FAQ.svg');
-    background-size: cover;
-}
-
-.card-action{
-    border: 1px solid #D3D3D3;
-    width: 282px;
-    height: 169px;
-}
-
-.card-action.action-1{
-    background: url('../../img/png/action-1.png');
-    background-size: cover;
-}
-
-.card-action.action-2{
-    background: url('../../img/png/action-2.png');
-    background-size: cover;
-}
-
-.card-action.action-3{
-    background: url('../../img/png/action-3.png');
-    background-size: cover;
-}
-
-.card-action.action-4{
-    background: url('../../img/png/action-4.png');
-    background-size: cover;
-
-}
-
-/*-- MODAL-PERSO --*/
-/*-----------------------------------------------*/
-
-.container-faq{
-    margin: 0 33px;
-}
-
-button.closed{
-    font-size: 4rem;
-    color: #00204A;
-    position: absolute;
-    top: 0;
-    right: 5%;
-    align-self: end;
-    z-index: 1;
-    border: none;
-    background: none;
-}
-.title{
-    font-size: 2rem;
-}
-
-.modal-perso{
-    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    right: 0;
+    background: #002B5E;
+    opacity: 0.80;
+    content: "";
 }
 
-.modal-wrapper{
-    overflow: hidden;
+#pRejoindre .bg-title-page .tab-content{
+    position: absolute;
+    width: 30%;
+    top: 40%;
+    left: 33%;
+    color: #1F2650;
+    height: inherit;
+    text-align: center;
+}
+
+#pRejoindre .bg-title-page .tab-content div{
     background: #fff;
-    width: 1266px;
-    height: 642px;
-    max-width: calc(100vw - 150px);
-    max-height: calc(100vh - 100px);
-    padding: 75px;
-    position: relative;
+    margin-top: 5%;
+    padding: 5%;
 }
 
 #bloc-postule .bg-img {
-    background-image: url('../../img/nous_rejoindre/img_bloc_postule.jpg');
+    background-image: url('../../img/p_nous_rejoindre/img_bloc_postule.jpg');
 }
 
-#bloc-engagement .bg-img {
-    background-image: url('../../img/nous_rejoindre/img_bloc_mengageant.png');
+/*#bloc-engagement .bg-img {
+    background-image: url('../../img/p_nous_rejoindre/img_bloc_mengageant.png');
 }
 
-span.text-prev-modal{
-    border: 4px solid #fff;
-    padding: 10px;
-}
-span.text-next-modal{
-    border: 4px solid #fff;
-    padding: 10px;
-}
-.text-prev-modal:hover{
-    border: 4px solid #83B4FF;
-}
-.text-next-modal:hover{
-    border: 4px solid #83B4FF;
-}
-.slide{
-    position: absolute;
-    top: 52px;
-    left: 50%;
-    width: 1154px;
-    height: 463px;
-    background-color: #E7F0FC;
-    opacity: 0;
-    transform: translateX(-50%);
-}
-.slide-active{
-    animation: effet-modal 3s step-end infinite;
-}
-@keyframes effet-modal {
-    from,
-    to {
-        opacity: 1;
-    }
-}
+#bloc-QB .bg-img {
+    background-image: url('../../img/p_nous_rejoindre/QB_1.jpg');
+}*/
 
+#bloc-QB img{
+    max-width: 100%;
+}
