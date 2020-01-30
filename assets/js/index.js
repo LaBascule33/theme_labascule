@@ -47,17 +47,30 @@ window.addEventListener('keydown', function (e) {
  */
 
  var slides = document.querySelectorAll('.slide'); // Tableau de chaque div.slide
- var prev = document.querySelector('.prev-modal');
- var next = document.querySelector('.next-modal');
+ var prev = document.querySelector('.js-modal-prev');
+ var next = document.querySelector('.js-modal-next');
 
- var slideIndex = 0
+ var slideIndex = 0;
+
+ 
+var titles = document.querySelectorAll('.js-title-faq'); // Tableau de chaque titres
+var prevTitleIndex = 8;
+var nextTitleIndex = 1;
 
  next.addEventListener('click', function () {
      slides[slideIndex].classList.remove('slide-active');
      if (slideIndex == 8){
          slideIndex = -1;
      }
+     if(nextTitleIndex == 8) {
+         nextTitleIndex= -1;
+     }
+     if(prevTitleIndex == 8) {
+         prevTitleIndex= -1;
+     }
      slideIndex++;
+     nextTitleIndex++;
+     prevTitleIndex++;
      slides[slideIndex].classList.add('slide-active');
  })
 
@@ -66,6 +79,16 @@ window.addEventListener('keydown', function (e) {
      if (slideIndex == 0){
          slideIndex = 9;
      }
+     if (nextTitleIndex == 0){
+         nextTitleIndex = 9;
+     }
+     if (prevTitleIndex == 0){
+         prevTitleIndex = 9;
+     }
      slideIndex--;
+     prevTitleIndex--;
+     nextTitleIndex--;
      slides[slideIndex].classList.add('slide-active');
  })
+
+console.log(prevTitleIndex + " < " + slideIndex + " > " + nextTitleIndex );

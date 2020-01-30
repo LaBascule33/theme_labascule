@@ -395,8 +395,8 @@ button.closed{
 }
 
 .btn-faq:hover{
-    border: 4px solid #83B4FF; */
-}
+    border: 4px solid #83B4FF; 
+}*/
 
 
 /*----------------------------------------------------------------------------------------------*/
@@ -811,6 +811,9 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 /*-- MODAL-PERSO --*/
 /*-----------------------------------------------*/
 
+.container-faq{
+    margin: 0 33px;
+}
 .closed:hover{
     background: #F786BE;
     padding: 7px;
@@ -834,7 +837,7 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 }
 
 .modal-wrapper{
-    overflow: auto;
+    overflow: hidden;
     background: #fff;
     width: 1266px;
     height: 642px;
