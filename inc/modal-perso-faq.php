@@ -5,9 +5,9 @@
 <div id="carousel" class="modal-perso" aria-hidden="true" role="dialog" aria-modal="false" style="display:none;">
     <div class="modal-wrapper js-modal-stop">
         <!-- Buttons -->
-        <button class="js-modal-close close ">&times;</button>
-        <button class="js-modal-prev prev-modal"></button>
-        <button class="js-modal-next next-modal"></button>
+        <button class="js-modal-close closed">&times;</button>
+        <button class="js-modal-prev prev-modal"><i class="arrow-faq fas fa-arrow-left bf mr-2"></i><span class="bf js-text-prev-modal text-prev-modal">La Bascule, c'est qui ?</span></button>
+        <button class="js-modal-next next-modal"><span class="bf js-text-next-modal text-next-modal">La Bascule, c'est quoi?</span><i class="arrow-faq fas fa-arrow-right bf ml-2"></i></button>
         
 
         <!-- Modal-content -->
@@ -27,11 +27,11 @@
                             <span class="bf-under">de nombreux acteurs</span> des transitions écologique, sociale et démocratique.</p>
 
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
-                    
+   
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                             <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole. L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.</p>
                             
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                             <span class="bf">l’immense majorité des entreprises et des politiques continue de nous propulser vers le ravin.</span> La Bascule naît d’une d’une <span class="bf">détermination sincère et profonde à changer de cap chez des milliers de citoyens.</span> Elle s’est formé sur les principes suivants:</p>
                             
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                             <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'humain.</span> Nous agissons pour:</p>
                             
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                                 <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i><span class="bf-under">Amplifier:</span> la pression citoyenne les solutions existantes</li>
                             </ul>
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                                 <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i><span class="bf-under">Soutien aux Mobilisations:</span> pour augmenter l’impact des mobilisations qui servent la même cause que La Bascule.</li>
                             </ul>
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                                 <li><i class="arrow-right-home fas fa-arrow-right bf mr-2"></i>au mécénat de compétences de nombreuses personnes et entreprises</li>
                             
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                             </p>
     
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                             <p>Dans sa volonté de jouer un rôle moteur dans l’amplification des solutions existantes et l’entraide entre porteurs de projets, La Bascule s’inscrit totalement dans <span class="bf">la philosophie de coopération de l’Archipel</span>, prôné par le collectif <span class="bf-under">Archipel Citoyen “Osons Les Jours Heureux”.</span> Nous coopérons avec d’autres sans pour autant être d’accord sur tout. Nous choisissons nos actions en conscience qu’il existe de nombreuses autres îles (organisations) ayant toute une histoire, des valeurs, un fonctionnement qui leurs sont propres et respectables. Et plus nous prenons part à la “vie de l’Archipel” (les projets en cours et à venir des autres), plus nous “bonifions” notre positionnement et notre singularité (autrement appelé “identité racine”) au sein de celui-ci.</p>
                             
                             <div class="pt-4 text-center">
-                                <a href="" class="btn btn-primary">En lire +</a>
+                                <a href="" class="btn btn-primary btn-faq">En lire +</a>
                             </div>
                         </div>
                     </div>
