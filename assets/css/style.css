@@ -910,7 +910,7 @@ span.text-next-modal{
     left: 50%;
     width: 1154px;
     height: 463px;
-    background-color: skyblue;
+    background-color: #E7F0FC;
     opacity: 0;
     transform: translateX(-50%);
 }
