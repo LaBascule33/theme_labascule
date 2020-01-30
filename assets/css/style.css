@@ -871,21 +871,6 @@ _MM_     _dM_     _dMM_  YMMMM9         _M_      _MM_ YMMMMM9   YMMMMMM_`YMMM9'Y
                             `Mo */
 /* ---------------------------------------- */
 
-button.closed{
-    font-size: 4rem;
-    color: #00204A;
-    position: absolute;
-    top: 0;
-    right: 0;
-    align-self: end;
-    z-index: 1;
-
-}
-.closed:hover{
-    background: #F786BE;
-    padding: 7px;
-    cursor: pointer;
-}
 .img-faq{
     max-width: 100%;
     max-height: 395px;
@@ -909,8 +894,13 @@ button.closed{
 }
 
 .btn-faq:hover{
-    border: 4px solid #83B4FF; */
-}
+    border: 4px solid #83B4FF; 
+}*/
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-- CONTENT --*/
+/*-----------------------------------------------*/
 
 /* ---------------------------------------- */
 /* 
@@ -1223,13 +1213,89 @@ _M_      \M  YMMMMM9    YMMM9MM_MYMMMM9        _MM_     YMMMM9       MM  YMMMMM9
 
 #pRejoindre .bg-title-page:before{
     position: absolute;
+    bottom: -4%;
+}
+
+#section-faq{
+    background: url('../../img/faq/Bckgd-FAQ.svg');
+    background-size: cover;
+}
+
+.card-action{
+    border: 1px solid #D3D3D3;
+    width: 282px;
+    height: 169px;
+}
+
+.card-action.action-1{
+    background: url('../../img/png/action-1.png');
+    background-size: cover;
+}
+
+.card-action.action-2{
+    background: url('../../img/png/action-2.png');
+    background-size: cover;
+}
+
+.card-action.action-3{
+    background: url('../../img/png/action-3.png');
+    background-size: cover;
+}
+
+.card-action.action-4{
+    background: url('../../img/png/action-4.png');
+    background-size: cover;
+
+}
+
+/*-- MODAL-PERSO --*/
+/*-----------------------------------------------*/
+
+.container-faq{
+    margin: 0 33px;
+}
+
+button.closed{
+    font-size: 4rem;
+    color: #00204A;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    align-self: end;
+    z-index: 1;
+    border: none;
+    background: none;
+}
+.closed:hover{
+    font-size: 4.5rem;
+}
+.title{
+    font-size: 2rem;
+}
+
+.modal-perso{
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
-    background: #002B5E;
-    opacity: 0.80;
-    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-wrapper{
+    overflow: hidden;
+    background: #fff;
+    width: 1266px;
+    height: 642px;
+    max-width: calc(100vw - 150px);
+    max-height: calc(100vh - 100px);
+    padding: 75px;
+    position: relative;
 }
 
 #bloc-postule .bg-img {
