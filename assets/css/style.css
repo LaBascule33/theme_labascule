@@ -213,6 +213,7 @@ h3.text-center{
     width: 100%;
     z-index: 999;
 }
+
 #pageContent{
     margin-top: 126px;
 }
@@ -829,21 +830,14 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 /*-- MODAL-PERSO --*/
 /*-----------------------------------------------*/
 .closed{
-    position: absolute;
-    top: 0;
-    right: 0;
-    align-self: end;
-    font-size: 2rem;
-    font-weight: bolder;
-    border: 2px solid #F786BE;
-    padding: 5px;
+    font-size: 4rem;
+    color: #00204A;
+    margin-bottom: -70px;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
 }
-.closed:hover{
-    background: #F786BE;
-    border: 2px solid black;
-    padding: 7px;
-    cursor: pointer;
-}
+
 .title{
     font-size: 2rem;
 }
@@ -898,7 +892,7 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
     width: calc(100% - 80px);
     height: calc(100% - 80px);
     margin: 40px;
-    background-color: rgba(131, 180, 255, 0.6);
+    background-color: #E7F0FC;
     opacity: 0;
 }
 .slide-active{
