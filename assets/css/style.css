@@ -94,24 +94,6 @@ _M_      _MM_ YMMMM9   YMMMMMM__MM_`YMMM9'Yb.       YMMMM9M   YMMM9MM_ YMMMM9  _
     }
 }
 
-/* ---------------------------------------- */
-/* 
-
-   ____
-  6MMMMb/                                       68b
- 8P    YM                       /               Y89
-6M      Y   _____   ___  __    /M        ___    ___ ___  __     ____   ___  __
-MM         6MMMMMb  `MM 6MMb  /MMMMM   6MMMMb   `MM `MM 6MMb   6MMMMb  `MM 6MM
-MM        6M'   `Mb  MMM9 `Mb  MM     8M'  `Mb   MM  MMM9 `Mb 6M'  `Mb  MM69 "
-MM        MM     MM  MM'   MM  MM         ,oMM   MM  MM'   MM MM    MM  MM'
-MM        MM     MM  MM    MM  MM     ,6MM9'MM   MM  MM    MM MMMMMMMM  MM
-YM      6 MM     MM  MM    MM  MM     MM'   MM   MM  MM    MM MM        MM
- 8b    d9 YM.   ,M9  MM    MM  YM.  , MM.  ,MM   MM  MM    MM YM    d9  MM
-  YMMMM9   YMMMMM9  _MM_  _MM_  YMMM9 `YMMM9'Yb._MM__MM_  _MM_ YMMMM9  _MM_
-
-
- */
-/* ---------------------------------------- */
 .container{
     width: 100%;
     margin-right: auto;
@@ -168,8 +150,12 @@ MMMMMMMMMM
 /* ---------------------------------------- */
 body {
     font-family: "Avenir-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 0.938em;
+    font-size: 1rem;
     color: #000;
+}
+
+p {
+    text-align: justify;
 }
 
 span.bf,.bf-under{
@@ -252,37 +238,40 @@ MMMMMMMMMM 68b         `MM
 /* page title */
 h1{
     font-family: "Avenir-Black";
-    font-size: 1.438em;
+    font-size: 2rem;
     color: #1F2650;
     position: relative;
+}
+
+h2, h3{
+    font-family: "Avenir-Black";
+    font-size: 1.5rem;
+    color: #1F2650;
+    position: relative;
+}
+
+/* other titles */
+h4,h5,h6{
+    font-family: "Avenir-Medium";
+    font-size: 1.5rem;
 }
 
 /* line */
 h1::before {
     width: 50%;
-    height: 15%;
+    height: 50%;
     background-color: #83B4FF;
     border-radius: 1rem;
     opacity: 1;
     position: absolute;
     z-index: -1;
-    top: 100%;
+    top: 70%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%) translateX(-7%);
+    transform: translateY(-50%) translateX(-2%);
     content: "";
 }
 
-/* first page bloc title */
-h2{
-    font-family: "Avenir-Black";
-    font-size: 1.938em !important;
-    color: #1F2650;
-    position: relative;
-    margin-bottom: 50px !important;
-}
-
-/* line */
 h2::before {
     width: 24%;
     height: 50%;
@@ -294,21 +283,10 @@ h2::before {
     top: 70%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%) translateX(-7%);
+    transform: translateY(-50%) translateX(-2%);
     content: "";
 }
 
-/* other bloc titles */
-h3{
-    font-family: "Avenir-Black";
-    font-size: 1.438em;
-    line-height: 1.6em;
-    color: #1F2650;
-    /*text-transform: uppercase;*/
-    position: relative;
-}
-
-/* line */
 h3::before {
     width: 24%;
     height: 50%;
@@ -324,11 +302,6 @@ h3::before {
     content: "";
 }
 
-/* other titles */
-h4,h5,h6{
-    font-family: "Avenir-Medium";
-    font-size: 1.25em;
-}
 
 
 /* ---------------------------------------- */
@@ -429,7 +402,7 @@ _MMMMMMM9'    YMMMMM9     _MM_       _MM_      YMMMM9   _M_      \M MYMMMM9
 
 /*-----------------------------------------------*/
 .btn{
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-family: "Avenir-Black";
     box-shadow: 0px 3px 6px #00000029;
     color: #ffff;
@@ -744,6 +717,7 @@ _MM_     _dM_     _dMM_  YMMMM9         _M_      _MM_ YMMMMM9   YMMMMMM_`YMMM9'Y
 
 .text-faq{
     margin: 42px 33px;
+    text-align: justify;
 }
 
 /* Modal-footer */
@@ -780,6 +754,7 @@ button.closed{
     border: none;
     background: none;
 }
+
 .title{
     font-size: 2rem;
 }
@@ -818,14 +793,17 @@ button.prev-modal{
     border: none;
     background: transparent;
 }
+
 button.prev-modal:focus{
     border: none;
     outline: none;
 }
+
 button.prev-modal:active{
     border: none;
     outline: none;
 }
+
 button.next-modal{
     position: absolute;
     height: 67px;
@@ -835,10 +813,12 @@ button.next-modal{
     border: none;
     background: transparent;
 }
+
 button.next-modal:focus{
     border: none;
     outline: none;
 }
+
 button.next-modal:active{
     border: none;
     outline: none;
