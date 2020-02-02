@@ -7,22 +7,22 @@
             <div class="col-4 px-3">
                 <div class="py-4">
                     <div class="row m-auto">
-                        <a href="https://www.imagotv.fr/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/imago2.png" alt="imago"></a>
-                        <a href="https://sidh.eco/articles" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/sidh2.png" alt="sidh"></a>
+                        <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/imago2.png" alt="imago">
+                        <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/sidh2.png" alt="sidh">
                     </div>
                     <div class="row m-auto">
-                        <a href="https://www.conventioncitoyennepourleclimat.fr/ressources-documentaires/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/climat2.png" alt="climat"></a>
-                        <a href="https://osonscomprendre.com/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/osons2.png" alt="osons"></a>
+                        <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/climat2.png" alt="climat">
+                        <img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/osons2.png" alt="osons">
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="py-4">
                     <ul class="list-style-custom list-home-moi py-4">
-                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" <a href="https://youtu.be/tk-QuMCbw2I" target="_blank">Le rapport du GIEC décrypter</a> "</br> <span class="bf pl-4">CPLC</span> </li>
-                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" <a href="https://www.youtube.com/watch?v=kLzNPEjHHb8" target="_blank">Effondrement : seul scénario réaliste ?</a> "</br> <span class="bf pl-4">Arthur Keller</span> </li>
-                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" <a href="https://avenirclimatique.org/mooc/" target="_blank">Le MOOC Energie & Climat</a> "</br> <span class="bf pl-4">Avenir Climatique</span> </li>
-                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" <a href="https://www.youtube.com/watch?v=Vjkq8V5rVy0" target="_blank">CO2 ou PIB il faut choisir</a> "</br> <span class="bf pl-4">Jean-Marc Jancovici</span> </li>
+                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le rapport du GIEC décrypter "</br> <span class="bf pl-4">CPLC</span> </li>
+                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Effondrement : seul scénario réaliste ? "</br> <span class="bf pl-4">Arthur Keller</span> </li>
+                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" Le MOOC Energie & Climat "</br> <span class="bf pl-4">Avenir Climatique</span> </li>
+                        <li class=" py-2"><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i>" CO2 ou PIB il faut choisir "</br> <span class="bf pl-4">Jean-Marc Jancovici</span> </li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <div class="tab-rejoindre">
                 <h2 class="pb-4">"Nous sommes ceux que nous attendions."</h2>
                 <p>La Bascule est un mouvement citoyen qui n’attend que toi pour grandir.</br>Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
-                <a href="nous-rejoindre" class="btn btn-primary">Nous rejoindre</a>
+                <a href="" class="btn btn-primary">Nous rejoindre</a>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <footer class="row footer">
     <nav class="navbar container">
         <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
-            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-blc.svg" alt="logo">
+            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-blc.svg" alt="logo">
         </a>
 
         <ul class="nav">
