@@ -26,16 +26,13 @@ const closeModal = function(e) {
     modal.querySelector('.js-modal-stop').removeEventListener('click', stopPropagation)
     modal = null
 }
-
 // empeche que le click dans la modal la ferme
 const stopPropagation = function (e) {
     e.stopPropagation()
 }
-
 document.querySelectorAll('.js-modal').forEach(a => {
     a.addEventListener('click', openModal)
 })
-
 window.addEventListener('keydown', function (e) {
     if (e.key === "Escape" || e.key == "Esc") {
         closeModal(e)
@@ -52,15 +49,12 @@ var next = document.querySelector('.js-modal-next');
 
 var slideIndex = 0;
 
-
 var btnPrev = document.querySelector('.js-text-prev-modal');
 var btnNext = document.querySelector('.js-text-next-modal');
  
-var titles = document.querySelectorAll('.js-title-faq'); // Tbaleau de chaque titres
+var titles = document.querySelectorAll('.js-title-faq'); // Tableau de h1.js-title-faq
 var prevTitleIndex = 8;
 var nextTitleIndex = 1;
-
-
 
 
 next.addEventListener('click', function () {
@@ -111,39 +105,47 @@ prev.addEventListener('click', function () {
     btnPrev.innerHTML = textPrev;
 })
 
+// Fonction de focus de la div.slide selon le click
 
-// next.addEventListener('click', function () {
-//     slides[slideIndex].classList.remove('slide-active');
-//     if (slideIndex == 8){
-//         slideIndex = -1;
-//     }
-//     if(nextTitleIndex == 8) {
-//         nextTitleIndex= -1;
-//     }
-//     if(prevTitleIndex == 8) {
-//         prevTitleIndex= -1;
-//     }
-//     slideIndex++;
-//     nextTitleIndex++;
-//     prevTitleIndex++;
-//     slides[slideIndex].classList.add('slide-active');
-// })
+var tuiles = document.querySelectorAll('.js-modal');
 
-// prev.addEventListener('click', function () {
-//     slides[slideIndex].classList.remove('slide-active');
-//     if (slideIndex == 0){
-//         slideIndex = 9;
-//     }
-//     if (nextTitleIndex == 0){
-//         nextTitleIndex = 9;
-//     }
-//     if (prevTitleIndex == 0){
-//         prevTitleIndex = 9;
-//     }
-//     slideIndex--;
-//     prevTitleIndex--;
-//     nextTitleIndex--;
-//     slides[slideIndex].classList.add('slide-active');
-// })
+tuiles.forEach(function(tuile, key) {
+    tuile.addEventListener('click', function () {
+        var slideCurrent = document.querySelector('.slide-active');
+        slideCurrent.classList.remove('slide-active');
+        slides[key].classList.add('slide-active');
 
-console.log(prevTitleIndex + " < " + slideIndex + " > " + nextTitleIndex );
+            prevTitleIndex = key - 1;
+            nextTitleIndex = key + 1;
+
+        if(key == 0){
+            prevTitleIndex = 8;
+            var textPrev = titles[prevTitleIndex].innerText;
+            var textNext = titles[nextTitleIndex].innerText;
+            
+            btnNext.innerHTML = "";
+            btnNext.innerHTML = textNext;
+            btnPrev.innerHTML = "";
+            btnPrev.innerHTML = textPrev;
+        }
+        if(key == 8){
+            nextTitleIndex = 0;
+            var textPrev = titles[prevTitleIndex].innerText;
+            var textNext = titles[nextTitleIndex].innerText;
+            
+            btnNext.innerHTML = "";
+            btnNext.innerHTML = textNext;
+            btnPrev.innerHTML = "";
+            btnPrev.innerHTML = textPrev;
+        }
+        else{
+            var textPrev = titles[prevTitleIndex].innerText;
+            var textNext = titles[nextTitleIndex].innerText;
+            
+            btnNext.innerHTML = "";
+            btnNext.innerHTML = textNext;
+            btnPrev.innerHTML = "";
+            btnPrev.innerHTML = textPrev;
+        }
+    })
+});
