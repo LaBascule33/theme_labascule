@@ -57,8 +57,6 @@ var prevTitleIndex = 8;
 var nextTitleIndex = 1;
 
 
-
-
 next.addEventListener('click', function () {
     slides[slideIndex].classList.remove('slide-active');
     if (slideIndex == 8){
@@ -110,11 +108,44 @@ prev.addEventListener('click', function () {
 // Fonction de focus de la div.slide selon le click
 
 var tuiles = document.querySelectorAll('.js-modal');
-console.log(tuiles);
 
-tuilesIndex = 5;
+tuiles.forEach(function(tuile, key) {
+    tuile.addEventListener('click', function () {
+        var slideCurrent = document.querySelector('.slide-active');
+        slideCurrent.classList.remove('slide-active');
+        slides[key].classList.add('slide-active');
 
-tuiles[tuilesIndex].addEventListener('click', function (){
-    slideIndex = tuilesIndex;
-    slides[slideIndex].classList.add('slide-active');
-})
+            prevTitleIndex = key - 1;
+            nextTitleIndex = key + 1;
+
+        if(key == 0){
+            prevTitleIndex = 8;
+            var textPrev = titles[prevTitleIndex].innerText;
+            var textNext = titles[nextTitleIndex].innerText;
+            
+            btnNext.innerHTML = "";
+            btnNext.innerHTML = textNext;
+            btnPrev.innerHTML = "";
+            btnPrev.innerHTML = textPrev;
+        }
+        if(key == 8){
+            nextTitleIndex = 0;
+            var textPrev = titles[prevTitleIndex].innerText;
+            var textNext = titles[nextTitleIndex].innerText;
+            
+            btnNext.innerHTML = "";
+            btnNext.innerHTML = textNext;
+            btnPrev.innerHTML = "";
+            btnPrev.innerHTML = textPrev;
+        }
+        else{
+            var textPrev = titles[prevTitleIndex].innerText;
+            var textNext = titles[nextTitleIndex].innerText;
+            
+            btnNext.innerHTML = "";
+            btnNext.innerHTML = textNext;
+            btnPrev.innerHTML = "";
+            btnPrev.innerHTML = textPrev;
+        }
+    })
+});

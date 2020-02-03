@@ -102,7 +102,7 @@
                         </div>
                     
                         <div class="col-md-4 mb-3">
-                            <a href="#carousel" class="faq btn-block text-center js-modal">
+                            <a href="" class="faq btn-block text-center js-modal">
                                 La Bascule,<br /><span class="FAQsize1" href="#carousel">pourquoi ?</span>
                             </a>
                         </div>
