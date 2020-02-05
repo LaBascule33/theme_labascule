@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-6 text-center">
             <h1 class="text-uppercase bf">
-            Un mouvement citoyen<br />au service de tous ceux<br />qui s'engagent pour<br />un futur souhaitable.
+            Un mouvement citoyen<br/>au service de tous ceux<br/>qui s'engagent pour<br/>un futur souhaitable.
             </h1>
         </div>
         <div class="col-md-6 text-center">

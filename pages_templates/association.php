@@ -1,35 +1,56 @@
+<!-- HEADER -->
 <?php get_header();?>
-
-
-<!-- ASSOCIATION -->
-
-
-<div id="pAssociation" class="container">
-    <div class="row">
-        <div class="col-6 bg-title-page position-relative">
-            <h1 class="bf page-title">L'association</h1>
-
-        </div>
-
-<!----------------------------------------------------------------------------------------------->
-<!-- LA BASCULE C'EST QUOI -->
 <!------------------------------------->
 
-        <div class="col-6 block-text-title">
-            <h2>La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
-
-            <p>La Bascule est un mouvement citoyen lancé en <span class="bf">février 2019</span>.</p>
-
-            <p>Il a pour objectif, face à la <span class="bf">gravité  de la situation</span>, de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.</p>
-
-            <p><span class="bf">Fonctionnant en gouvernance partagée</span>, et constitué d'<span class="bf">une équipe</span> de citoyens engagés à temps plein autour desquels gravitent <span class="bf">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un <span class="bf">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.</p>
-
-            <div class="row pt-4">
-                <a href="" class="pl-3"><i class="fas fa-download bc"></i> <span class="bf">Télécharger la présentation</span></a>
-                <a href="" class="pl-3"><i class="fas fa-download bc"></i> <span class="bf">Télécharger la charte</span></a>
+<!-- ASSOCIATION -->
+<!------------------------------------->
+<!-- Heading-->
+<!-------------------------------------------------------------------------->
+<div class="site-section">
+    <div class="container">
+        
+        <div class="row mb-4">
+            <div class="col-md-7 section-heading">
+                <h2 class="heading">L'association</h2>
             </div>
         </div>
+<!----------------------------------------------------------------------------------------------->
+<!-- La Bascule c'est quoi -->
+<!------------------------------------->
+        <div class="row mb-4">
+            <div class="col-md-12 mb4">
+                <div class="block d-md-flex">
+
+                    <div class="image">
+                        <div id="bg-1"></div>
+                            &nbsp;
+                        </div>
+                    
+
+                        <div class="text">
+                            <h2>La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
+                
+                            <p>
+                                La Bascule est un mouvement citoyen lancé en <span class="bf">février 2019</span>.
+                                Il a pour objectif, face à la <span class="bf">gravité  de la situation</span>
+                                , de pousser notre société vers un modèle viable et respectueux de la nature et de l'Homme.
+                                <span class="bf">Fonctionnant en gouvernance partagée</span>, et constitué d'
+                                <span class="bf">une équipe</span> de citoyens engagés à temps plein autour desquels gravitent 
+                                <span class="bf">de nombreux acteurs</span> des transitions écologique, sociale et démocratique, la Bascule déploie un 
+                                <span class="bf">programme d'actions</span> ambitieux au service de l'évolution des consciences, l'amplification des solutions existantes, la protection du vivant et la réappropriation par le citoyen du pouvoir d'agir et de décider.
+                            </p>
+                
+                            <div class="row pt-4">
+                                <a href="" class="pl-3"><i class="fas fa-download bc"></i> <span class="bf">Télécharger la présentation</span></a>
+                                <a href="" class="pl-3"><i class="fas fa-download bc"></i> <span class="bf">Télécharger la charte</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
 
 <!----------------------------------------------------------------------------------------------->
 <!-- UNE RAISON D'ETRE -->
@@ -129,12 +150,12 @@
 <!----------------------------------------------------------------------------------------------->
 <!-- UNE EQUIPE -->
 <!------------------------------------->
-    <div id="bloc-equipe" class="row">
-        <div class="col-6 bg-img position-relative">
+    <div class="row">
+        <div class="col-6 bg-team position-relative">
             &nbsp;
         </div>
 
-        <div id="section-equipe" class="col-6 block-text-right">
+        <div id="section-team" class="col-6 block-text-right">
             <h3 class="text-uppercase">Une équipe</h3>
             <p>portée par une jeunesse qui a su bien s'entourer.</p>
             <p><span class="bf">Des citoyens de tout âges</span> en quête de sens qui apportent recul et expériences.</p>

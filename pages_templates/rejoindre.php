@@ -54,7 +54,7 @@
 <!------------------------------------->
     <div id="bloc-engagement" class="row">
         <div class="col-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/p_nous_rejoindre/img_bloc_mengageant.png" alt="Engagement"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/img_bloc_mengageant.png" alt="Engagement"/>
         </div>
 
         <div class="col-6 block-text-right">
@@ -96,7 +96,7 @@
         </div>
 
         <div class="col-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/p_nous_rejoindre/QB_1.jpg" alt="QB"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/QB_1.jpg" alt="QB"/>
             <p>Après avoir réhabilité l’ancienne polyclinique de Pontivy, y avoir vécu et travaillé de mars à décembre, nous avons aujourd’hui déménagé dans un nouveau quartier de Bascule à Plouray (56). Notre ambition est d’ouvrir de nouveaux lieux similaires d’ici fin 2020 afin d’accueillir des nouveaux volontaires. Nous recrutons les prochaines promotions pour investir ensemble plusieurs lieux que nous avons déjà trouvé.</p>
         </div>
 
@@ -106,7 +106,7 @@
 <!-- JE M'ENGAGE -->
 <!------------------------------------->
     <div class="container my-5">
-        <h2 class="text-center text-uppercase my-5" style="margin-bottom: 10px !important;">Je m’engage dans l’élan de bascule</h2>
+        <h2 class="text-center text-uppercase my-5">Je m’engage dans l’élan de bascule</h2>
         <div class="row" style="justify-content: center; margin-bottom: 3rem;">
             <p style="font-style: italic;">De nombreuses alternatives existent !</p>
         </div>

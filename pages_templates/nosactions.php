@@ -47,7 +47,7 @@
         </div>
 
         <div class="col-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/illustration_programmes-actions-la-bascule.png" alt="Programme Bascule">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/p_nosactions/Service_Transition.jpg" alt="Service Transition" style="max-width=100%">
         </div>
 
     </div>
