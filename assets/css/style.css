@@ -1,32 +1,30 @@
 /* ---------------------------------------- */
-/* INDEX */
+/*  INDEX  */
 /* ---------------------------------------- */
-/* GLOBAL
-    > Media query
+/*  GLOBAL
     > Container
+    > Media query
 
-/* TYPOGRAPHY
+/*  TYPOGRAPHY
     > Texts
     > Titles
     > Specials titles
 
-/* NAVBAR
-    > Logo
+/*  NAVBAR
     > Navbar
     > Top Navbar
 
-/* BUTTONS
+/*  BUTTONS
     > Specials btn
 
-/* MODALS
+/*  MODALS
     > Modal FAQ
 
-/* CONTENT
-    > Style
-    > Content block
-
-
-
+/*  CONTENT
+    > Colors
+    > Lists
+    > Block section.1
+    > Block section.2
 /*----------------------------------------------------------------------------------------------*/
 /*-- 
 
@@ -88,34 +86,6 @@ html{
     padding-left: 10%;
 }
 
-/* ---------------------------------------- */
-/* --- Colors --- */
-/* ---------------------------------------- */
-
-/* Bleu foncé */
-.bf{
-    color: #1F2650;
-}
-
-.bf-under{
-    text-decoration: underline;
-    color: #1F2650;
-}
-
-/* Bleu clair  */
-.bc{
-    color: #83B4FF;
-}
-
-.bgbc{
-    background: #E9F1FF;
-}
-
-/* Background jaune */
-.bgj{
-    background: #F4E1A0;
-}
-
 
 /*----------------------------------------------------------------------------------------------*/
 /*-- 
@@ -159,10 +129,6 @@ body {
     color: #000;
 }
 
-p {
-    text-align: justify;
-}
-
 span.bf,.bf-under{
     font-family: "Avenir-Black";
 }
@@ -198,6 +164,13 @@ h4,h5,h6{
     font-size: 1.5rem;
 }
 
+/* paragraphes */
+p{  
+    font-family: "Avenir-Medium";
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 /* line 
 h1::before {
     width: 50%;
@@ -213,7 +186,6 @@ h1::before {
     transform: translateY(-50%) translateX(-2%);
     content: "";
 } */
-
 
 
 /* ---------------------------------------- */
@@ -247,41 +219,6 @@ h3.text-center{
     color: #C4E36A;
 }
 
-/* ---------------------------------------- */
-/* 
-
-____     ____  ____   __________   ____
-`MM'     `MM' 6MMMMb\ MMMMMMMMMM  6MMMMb\
- MM       MM 6M'    ` /   MM   \ 6M'    `
- MM       MM MM           MM     MM
- MM       MM YM.          MM     YM.
- MM       MM  YMMMMb      MM      YMMMMb
- MM       MM      `Mb     MM          `Mb
- MM       MM       MM     MM           MM
- MM       MM       MM     MM           MM
- MM    /  MM L    ,M9     MM     L    ,M9
-_MMMMMMM _MM_MYMMMM9     _MM_    MYMMMM9
-
-
-*/
-/* ---------------------------------------- */
-
-.list-style-custom{
-    list-style-type: none;
-    padding-inline-start: 0;
-}
-
-.list-style-custom li {
-    padding-inline-start: 30px;
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.arrow-right{
-    position: absolute;
-    top: 5px;
-    left: 0;
-}
 
 /*----------------------------------------------------------------------------------------------*/
 /*-- 
@@ -457,7 +394,6 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 
  --*/
 /*-----------------------------------------------*/
-
 .footer{
     background-color: #002B5E;
     width: 100%;
@@ -487,7 +423,6 @@ _MM_    _MM_  YMMMM9   _M_      _MM__MMMMMMMMM _MM_       _dM_     _dMM_  YMMMM9
 /* ---------------------------------------- */
 /* --- FAQ ---*/
 /* ---------------------------------------- */
-
 #section-faq{
     background: url('../../img/faq/Bckgd-FAQ.svg');
     background-size: cover;
@@ -544,57 +479,6 @@ a.faq span.FAQsize2{
 /* ---------------------------------------- */
 /* --- Modal FAQ --- */
 /* ---------------------------------------- */
-
-.img-faq{
-    max-width: 100%;
-    max-height: 395px;
-    margin: 30px 0 30px 30px;
-}
-
-.text-faq{
-    margin: 42px 33px;
-    text-align: justify;
-}
-
-/* Modal-footer */
-
-/* .arrow-faq{
-    font-size: 40px;
-}
-
-.btn-faq{
-    padding: 10px;
-    font-size: 1.25em;
-    border: 4px solid #FFFF;
-}
-
-.btn-faq:hover{
-    border: 4px solid #83B4FF;
-}*/
-
-/*-- MODAL-PERSO --*/
-/*-----------------------------------------------*/
-
-.container-faq{
-    margin: 0 33px;
-}
-
-button.closed{
-    font-size: 4rem;
-    color: #00204A;
-    position: absolute;
-    top: 0;
-    right: 5%;
-    align-self: end;
-    z-index: 1;
-    border: none;
-    background: none;
-}
-
-.title{
-    font-size: 2rem;
-}
-
 .modal-perso{
     position: fixed;
     top: 0;
@@ -609,67 +493,66 @@ button.closed{
     justify-content: center;
 }
 
+/* Modal Style */
 .modal-wrapper{
     overflow: hidden;
     background: #fff;
-    width: 1266px;
-    height: 642px;
-    max-width: calc(100vw - 150px);
-    max-height: calc(100vh - 100px);
-    padding: 75px;
+    width: 90%;
+    height: 80%;
+    /* max-width: calc(100vw - 150px); */
+    /* max-height: calc(100vh - 100px); */
+    padding: 4%;
     position: relative;
 }
 
+/* Btn Close */
+button.closed{
+    font-size: 4rem;
+    color: #00204A;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    align-self: end;
+    z-index: 1;
+    border: none;
+    background: none;
+}
+
+/* Btn Slide */
 button.prev-modal{
     position: absolute;
-    height: 67px;
-    bottom: 38px;
-    left: 10px;
+    height: 70px;
+    bottom: 2.5%;
+    left: 5%;
     z-index: 1;
     border: none;
     background: transparent;
 }
 
-button.prev-modal:focus{
-    border: none;
-    outline: none;
-}
-
-button.prev-modal:active{
+button.prev-modal   :focus 
+                    :active,
+button.next-modal   :focus
+                    :active{
     border: none;
     outline: none;
 }
 
 button.next-modal{
     position: absolute;
-    height: 67px;
-    bottom: 38px;
-    right: 10px;
+    height: 70px;
+    bottom: 2.5%;
+    right: 5%;
     z-index: 1;
     border: none;
     background: transparent;
 }
 
-button.next-modal:focus{
-    border: none;
-    outline: none;
-}
 
-button.next-modal:active{
-    border: none;
-    outline: none;
-}
-
-span.text-prev-modal{
-    border: 4px solid #fff;
-    padding: 10px;
-}
-
+span.text-prev-modal,
 span.text-next-modal{
     border: 4px solid #fff;
     padding: 10px;
 }
-
 
 .text-next-modal:hover, 
 .text-prev-modal:hover{
@@ -698,6 +581,7 @@ span.text-next-modal{
     }
 }
 
+
 /* ---------------------------------------- */
 /* 
 
@@ -716,27 +600,6 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
  */
 /* ---------------------------------------- */
-#section-etmoi h3 {
-    font-size: 1.6em !important;
-    text-transform: none;
-}
-
-/* line */
-#section-etmoi h3::before {
-    width: 24%;
-    height: 50%;
-    background-color: #bebebe;
-    border-radius: 1rem;
-    opacity: 0.8;
-    position: absolute;
-    z-index: -1;
-    top: 70%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%) translateX(-7%);
-    content: "";
-}
-
 .nav-tabs{
     border-bottom: none;
     position: absolute;
@@ -900,206 +763,170 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
 }
 
-/* ---------------------------------------- */
-/* Content block */
-/* ---------------------------------------- */
 
-/* hero-block */
-.hero-block{
-    background-color: #002B5E;
-    /*transform: matrix(1, -0.09, 0.09, 1, 0, 0);*/
-}
-
-.img-archipel{
-    transform: matrix(1, -0.09, 0.09, 1, 0, 0);
-    width: 607px;
-    right: 10%;
-}
-
-.bloc-archipel{
-    height: 440px;
-}
-
-.col-chiffres{
-    border: 1px solid #C0CAD7;
-}
-
-
-/*----------------------------------------------------------------------------------------------*/
-/*-- 
-
-________          _         ____   __________   ____
-`MMMMMMMb.       dM.       6MMMMb/ `MMMMMMMMM  6MMMMb\
- MM    `Mb      ,MMb      8P    YM  MM      \ 6M'    `
- MM     MM      d'YM.    6M      Y  MM        MM
- MM     MM     ,P `Mb    MM         MM    ,   YM.
- MM    .M9     d'  YM.   MM         MMMMMMM    YMMMMb
- MMMMMMM9'    ,P   `Mb   MM     ___ MM    `        `Mb
- MM           d'    YM.  MM     `M' MM              MM
- MM          ,MMMMMMMMb  YM      M  MM              MM
- MM          d'      YM.  8b    d9  MM      / L    ,M9
-_MM_       _dM_     _dMM_  YMMMM9  _MMMMMMMMM MYMMMM9
-
-
- --*/
 /*-----------------------------------------------*/
-
-.page-title {
-    position: absolute;
-    top: 5%;
-    margin-top: -50px;
-}
-
-.bg-title-page {
-    margin-top: 50px;
-}
-
-.bg-title-page, .bg-img {
-    background-size: cover;
-}
-
-.block-text-title{
-    padding: 50px 64px 75px 108px ;
-}
-
-.block-text-left{
-    padding: 50px 64px 75px 15px ;
-}
-
-.block-text-right{
-    padding: 50px 64px 75px 40px ;
-}
-
-/*----------------------------------------------------------------------------------------------*/
-/*-- 
-
-       _
-      dM.                                          68b                   68b
-     ,MMb                                          Y89             /     Y89
-     d'YM.      ____     ____     _____     ____   ___    ___     /M     ___   _____   ___  __
-    ,P `Mb     6MMMMb\  6MMMMb\  6MMMMMb   6MMMMb. `MM  6MMMMb   /MMMMM  `MM  6MMMMMb  `MM 6MMb
-    d'  YM.   MM'    ` MM'    ` 6M'   `Mb 6M'   Mb  MM 8M'  `Mb   MM      MM 6M'   `Mb  MMM9 `Mb
-   ,P   `Mb   YM.      YM.      MM     MM MM    `'  MM     ,oMM   MM      MM MM     MM  MM'   MM
-   d'    YM.   YMMMMb   YMMMMb  MM     MM MM        MM ,6MM9'MM   MM      MM MM     MM  MM    MM
-  ,MMMMMMMMb       `Mb      `Mb MM     MM MM        MM MM'   MM   MM      MM MM     MM  MM    MM
-  d'      YM. L    ,MM L    ,MM YM.   ,M9 YM.   d9  MM MM.  ,MM   YM.  ,  MM YM.   ,M9  MM    MM
-_dM_     _dMM_MYMMMM9  MYMMMM9   YMMMMM9   YMMMM9  _MM_`YMMM9'Yb.  YMMM9 _MM_ YMMMMM9  _MM_  _MM_
-
-
- --*/
+/* CONTENT */
 /*-----------------------------------------------*/
-
-.picto-chiffres{
-    position: absolute;
-    top: -20%;
-    left: 40%;
-}
-
-#pAssociation .bg-title-page  {
-    background-image: url('../../img/p_association/img_titre_association.jpg');
-}
-
-/* ---------------------------------------- */
-/* Team block */
-/* ---------------------------------------- */
-.bg-team {
-    background-image: url('../../img/p_association/img_bloc_equipe.jpg');
-}
-
-#section-team{
-    background:rgba(233, 241, 255, 0.6) url('../../img/texture-bleu.svg');
-    background-size: cover;
-}
-
-
-
-
-
-/*----------------------------------------------------------------------------------------------*/
-/*-- 
-
-___      ___                                                                                         ___
-`MM\     `M'                                                        68b           68b                `MM
- MMM\     M                                                         Y89           Y89                 MM
- M\MM\    M   _____   ___   ___   ____         ___  __   ____       ___   _____   ___ ___  __     ____MM ___  __   ____
- M \MM\   M  6MMMMMb  `MM    MM  6MMMMb\       `MM 6MM  6MMMMb      `MM  6MMMMMb  `MM `MM 6MMb   6MMMMMM `MM 6MM  6MMMMb
- M  \MM\  M 6M'   `Mb  MM    MM MM'    `        MM69 " 6M'  `Mb      MM 6M'   `Mb  MM  MMM9 `Mb 6M'  `MM  MM69 " 6M'  `Mb
- M   \MM\ M MM     MM  MM    MM YM.             MM'    MM    MM      MM MM     MM  MM  MM'   MM MM    MM  MM'    MM    MM
- M    \MM\M MM     MM  MM    MM  YMMMMb         MM     MMMMMMMM      MM MM     MM  MM  MM    MM MM    MM  MM     MMMMMMMM
- M     \MMM MM     MM  MM    MM      `Mb        MM     MM            MM MM     MM  MM  MM    MM MM    MM  MM     MM
- M      \MM YM.   ,M9  YM.   MM L    ,MM        MM     YM    d9      MM YM.   ,M9  MM  MM    MM YM.  ,MM  MM     YM    d9
-_M_      \M  YMMMMM9    YMMM9MM_MYMMMM9        _MM_     YMMMM9       MM  YMMMMM9  _MM__MM_  _MM_ YMMMMMM__MM_     YMMMM9
-                                                                     MM
-                                                                 (8) M9
-                                                                  YMM9 --*/
-/*-----------------------------------------------*/
-
-#pRejoindre .bg-title-page {
-    background-image: url('../../img/p_nous_rejoindre/img_titre_rejoindre.jpg');
-}
-
-
-#pRejoindre .bg-title-page:before{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #002B5E;
-    opacity: 0.80;
-    content: "";
-}
-
-#pRejoindre .bg-title-page .tab-content{
-    position: absolute;
-    width: 30%;
-    top: 40%;
-    left: 33%;
-    color: #1F2650;
-    height: inherit;
-    text-align: center;
-}
-
-#pRejoindre .bg-title-page .tab-content div{
-    background: #fff;
-    margin-top: 5%;
-    padding: 5%;
-}
-
-#bloc-postule .bg-img {
-    background-image: url('../../img/p_nous_rejoindre/img_bloc_postule.jpg');
-}
-
-/*#bloc-engagement .bg-img {
-    background-image: url('../../img/p_nous_rejoindre/img_bloc_mengageant.png');
-}
-
-#bloc-QB .bg-img {
-    background-image: url('../../img/p_nous_rejoindre/QB_1.jpg');
-}*/
-
-#bloc-QB img{
-    max-width: 100%;
-}
-
-
-
 .site-section{
-    padding: 2rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
-.block .image{
+/* ---------------------------------------- */
+/* --- Colors --- */
+/* ---------------------------------------- */
+
+/* Bleu foncé */
+.bf{
+    color: #1F2650;
+}
+
+.bf-under{
+    text-decoration: underline;
+    color: #1F2650;
+}
+
+/* Bleu clair  */
+.bc{
+    color: #83B4FF;
+}
+
+.bgbc{
+    background: #E9F1FF;
+}
+
+/* Background jaune */
+.bgj{
+    background: #F4E1A0;
+}
+
+
+/* ---------------------------------------- */
+/* --- Lists --- */
+/* ---------------------------------------- */
+.list-style-custom{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.list-style-custom li {
+    padding-inline-start: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.arrow-right{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+
+/*-----------------------------------------------*/
+/* --- Block Section.1 --- */
+/*-----------------------------------------------*/
+
+/* Blocks  */
+.block .text, 
+.block .image {
+    width: 100%;
+    padding : 6% 4%;
+}
+    
+@media (min-width: 768px) {
+    .block .text,
+    .block .image {
+        width: 50%;
+        padding : 6% 4%;
+    } 
+}
+
+.block .image img {
+    max-width: 100%;
+    background-size: cover; 
+}
+
+.block .image {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-.block .image, .block .text{
-    padding: 20px;
-    text-align: justify;
-    margin-top: 10px;
+@media (max-width: 768px) {
+    .block .image {
+        height: 500px; 
+    }
 }
 
-.block .image #bg-1 {
-    background-image: url('/img/p_association/img_titre_association.jpg');
+.block .heading{
+    position: absolute;
 }
+
+/* Img - p_asso */
+.img-asso{
+    background-image: url('../../img/p_association/img_titre_association.jpg');
+}
+
+.img-archipel{
+    background-image: url('../../img/p_association/archipel.jpg');
+}
+
+.img-team{
+    background-image: url('../../img/p_association/img_bloc_equipe.jpg');
+}
+
+.bg-team{
+    background:rgba(233, 241, 255, 0.6) url('../../img/texture-bleu.svg');
+    background-size: cover;
+}
+
+/* Img - p_actions */
+.img-transition{
+    background-image: url('../../img/p_nosactions/Service_Transition.jpg');
+}
+
+.img-event{
+    background-image: url('../../img/p_nosactions/Cooperation_Evenements.jpg');
+}
+
+.img-lobby{
+    background-image: url('../../img/p_nosactions/LobbyingCitoyen.jpg');
+}
+
+/* Img - p_rejoindre */
+.img-postule{
+    background-image: url('../../img/p_rejoindre/Img_postuler.png');
+}
+
+.img-bascule{
+    background-image: url('../../img/p_rejoindre/QB_1.jpg');
+}
+
+.img-quartier{
+    background-image: url('../../img/p_rejoindre/img_bloc_mengageant.png');
+}
+
+/*-----------------------------------------------*/
+/* Block - Section.2 */
+/*-----------------------------------------------*/
+
+/* Block-user */
+.block-user {
+    background: #fff;
+    max-width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #C0CAD7;
+    position: relative;
+}
+                    
+/* Pictos */
+.block-user .vcard{
+    position: relative; 
+    top : -20%;
+}
+
+.block-back .vcard .image img {
+    max-width: 100%;
+    border: 2px solid #fff;
+}
+
