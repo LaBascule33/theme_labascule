@@ -5,9 +5,9 @@
         </a>
 
         <ul class="nav">
-            <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter-blc.svg" alt=""></a></li>
-            <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook-blc.svg" alt=""></a></li>
-            <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram-blc.svg" alt=""></a></li>
+            <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter-blc.svg" alt=""></a></li>
+            <li class="ml-3"><a href="https://www.facebook.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook-blc.svg" alt=""></a></li>
+            <li class="ml-3"><a href="https://www.instagram.com/lblabascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram-blc.svg" alt=""></a></li>
             <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/contact-bascule-blc.svg" alt=""></a></li>
         </ul>
 
@@ -18,10 +18,7 @@
         <a class="bc mr-auto" href="">Mentions légales</a>
 
         <p class="ml-auto p-blc text-right">
-            Co-conception & réalisation<br/> <a  class="bc" href="">Thomas Dubernet</a> + <a  class="bc" href="spiritvy.com">spiritvy.com</a> + <a  class="bc" href="">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>
+            Co-conception & réalisation<br/> <a  class="bc" href="">Thomas Dubernet</a> + <a  class="bc" href="https://spiritvy.com">spiritvy.com</a> + <a  class="bc" href="https://www.jpgraphie.com">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>
         </p>
     </nav>
-
-    
-
 </footer>
