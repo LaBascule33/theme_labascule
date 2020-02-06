@@ -18,7 +18,7 @@
         <a class="bc mr-auto" href="">Mentions légales</a>
 
         <p class="ml-auto p-blc text-right">
-            Co-conception & réalisation<br/> <a  class="bc" href="">Thomas Dubernet</a> + <a  class="bc" href="https://spiritvy.com">spiritvy.com</a> + <a  class="bc" href="https://www.jpgraphie.com">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>
+            Co-conception & réalisation<br/> <a href="http://t4code.fr" class="bc">Thomas Dubernet</a> + <a  class="bc" href="https://spiritvy.com">John Vÿ</a> + <a  class="bc" href="https://www.jpgraphie.com">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>
         </p>
     </nav>
 </footer>
