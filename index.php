@@ -87,7 +87,7 @@
 <!-- Modal FAQ -->
 <!------------------------------------->
 <div id="section-faq">
-    <div class="container my-5">
+    <div class="container">
         <div class="row">
             <!------------------------------------->
             <div class="col-md-3">
