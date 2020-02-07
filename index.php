@@ -1,13 +1,6 @@
 <!---------------------------------------------------------------------------->
 <!-- HEADER -->
-<?php 
-/**
- * Template name: page_index
- *  
- * 
- */
-
-get_header();?>
+<?php get_header();?>
 <!---------------------------------------------------------------------------->
 
 <!---------------------------------------------------------------------------->
@@ -164,68 +157,69 @@ get_header();?>
             </div>
             <!------------------------------------->
             <?php include 'inc/modal-faq.php' ?>
+            <?php //get_template_part('inc/modal-faq.php'); ?>
             <!------------------------------------->
         </div>
     </div>
 </div>
-</div>
-</div>
+
 <!---------------------------------------------------------------------------->
 <!-- Moi dans tout ça -->
 <!------------------------------------->
 <div id="section-etmoi"> 
     <div class="container my-5">
-    <h1 class="text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h1>
-    <!------------------------------------->
-    <nav class="nav-home-moi">
-        <div class="nav nav-tabs my-5 text-center" id="nav-tab" role="tablist">
-            <!------------------------------------->
-            <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
-                <div class="col-item mx-5">
-                    <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_1.svg" alt="trace_1">
-                    <h3 class="bf pt-4">Je <br />m'<span class="text-uppercase">Informe</span></h3>
-                </div>
-            </a>
-            <!------------------------------------->
-            <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
-                <div class="col-item mx-5">
-                    <img class="pad-l-40" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_2.svg" alt="trace_2">
-                    <h3 class="bf pt-4">Je passe<br />à l'<span class="text-uppercase">Action</span></h3>
-                </div>
-            </a>
-            <!------------------------------------->
-            <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
-                <div class="col-item mx-5">
-                    <img class="pad-l-30" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_3.svg" alt="trace_3">
-                    <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Rejoins</span></h3>
-                </div>
-            </a>
-            <!------------------------------------->
-            <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
-                <div class="col-item mx-5">
-                    <img class="pad-l-20" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_4.svg" alt="trace_4">
-                    <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Soutiens</span></h3>
-                </div>
-            </a>
-            <!------------------------------------->
-            <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
-                <div class="col-item mx-5">
-                    <img class="pad-l-10" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_5.svg" alt="trace_5">
-                    <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Suis</span></h3>
-                </div>
-            </a>
-            <!------------------------------------->
-            <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
-                <div class="col-item mx-5">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_6.svg" alt="trace_6">
-                    <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Contacte</span></h3>
-                </div>
-            </a>
-            <!------------------------------------->
-        </div>
-    </nav>
+        <h1 class="text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h1>
+        <!------------------------------------->
+        <nav class="nav-home-moi">
+            <div class="nav nav-tabs my-5 text-center" id="nav-tab" role="tablist">
+                <!------------------------------------->
+                <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
+                    <div class="col-item mx-5">
+                        <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_1.svg" alt="trace_1">
+                        <h3 class="bf pt-4">Je <br />m'<span class="text-uppercase">Informe</span></h3>
+                    </div>
+                </a>
+                <!------------------------------------->
+                <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
+                    <div class="col-item mx-5">
+                        <img class="pad-l-40" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_2.svg" alt="trace_2">
+                        <h3 class="bf pt-4">Je passe<br />à l'<span class="text-uppercase">Action</span></h3>
+                    </div>
+                </a>
+                <!------------------------------------->
+                <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
+                    <div class="col-item mx-5">
+                        <img class="pad-l-30" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_3.svg" alt="trace_3">
+                        <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Rejoins</span></h3>
+                    </div>
+                </a>
+                <!------------------------------------->
+                <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
+                    <div class="col-item mx-5">
+                        <img class="pad-l-20" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_4.svg" alt="trace_4">
+                        <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Soutiens</span></h3>
+                    </div>
+                </a>
+                <!------------------------------------->
+                <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
+                    <div class="col-item mx-5">
+                        <img class="pad-l-10" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_5.svg" alt="trace_5">
+                        <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Suis</span></h3>
+                    </div>
+                </a>
+                <!------------------------------------->
+                <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
+                    <div class="col-item mx-5">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_6.svg" alt="trace_6">
+                        <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Contacte</span></h3>
+                    </div>
+                </a>
+                <!------------------------------------->
+            </div>
+        </nav>
     <!------------------------------------->
     <?php include 'inc/contenu-home-moi.php' ?>
+    <?php //get_template_part('inc/contenu-home-moi.php'); ?>
     <!------------------------------------->
     </div>
 </div>
@@ -289,7 +283,7 @@ get_header();?>
         </div>
         <!------------------------------------->
 </div>
-</div>
+
 <!---------------------------------------------------------------------------->
 <!-- FOOTER -->
 <?php get_footer();?>
