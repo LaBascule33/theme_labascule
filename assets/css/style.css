@@ -335,7 +335,7 @@ _MM_    _MM__MMMMMMMMM _dM_     _dMM__MMMMMMM9' _MMMMMMMMM _MM_    \M\_
 #header{
     position: fixed;
     /* top: 0; sans wpadminbar */
-    top: 32px; /* avec wpadminbar */
+    top: 0; /* avec wpadminbar */
     width: 100%;
     z-index: 999;
 }
@@ -347,7 +347,7 @@ _MM_    _MM__MMMMMMMMM _dM_     _dMM__MMMMMMM9' _MMMMMMMMM _MM_    \M\_
 /* Menu */
 #menu-home-menu > li a{
     font-family: "Avenir-Black";
-    font-size: 14px;
+    font-size: 0.8rem;
     text-transform: uppercase;
     color: #002B5E;
     border: 1px solid #fff;
@@ -375,6 +375,70 @@ a:hover{
     box-shadow: 0px 3px 6px #00000029;
 }
 
+/* ---------------------------------------- */
+/* ---  Navbar Collapse ---*/
+/* ---------------------------------------- */
+.navbar {
+    padding: 1rem;
+}
+
+@media (max-width: 991.98px) {
+    #menu-home-menu > li a {
+        font-family: "Avenir-Black";
+        font-size: 1rem;
+        text-transform: none;
+        border: none !important;
+    }
+
+    #menu-home-menu > li
+    a:hover{
+    background: none !important;
+    color: #002B5E !important;
+    border: none !important;
+    }
+
+    #navbarMenu > #menu-home-menu {
+        flex-direction: column;
+    }
+
+    #navbarMenu {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
+    
+    .nav-link{
+        padding-left: 0;
+    }
+
+    .btn.btn-primary{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767.98px){
+    #topNavbar > .navbar > .container > .nav {
+        width: 100%;
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: rgba(255, 255, 255, 0.5) !important;
+    cursor: pointer;
+}
+
+.navbar-light.scrolled {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #fff !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); 
+}
 
 /*----------------------------------------------------------------------------------------------*/
 /*-- 
@@ -396,7 +460,6 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 /*-----------------------------------------------*/
 .footer{
     background-color: #002B5E;
-    width: 100%;
     height: 220px;
 }
 
@@ -912,21 +975,23 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 .block-user {
     background: #fff;
     max-width: 100%;
-    height: 100%;
     padding: 20px;
+    margin-block-start: 30px;
     border: 1px solid #C0CAD7;
-    position: relative;
 }
                     
 /* Pictos */
-.block-user .vcard{
-    position: relative; 
-    top : -20%;
+/*.block-user .vcard .image{
+    position: absolute;
+    top : -20%; 
+}*/
+
+.block-user .vcard .image img {
+    max-width: 100%;
 }
 
-.block-back .vcard .image img {
-    max-width: 100%;
-    border: 2px solid #fff;
+.block-user .button img {
+    max-width: 48%;
 }
 
 

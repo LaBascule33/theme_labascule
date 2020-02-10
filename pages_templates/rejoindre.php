@@ -146,99 +146,140 @@ get_header();?>
 <!-- Content - Part.2 -->
 <!------------------------------------->
 
-<!-- Title - Section 2 -->
+<!-- Title - S'engager dans l'élan -->
 <!------------------------------------->
 <div class="site-section bg-light">
     <div class="container">
-          <div class="heading pb-5">
-                <h1 class="text-center text-uppercase">Je m'engage dans l'élan de bascule</h1>
+          <div class="heading">
+                <h3 class="text-center text-uppercase">Je m'engage dans l'élan de bascule</h3>
           </div>
     
     <!-- UserCom - Section 2 -->
     <!------------------------------------->
         <div class="row pt-4">
-    <!-- UserCom - Citoyens --> 
+    <!-- UserCom - Locales --> 
           <div class="col-md-6 col-lg-3">
           <div class="block-user">
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/drapeau.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
-                        <h1 class="pt-4">000</h1>
+                        <h3 class="pt-4 pb-4">Rejoindre des équipes locales de la Bascule</h3>
                     </div>
                 </div>
     
-                <div class="text text-center">
-                    <p><span class="bf">Citoyens</span> passés dans un lieu de bascule</p>
+                <div class="button text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/BordeauxBascule.png" alt="bordeauxbascule">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/ParisBascule.png" alt="parisbascule">
                 </div>
           </div>
           </div>
     
-    <!-- UserCom - Lieux --> 
+    <!-- UserCom - Soutenir à sa manière --> 
           <div class="col-md-6 col-lg-3">
           <div class="block-user">
+    
+                <div class="vcard text-center">
+                    <div class="image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/soutenir.svg" alt="petit logo top">
+                    </div>
+
+                    <div class="name-text">
+                        <h3 class="pt-4 pb-4">Soutenir la Bascule à ma manière</h3>
+                    </div>
+                </div>
+    
+                <div class="text">
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Je signale<span class="bf"> un lieu pour devenir un futur lieu de Bascule</span></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Je relaie des actions sur mon réseau</li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i><span class="bf">J'offre mes compétences</span> sur des missions précises et ponctuelles</li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i><span class="bf">Je finance le mouvement</span></li>
+                    </ul>
+                </div>
+          </div>
+          <div class="block-user">
+    
+                <div class="vcard text-center">
+                    <div class="image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/action.svg" alt="petit logo top">
+                    </div>
+                    <div class="name-text">
+                        <h3 class="pt-4 pb-4">Trouver mon action</h3>
+                    </div>
+                </div>
+    
+                <div class="text">
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Place à l'acte</li>
+                    </ul>
+                </div>
+          </div>
+          </div>
+    
+    <!-- UserCom - Groupes -->           
+          <div class="col-md-6 col-lg-3">
+          <div class="block-user">
+    
+                <div class="vcard text-center">
+                    <div class="image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/orga.svg" alt="petit logo top">
+                    </div>
+                    <div class="name-text">
+                        <h3 class="pt-4 pb-4">Rejoindre un groupe local de transition</h3>
+                    </div>
+                </div>
+    
+                <div class="text">
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Alternatiba <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Attac <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_heart.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Colibris <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Extinction Rebellion <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_smiley.svg" alt="picto_smiley"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>I-buycott/boycott <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Il est encore temps <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Youth For Climate <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+    <!-- UserCom - Lieux -->           
+            <div class="col-md-6 col-lg-3">
+            <div class="block-user">
     
                 <div class="vcard text-center">
                     <div class="image">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
                     </div>
-
                     <div class="name-text">
-                        <h1 class="pt-4">3</h1>
+                        <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
                     </div>
                 </div>
     
-                <div class="text text-center">
-                    <ul class="list-unstyled">
-                        <li><span class="bf">Joigny</span> (89), à l'echelle nationale</li>
-                        <li><span class="bf">Plouray</span> (22), à l'echelle régionale</li>
-                        <li><span class="bf">Rennes</span> (22), à l'echelle locale</li>
-                    </ul>
-                </div>
-          </div>
-          </div>
-    
-    <!-- UserCom - Events -->           
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/event.svg" alt="petit logo top">
-                    </div>
-                    <div class="name-text">
-                        <h1 class="pt-4">000</h1>
-                    </div>
-                </div>
-    
-                <div class="text text-center">
-                    <p><span class="bf">Evénements animés</span></br> dans le cadre de</p>
-                    <ul class="list-unstyled">
-                        <li>*formations*</li>
-                        <li>*rencontres*</li>
-                        <li>*ateliers de travail*</li>
+                <div class="text">
+                    <p class="text-center">adapté à ma volonté d'engagement</p>
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Oasis Colibris</li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Transiscope</li>
                     </ul>
                 </div>
             </div>
-            </div>
-
-    <!-- UserCom - Organisations -->           
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
+            <div class="block-user">
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/organisations.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/communauté.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
-                        <h1 class="pt-4">000</h1>
+                        <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
                     </div>
                 </div>
     
                 <div class="text text-center">
-                    <p><span class="bf">Organisations</span> différentes ont participé à un de vos événements</p>
+                    <a href=""><i class="fas fa-download bc pr-2"></i> <span class="bf">Télécharger la charte</span></a>
                 </div>
             </div>
             </div>
@@ -250,119 +291,3 @@ get_header();?>
 <!-- FOOTER -->
 <?php get_footer();?>
 <!---------------------------------------------------------------------------->
-
-
-<!-- NOUS REJOINDRE -->
-
-<div id="pRejoindre" class="container">
-    <div class="row">
-        <div class="col-6 bg-title-page position-relative">
-            <h1 class="bf page-title">Nous rejoindre</h1>
-            <div class="tab-content">
-                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-blc.svg" alt="logo"/>
-                <div class="bf"><p>AGRANDIT SON EQUIPE DE VOLONTAIRES !</p></div>
-            </div>
-        </div>
-
-<!----------------------------------------------------------------------------------------------->
-<!-- LA VIE DANS UN QUARTIER DE BASCULE -->
-<!------------------------------------->
-    <div id="bloc-QB" class="row">
-        
-        <div class="col-6 block-text-left">
-            <h3 class="text-uppercase">LA VIE DANS UN QUARTIER DE BASCULE</h3>
-            <p>Un lieu accueillant des volontaires à temps plein pour</p>
-
-            <ul>
-                <li><span class="bf text-uppercase">Agir</span> au service des solutions existantes</li>
-                <li><span class="bf text-uppercase">Apprendre</span> à vivre et faire ensemble</li>
-                <li><span class="bf text-uppercase">Grandir</span> son engagement</li>
-            </ul>
-
-            <p>Chaque lieu est un espace de vie-travail-transformation qui offre une expérience de Transition fondatrice dans la vie des volontaires. Le lieu fonctionne en auto-gestion et en gouvernance partagée. Il développe un modèle économique pour assurer sa pérennité et son indépendance. Chaque lieu est ouvert sur son territoire d’implantation et investi dans une dynamique locale.</p>
-            <p>Il existe deux types de lieux :</p>
-            
-            <ul>
-                <li>Le Quartier de Bascule regroupant 20 à 100 volontaires, dédié à des actions d’échelles transverses, au sein duquel vie en sobriété, formations, soutien de projets d’ampleur et débats citoyens rythment les journées.</li>
-                <li>L’îlot de la Transition hébergeant 3 à 8 volontaires est un espace de vie et de travail plus petit et concentré uniquement sur le soutien d’initiatives locales.</li>
-            </ul>
-                
-        </div>
-
-        <div class="col-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/QB_1.jpg" alt="QB"/>
-            <p>Après avoir réhabilité l’ancienne polyclinique de Pontivy, y avoir vécu et travaillé de mars à décembre, nous avons aujourd’hui déménagé dans un nouveau quartier de Bascule à Plouray (56). Notre ambition est d’ouvrir de nouveaux lieux similaires d’ici fin 2020 afin d’accueillir des nouveaux volontaires. Nous recrutons les prochaines promotions pour investir ensemble plusieurs lieux que nous avons déjà trouvé.</p>
-        </div>
-
-    </div>
-
-<!----------------------------------------------------------------------------------------------->
-<!-- JE M'ENGAGE -->
-<!------------------------------------->
-    <div class="container my-5">
-        <h2 class="text-center text-uppercase my-5">Je m’engage dans l’élan de bascule</h2>
-        <div class="row" style="justify-content: center; margin-bottom: 3rem;">
-            <p style="font-style: italic;">De nombreuses alternatives existent !</p>
-        </div>
-
-        <div class="row">
-            <div class="col-3 col-chiffres text-center">
-                <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
-                <h3 class="pt-4">Rejoindre <span class="text-uppercase">NOS &Eacute;QUIPES LOCALES</span></h3>
-                
-            </div>
-
-            <div class="col-3 col-chiffres text-center">
-                <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/event.svg" alt="petit logo top">
-                <h3 class="pt-4">Rejoindre un <span class="text-uppercase">GROUPE LOCAL</span></h3>
-                <ul class="list-unstyled">
-                    <li>→ Alternatiba</li>
-                    <li>→ Attac</li>
-                    <li>→ Colibris</li>
-                    <li>→ Extinction Rebellion</li>
-                    <li>→ I-buycott/boycott</li>
-                    <li>→ Il est encore temps</li>
-                    <li>→ Youth For Climate</li>
-                    <li>→ D’autres groupes sur Transiscope</li>
-                </ul>
-            </div>
-
-            <div class="col-3 col-chiffres text-center">
-                <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/organisations.svg" alt="petit logo top">
-                <h3 class="pt-4">S'engager dans un <span class="text-uppercase">LIEU</span></h3>
-                <p>D'autres lieux sur Transiscope</p>
-            </div>
-
-            <div class="col-3 col-chiffres text-center">
-                <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
-                <h3 class="pt-4">Soutenir la <span class="text-uppercase">BASCULE</span> à ma manière</h3>
-                <ul class="list-unstyled text-center">
-                    <li>→ Je signale un lieu pour devenir un futur lieu de Bascule</li>
-                    <li>→ Je relaie des actions sur mon réseau</li>
-                    <li>→ J’offre mes compétences sur des missions précises et ponctuelles</li>
-                    <li>→ Je finance le mouvement</li>
-                </ul>
-            </div>
-
-            <div class="col-3 col-chiffres text-center">
-                <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
-                <h3 class="pt-4">Trouver mon organisation</h3>
-                <ul class="list-unstyled text-center">
-                    <li>→ Place à l’acte</li>
-                </ul>
-            </div>
-
-            <div class="col-3 col-chiffres text-center">
-                <img class="p-auto picto-chiffres" src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
-                <h3 class="pt-4">Trouver mon action</h3>
-                <ul class="list-unstyled text-center">
-                    <li>→ Cartographie de la transition</li>
-                </ul>
-            </div>
-            
-        </div>
-    </div>
-
-</div>
-
-<?php get_footer();?>
