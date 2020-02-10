@@ -26,11 +26,11 @@ get_header();
 				<p>Si vous avez cliqué sur un lien du site, il est probable que cette page ne soit pas encore mise en ligne. <br>Merci de repasser plus tard. :-)</p>
 				
 		    </div>
-		    <div class="row m-auto col-sm-5" style="justify-content: center;">
+		    <div class="row m-auto col-md-5" style="justify-content: center;">
 		    	<img style="width: 50%;" src="http://lbv21/wp-content/themes/theme_labascule/img/logos/dominos.png">	
 		    </div>
 		    <div class="mt-5">
-	            <a href="http://lbv21/" class="btn btn-primary">Retour à l'accueil</a>
+	            <a href="http://lbv21/" class="btn btn-primary deco">Retour à l'accueil</a>
 	        </div>
 		</div>
 	</div>
@@ -38,3 +38,4 @@ get_header();
 
 <?php
 get_footer();
+?>
