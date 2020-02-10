@@ -18,9 +18,9 @@
 <!-- TOP-NAVBAR -->
 <!------------------------------------->
 <header id="header">
-    <div id="topNavbar">
-        <nav class="navbar container">
-            <div class="container-fluid">
+    <div id="topNavbar" class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
 
                 <ul class="nav">
                     <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter.svg" alt=""></a></li>
@@ -44,30 +44,38 @@
         </nav>
     </div>
 
-
 <!----------------------------------------------------------------------------------------------->
 <!-- NAVBAR -->
 <!------------------------------------->
     <div class="bgw container-fluid">
-        <nav class="navbar container">
-            <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
-                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-bascule.svg" alt="logo">
-            </a>
+        <nav class="navbar navbar-expand-lg navbar-light" id="bascule-navbar">
+            <div class="container">
+                <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
+                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-bascule.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bascule-nav" aria-controls="#bascule-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <a href="" class="btn btn-primary ml-3 mr-auto"><i class="fas fa-hand-paper"></i> Passer à l'action</a>
+                <div class="collapse navbar-collapse" id="bascule-nav">
+                <div class="navbar-nav"></div>
+                    <a href="" class="btn btn-primary mr-auto"><i class="fas fa-hand-paper"></i> Passer à l'action</a>
 
-                <?php 
-                    wp_nav_menu( array(
-                        'theme_location' => 'primaire',
-                        'depth' => 1,
-                        'container' => 'div',
-                        'container_id' => 'navbarMenu',
-                        'container_class' => 'navbar',
-                        'menu_class' => 'nav',
-                        'walker' => new WP_Bootstrap_Navwalker(),
-                    ) ); 
-                ?>
-            <a href="" class="btn btn-danger r-100" tabindex="0" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Faites un don"> <i class="fas fa-heart"></i> </a>
+                    <?php 
+                        wp_nav_menu( array(
+                            'theme_location' => 'primaire',
+                            'depth' => 1,
+                            'container' => 'div',
+                            'container_id' => 'navbarMenu',
+                            'container_class' => 'navbar',
+                            'menu_class' => 'nav',
+                            'walker' => new WP_Bootstrap_Navwalker(),
+                        ) ); 
+                    ?>
+                    <a href="" class="btn btn-danger r-100" tabindex="0" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Faites un don"> <i class="fas fa-heart"></i></a>
+                </div>
+                </div> 
+            </div>
         </nav>
     </div>
 

@@ -72,7 +72,7 @@
         <div class="row row-home-moi">
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
-                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/soutenir.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Faire un don</h2>
                     <p class="text-soutien">pour contribuer à l'indépendance financière du mouvement</p>
                     <a href="" class="btn btn-danger r-100"> <i class="fas fa-heart"></i> </a>
@@ -94,7 +94,7 @@
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
-                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/organisations.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Relayer des actions</h2>
                     <p class="text-soutien">pour contribuer à leur diffusion au plus grand nombre</p>
                 </div>

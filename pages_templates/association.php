@@ -234,32 +234,33 @@ get_header();?>
 <!------------------------------------->
 <div class="site-section bg-light">
     <div class="container">
-          <div class="heading pb-5">
+          <div class="heading">
                 <h1 class="text-center text-uppercase">Chiffres clés</h1>
           </div>
     
     <!-- UserCom - Section 2 -->
     <!------------------------------------->
-        <div class="row pt-4">
+    <div class="row pt-4">
     <!-- UserCom - Citoyens --> 
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
+            <div class="col-md-6 col-lg-3">
+            <div class="block-user">
+                  
                 <div class="vcard text-center">
                     <div class="image">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
                     </div>
+              
                     <div class="name-text">
                         <h1 class="pt-4">000</h1>
                     </div>
                 </div>
-    
+                  
                 <div class="text text-center">
-                    <p><span class="bf">Citoyens</span> passés dans un lieu de bascule</p>
+                    <p class="text"><span class="bf">Citoyens</span> passés dans un lieu de bascule</p>
                 </div>
-          </div>
-          </div>
-    
+
+            </div>
+            </div>
     <!-- UserCom - Lieux --> 
           <div class="col-md-6 col-lg-3">
           <div class="block-user">
@@ -281,6 +282,7 @@ get_header();?>
                         <li><span class="bf">Rennes</span> (22), à l'echelle locale</li>
                     </ul>
                 </div>
+
           </div>
           </div>
     
@@ -305,6 +307,7 @@ get_header();?>
                         <li>*ateliers de travail*</li>
                     </ul>
                 </div>
+
             </div>
             </div>
 
@@ -324,6 +327,7 @@ get_header();?>
                 <div class="text text-center">
                     <p><span class="bf">Organisations</span> différentes ont participé à un de vos événements</p>
                 </div>
+                
             </div>
             </div>
     
