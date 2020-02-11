@@ -26,6 +26,7 @@ add_action( 'after_setup_theme', 'register_navwalker' );
 function labasc_scripts() {
     // chargement des styles
     wp_enqueue_style( 'labasc_bootstrap-core', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), LABASC_VERSION , 'all' );
+    //wp_enqueue_style( 'labasc_bootstrap-core', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', array(), LABASC_VERSION , 'all' );
     wp_enqueue_style( 'labasc_custom', get_template_directory_uri() . '/assets/css/style.css', array('labasc_bootstrap-core'), LABASC_VERSION , 'all' );
 
     // chargement de fontawesome

@@ -1,3 +1,6 @@
+<!-- close page content opened in header.php -->
+</div>
+
 <footer class="row footer">
     <nav class="navbar container">
         <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">

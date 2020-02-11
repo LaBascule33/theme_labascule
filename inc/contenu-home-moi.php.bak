@@ -1,7 +1,7 @@
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fane show active" id="nav-informe" role="tabpanel" aria-labelledby="nav-informe-tab">
         <div class="row row-home-moi">
-            <div class="col-4 border-right-accolade">
+            <div class="col-4">
                 <p class="text-home-moi">Avoir les bons ordres de grandeur et liens de cause à effet est crucial pour agir efficacement.</p>
             </div>
             <div class="col-4 px-3">
@@ -30,32 +30,31 @@
     </div>
 
     <div class="tab-pane fane" id="nav-action" role="tabpanel" aria-labelledby="nav-action-tab">
-        <div class="row row-home-moi position-relative">
-                <div class="col-3">
-                    <div class="card-action action-1">
-                    </div>
-                        <h4><a class="bf" href="">Dans mon quotidien</a></h4>
-                        <span class="hashtag">#moi</span>
+        <div class="row row-home-moi">
+            <div class="col-3">
+                <div class="card-action action-1">
                 </div>
-                <div class="col-3">
-                    <div class="card-action action-2">
-                    </div>
-                        <h4><a class="bf" href="">Dans mon organisation</a></h4>
-                        <span class="hashtag">#salarié-entrepreneur</span>
+                    <h3><a class="bf" href="">Dans mon quotidien</a></h3>
+                    <span class="bf">#tags</span>
+            </div>
+            <div class="col-3">
+                <div class="card-action action-2">
                 </div>
-                <div class="col-3">
-                    <div class="card-action action-3">
-                    </div>
-                        <h4><a class="bf" href="">Dans mon territoire</a></h4>
-                        <span class="hashtag">#habitant</span>
+                    <h3><a class="bf" href="">Dans mon organisation</a></h3>
+                    <span class="bf">#tags</span>
+            </div>
+            <div class="col-3">
+                <div class="card-action action-3">
                 </div>
-                <div class="col-3">
-                    <div class="card-action action-4">
-                    </div>
-                        <h4><a class="bf" href="">Dans la société</a></h4>
-                        <span class="hashtag">#citoyen-élu</span>
+                    <h3><a class="bf" href="">Dans mon territoire</a></h3>
+                    <span class="bf">#tags</span>
+            </div>
+            <div class="col-3">
+                <div class="card-action action-4">
                 </div>
-                <div class="btn-home-moi text-center"><a href="nos-actions" class="btn btn-primary deco">Passer à l'action</a></div>
+                    <h3><a class="bf" href="">Dans la société</a></h3>
+                    <span class="bf">#tags</span>
+            </div>
         </div>
     </div>
 
@@ -63,21 +62,20 @@
         <div class="row row-home-moi position-relative row-tab-bg text-center">
             <div class="tab-rejoindre">
                 <h2 class="pb-4">"Nous sommes ceux que nous attendions."</h2>
-                <p style="margin-top:10%;">La Bascule est un mouvement citoyen qui n’attend que toi pour grandir.</br>Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
-                
+                <p>La Bascule est un mouvement citoyen qui n’attend que toi pour grandir.</br>Pour s’y investir, il suffit de partager sincèrement cette détermination à changer de cap.</p>
+                <a href="nous-rejoindre" class="btn btn-primary">Nous rejoindre</a>
             </div>
-            <div class="btn-home-moi text-center"><a href="nous-rejoindre" class="btn btn-primary deco">Nous rejoindre</a></div>
         </div>
     </div>
 
     <div class="tab-pane fane" id="nav-soutien" role="tabpanel" aria-labelledby="nav-soutien-tab">
-        <div class="row row-home-moi position-relative">
+        <div class="row row-home-moi">
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
                     <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/soutenir.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Faire un don</h2>
                     <p class="text-soutien">pour contribuer à l'indépendance financière du mouvement</p>
-                    <a href="https://www.helloasso.com/associations/la-bascule/formulaires/3" target="_blank" class="btn btn-dons r-100"> <i class="fas fa-heart"></i> </a>
+                    <a href="" class="btn btn-danger r-100"> <i class="fas fa-heart"></i> </a>
                 </div>
             </div>
             <div class="col-3 text-center">
@@ -101,8 +99,6 @@
                     <p class="text-soutien">pour contribuer à leur diffusion au plus grand nombre</p>
                 </div>
             </div>
-
-            <div class="btn-home-moi text-center"><a href="nous-soutenir" class="btn btn-primary deco">Nous soutenir</a></div>
         </div>
     </div>
     

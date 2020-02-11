@@ -366,7 +366,6 @@ _MMMMMMM9'    YMMMMM9     _MM_       _MM_      YMMMM9   _M_      \M MYMMMM9
     border: 2px solid #F786BE;
 }
 
-
 /*----------------------------------------------------------------------------------------------*/
 /*-- 
 
@@ -403,14 +402,14 @@ _MM_    _MM__MMMMMMMMM _dM_     _dMM__MMMMMMM9' _MMMMMMMMM _MM_    \M\_
 /* ---------------------------------------- */
 #header{
     position: fixed;
-    top: 0; /*sans wpadminbar */
-    /*top: 32px; /* avec wpadminbar */
+    /* top: 0; sans wpadminbar */
+    top: 32px; /* avec wpadminbar */
     width: 100%;
     z-index: 999;
 }
 
 #pageContent{
-    margin-top: 136px;
+    margin-top: 126px;
 }
 
 /* Menu */
@@ -529,7 +528,6 @@ _MM_       YMMMM9     YMMMM9      _MM_    _MMMMMMMMM _MM_    \M\_
 /*-----------------------------------------------*/
 .footer{
     background-color: #002B5E;
-    width: 100%;
     height: 220px;
 }
 
@@ -554,129 +552,12 @@ _MM_    _MM_  YMMMM9   _M_      _MM__MMMMMMMMM _MM_       _dM_     _dMM_  YMMMM9
 /*-----------------------------------------------*/
 
 /* ---------------------------------------- */
-/* --- 
-  ____                                                           ____
- 6MMMMb\                           68b                           `MM'
-6M'    `                     /     Y89                            MM             /
-MM         ____     ____    /M     ___   _____   ___  __          MM ___  __    /M     ___  __   _____
-YM.       6MMMMb   6MMMMb. /MMMMM  `MM  6MMMMMb  `MM 6MMb         MM `MM 6MMb  /MMMMM  `MM 6MM  6MMMMMb
- YMMMMb  6M'  `Mb 6M'   Mb  MM      MM 6M'   `Mb  MMM9 `Mb        MM  MMM9 `Mb  MM      MM69 " 6M'   `Mb
-     `Mb MM    MM MM    `'  MM      MM MM     MM  MM'   MM        MM  MM'   MM  MM      MM'    MM     MM
-      MM MMMMMMMM MM        MM      MM MM     MM  MM    MM        MM  MM    MM  MM      MM     MM     MM
-      MM MM       MM        MM      MM MM     MM  MM    MM        MM  MM    MM  MM      MM     MM     MM
-L    ,M9 YM    d9 YM.   d9  YM.  ,  MM YM.   ,M9  MM    MM        MM  MM    MM  YM.  ,  MM     YM.   ,M9
-MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM__MM_  _MM_  YMMM9 _MM_     YMMMMM9
-
----*/
+/* --- FAQ ---*/
 /* ---------------------------------------- */
-
-#section-home-intro {
-    position: relative;
-    padding-top:36px;
-    background: url('../../img/background/bg_video.png') no-repeat;
+#section-faq{
+    background: url('../../img/faq/Bckgd-FAQ.svg');
     background-size: cover;
-    background-position-y: 36px;
-    height: 536px;
 }
-
-#section-home-intro::before {
-    position: absolute;
-    top: -2%;
-    left: 0;
-    width: 120%;
-    height:110%;
-    z-index: -1;
-    background: #002B5E;
-    -webkit-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
-    -webkit-transform: rotate(-1deg);
-    transform: rotate(-1deg);
-    content:"";
-}
-
-#section-home-intro h1 {
-   /* padding: 25% 0 15% 0;*/
-    font-size: 1.375rem;
-    line-height: 1.5;
-}
-
-#section-home-intro .baseline {
-    position: absolute;
-    top: 104%;
-    color: #83B4FF;
-    font-style: italic;
-}
-
-#section-home-intro .logo {
-    max-width: 438px;
-   /* padding: 20% 0 15% 0;*/
-}
-
-/* ---------------------------------------- */
-/* --- 
-
-
-
-  ____                                                           ________
- 6MMMMb\                           68b                           `MMMMMMMb.
-6M'    `                     /     Y89                            MM    `Mb
-MM         ____     ____    /M     ___   _____   ___  __          MM     MM ___  __   _____     __     ___  __    ___    ___  __    __   ___  __    __     ____
-YM.       6MMMMb   6MMMMb. /MMMMM  `MM  6MMMMMb  `MM 6MMb         MM     MM `MM 6MM  6MMMMMb   6MMbMMM `MM 6MM  6MMMMb   `MM 6MMb  6MMb  `MM 6MMb  6MMb   6MMMMb
- YMMMMb  6M'  `Mb 6M'   Mb  MM      MM 6M'   `Mb  MMM9 `Mb        MM    .M9  MM69 " 6M'   `Mb 6M'`Mb    MM69 " 8M'  `Mb   MM69 `MM69 `Mb  MM69 `MM69 `Mb 6M'  `Mb
-     `Mb MM    MM MM    `'  MM      MM MM     MM  MM'   MM        MMMMMMM9'  MM'    MM     MM MM  MM    MM'        ,oMM   MM'   MM'   MM  MM'   MM'   MM MM    MM
-      MM MMMMMMMM MM        MM      MM MM     MM  MM    MM        MM         MM     MM     MM YM.,M9    MM     ,6MM9'MM   MM    MM    MM  MM    MM    MM MMMMMMMM
-      MM MM       MM        MM      MM MM     MM  MM    MM        MM         MM     MM     MM  YMM9     MM     MM'   MM   MM    MM    MM  MM    MM    MM MM
-L    ,M9 YM    d9 YM.   d9  YM.  ,  MM YM.   ,M9  MM    MM        MM         MM     YM.   ,M9 (M        MM     MM.  ,MM   MM    MM    MM  MM    MM    MM YM    d9
-MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_       _MM_     YMMMMM9   YMMMMb. _MM_    `YMMM9'Yb._MM_  _MM_  _MM__MM_  _MM_  _MM_ YMMMM9
-                                                                                              6M    Yb
-                                                                                              YM.   d9
-                                                                                               YMMMM9
-
----*/
-/* ---------------------------------------- */
-
-#section-home-programme-main {
-    margin-top:7%;
-    margin-bottom:2%;
-}
-
-/* ---------------------------------------- */
-/* --- 
-
-  ____                                                           ________        _         ____
- 6MMMMb\                           68b                           `MMMMMMM       dM.       6MMMMb
-6M'    `                     /     Y89                            MM    \      ,MMb      8P    Y8
-MM         ____     ____    /M     ___   _____   ___  __          MM           d'YM.    6M      Mb
-YM.       6MMMMb   6MMMMb. /MMMMM  `MM  6MMMMMb  `MM 6MMb         MM   ,      ,P `Mb    MM      MM
- YMMMMb  6M'  `Mb 6M'   Mb  MM      MM 6M'   `Mb  MMM9 `Mb        MMMMMM      d'  YM.   MM      MM
-     `Mb MM    MM MM    `'  MM      MM MM     MM  MM'   MM        MM   `     ,P   `Mb   MM      MM
-      MM MMMMMMMM MM        MM      MM MM     MM  MM    MM        MM         d'    YM.  MM      MM
-      MM MM       MM        MM      MM MM     MM  MM    MM        MM        ,MMMMMMMMb  YM      M9
-L    ,M9 YM    d9 YM.   d9  YM.  ,  MM YM.   ,M9  MM    MM        MM        d'      YM.  8b    d8
-MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_     _dM_     _dMM_  YMMMM9
-                                                                                            MM
-                                                                                            YM.
-                                                                                             `Mo ---*/
-/* ---------------------------------------- */
-#section-home-faq{
-    position: relative;
-    background: url('../../img/faq/Bckgd-FAQ.svg') no-repeat;
-    background-size: cover;
-    padding: 4% 0 5% 0;
-}
-
-/*#section-home-faq::before {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height:110%;
-    z-index: -1;
-    content: "";
-
-    background: url('../../img/background/Bckgd-FAQ2.png') 0 0 no-repeat;
-    background-size: cover;
-}*/
 
 .block-img-faq {
     height: 80%;
@@ -727,22 +608,7 @@ a.faq span.FAQsize2{
 }
 
 /* ---------------------------------------- */
-/* --- 
-
-___       ___               ___           ___       ________        _         ____
-`MMb     dMM'               `MM           `MM       `MMMMMMM       dM.       6MMMMb
- MMM.   ,PMM                 MM            MM        MM    \      ,MMb      8P    Y8
- M`Mb   d'MM   _____     ____MM    ___     MM        MM           d'YM.    6M      Mb
- M YM. ,P MM  6MMMMMb   6MMMMMM  6MMMMb    MM        MM   ,      ,P `Mb    MM      MM
- M `Mb d' MM 6M'   `Mb 6M'  `MM 8M'  `Mb   MM        MMMMMM      d'  YM.   MM      MM
- M  YM.P  MM MM     MM MM    MM     ,oMM   MM        MM   `     ,P   `Mb   MM      MM
- M  `Mb'  MM MM     MM MM    MM ,6MM9'MM   MM        MM         d'    YM.  MM      MM
- M   YP   MM MM     MM MM    MM MM'   MM   MM        MM        ,MMMMMMMMb  YM      M9
- M   `'   MM YM.   ,M9 YM.  ,MM MM.  ,MM   MM        MM        d'      YM.  8b    d8
-_M_      _MM_ YMMMMM9   YMMMMMM_`YMMM9'Yb._MM_      _MM_     _dM_     _dMM_  YMMMM9
-                                                                               MM
-                                                                               YM.
-                                                                                `Mo--- */
+/* --- Modal FAQ --- */
 /* ---------------------------------------- */
 .modal-perso{
     position: fixed;
@@ -751,7 +617,7 @@ _M_      _MM_ YMMMMM9   YMMMMMM_`YMMM9'Yb._MM_      _MM_     _dM_     _dMM_  YMM
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 43, 94, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 99999;
     display: flex;
     align-items: center;
@@ -764,8 +630,6 @@ _M_      _MM_ YMMMMM9   YMMMMMM_`YMMM9'Yb._MM_      _MM_     _dM_     _dMM_  YMM
     background: #fff;
     width: 90%;
     height: 80%;
-    max-height:642px;
-    max-width: 1220px;
     /* max-width: calc(100vw - 150px); */
     /* max-height: calc(100vh - 100px); */
     padding: 4%;
@@ -867,29 +731,15 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
  */
 /* ---------------------------------------- */
-
-.nav-home-moi{
-    position: relative;
-    height: 224px;
-    margin-top: 3%
-}
-
 .nav-tabs{
     border-bottom: none;
     position: absolute;
     bottom: 0;
 }
 
-.nav-home-moi .active h3::before {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 80%;
-    width: 100%;
-    height: 20%;
-    background-color: #d2dae4;
-    border-radius: 1rem;
-    content: "";
+.nav-home-moi{
+    height: 224px;
+    position: relative;
 }
 
 .col-item{
@@ -909,16 +759,12 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     height: 426px;
     max-height: 100%;
     padding: 15px;
-    border-bottom: 5px solid #C0CAD7;
-    text-align: left;
 }
 
 .text-home-moi{
     position: absolute;
     top: 42%;
     left: 0;
-    text-align: left;
-    font-style: italic;
 }
 
 .img-home-moi{
@@ -929,9 +775,8 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
 .list-home-moi{
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     font-size: 1em;
-    text-align: left;
 }
 .list-style-custom{
     list-style-type: none;
@@ -946,11 +791,6 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-color: transparent;
 }
-
-/*.border-right-accolade {
-    border-right: 10px;
-    border-image: url('../../img/accolade_right.png');
-}*/
 
 .row-tab-bg{
     background: url('../../img/jevousrejoins.png');
@@ -969,18 +809,19 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 }
 .tab-rejoindre {
     position: absolute;
-    width: 100%;
-    top: 10%;
-    /*left: 30%;*/
+    width: 40%;
+    top: 0;
+    left: 30%;
     color: #fff;
-    height: 80%;
-    padding: 0 30% 0 30%;
+    height: inherit;
 }
-
+.tab-rejoindre a {
+    position: absolute;
+    bottom: 50px;
+    left: 38%;
+}
 .tab-rejoindre h2 {
-    /*padding-top: 54px;*/
-    font-size: 1.5rem;
-    color: #fff;
+    padding-top: 54px;
 }
 
 .card-soutien{
@@ -1051,18 +892,6 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     background: url('../../img/png/action-4.png');
     background-size: cover;
 
-}
-
-.btn-home-moi {
-    position: absolute;
-    width: 100%;
-    bottom: 8%;
-}
-
-.hashtag {
-    font-size: 0.95rem;
-    color: #002B5E;
-    opacity: 0.45;
 }
 
 

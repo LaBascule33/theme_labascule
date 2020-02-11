@@ -1,4 +1,21 @@
 /**
+ * Video Homepage
+ */
+
+ $("#btn-video-home").click(function(){
+    $("#content-intro").addClass('d-none');
+    $("#video-home").removeClass('d-none');
+}); 
+
+
+/**
+ * Et moi
+ */
+
+ 
+
+
+/**
  * Modal
  */
 

@@ -8,85 +8,88 @@
 <!------------------------------------->
 <!-- Hero Block -->
 <!---------------------------------------------------------------------------->
-<div class="container bg-dark text-center justify-content-center align-self-center" style="position:absolute">
-<!---------------------------------------------------------------------------->
-    <div class="row">
-        <!------------------------------------->
-        <div class="col-md-6 text-center">
-            <h1 class="text-uppercase bf">
-            Un mouvement citoyen<br/>au service de tous ceux<br/>qui s'engagent pour<br/>un futur souhaitable.
-            </h1>
+<div id="section-home-intro">
+    <div class="container text-center justify-content-center align-self-center">
+        <div id="content-intro" class="row" style="padding: 10% 0 15% 0;">
+
+            <div class="col-md-4 text-center">
+                <h1 class="text-uppercase bf">Un mouvement citoyen<br/>au service de tous ceux<br/>qui s'engagent pour<br/>un futur souhaitable.</h1>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <a id="btn-video-home" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/btn_play_home.png" alt="play" /></a>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img class="logo w-100" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-bascule.svg" alt="logo" />
+            </div>
+
         </div>
-        <!------------------------------------->
-        <div class="col-md-6 text-center">
-            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-bascule.svg" alt="logo"/>
+        
+        <div  id="video-home" class="row d-none">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/AnVLJqyhSXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <!------------------------------------->
+
+        <div class="baseline d-none d-sm-block">A chacun de trouver les actions pour donner vie à cette main de bascule.</div>
     </div>
-    <!------------------------------------->
 </div>
 <!------------------------------------->
-<video width="100%" height="auto" controls="controls" preload="auto" style="position:relative">
-    <source src="https://www.youtube.com/embed/f9RVZTDy7tQ"/>
-</video>
-<!------------------------------------->
-
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/f9RVZTDy7tQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
 <!---------------------------------------------------------------------------->
 <!-- Programmes d'actions -->
 <!------------------------------------->
-<div class="container">
+<div id="section-home-programme-main" class="container d-none d-sm-block">
     <div class="row">
         <!------------------------------------->
         <div class="col-xl text-center justify-content-center align-self-center">
-            <img class="prog_bascule w-75 mt-0" src="<?php echo get_template_directory_uri(); ?>/img/prog_bascule.png" alt="prog_bascule"/>
+            <img class="prog_bascule w-75 mt-0" src="<?php echo get_template_directory_uri(); ?>/img/illustration_programmes-actions-la-bascule" alt="Programme d'action"/>
         </div>
         <!------------------------------------->
     </div>
 </div>
 <!------------------------------------->
-<div class="container my-5">
+<div id="section-home-programme-blocs" class="container">
     <div class="row">
     <!------------------------------------->
-        <div class="col-3 border-right card-body text-center">
+        <div class="col-md-3 border-right card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center success">Service de<br />La Transition</h3>
-                <p class="text-center mb-5 position-relative">Pour permettre à chacun de vivre une expérience de Transition fondatrice <br />dans un de nos lieux de bascule.</p>
-                <button type="button" class="btn btn-success">En lire +</button>
+                <h3 class="text-uppercase text-center SCT">Service de<br />La Transition</h3>
+                <p class="text-center mb-5 position-relative">Pour permettre à chacun de vivre une expérience de Transition fondatrice dans un de nos lieux de bascule.</p>
+                <a class="btn btn-SCT" href="https://drive.google.com/file/d/1HFurEJ1wHQ1F7zu-NlV_yBWF7CE_6Nqi/view?usp=drivesdk" target="_blank">En lire +</a>
             </div>
         </div>
         <!------------------------------------->
-        <div class="col-3 border-right card-body text-center">
+        <div class="col-md-3 border-right card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center warning">Coopération<br />& événements</h3>
-                <p class="text-center mb-5 position-relative">Pour faciliter le passage à l’action <br />collective via du suivi, de la mise en <br />réseau et l’animation de temps fort.</p>
-                <button type="button" class="btn btn-warning">En lire +</button>
+                <h3 class="text-uppercase text-center cooperation">Coopération<br />& événements</h3>
+                <p class="text-center mb-5 position-relative">Pour faciliter le passage à l’action collective via du suivi, de la mise en réseau et l’animation de temps fort.</p>
+                <a class="btn btn-cooperation" href="https://drive.google.com/file/d/1RwBFSqtVGpMa5TjwCvzf6eCs9rixuhQW/view?usp=drivesdk#page=6" target="_blank">En lire +</a>
             </div>
         </div>
         <!------------------------------------->
-        <div class="col-3 border-right card-body text-center">
+        <div class="col-md-3 border-right card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center primary">Lobbying<br />& citoyen</h3>
-                <p class="text-center mb-5 position-relative">Pour nous donner les moyens<br />d'interpeller nos proches, nos <br />organisations et nos élus.</p>
-                <button type="button" class="btn btn-primary">En lire +</button>
+                <h3 class="text-uppercase text-center lobbying">Lobbying<br />& citoyen</h3>
+                <p class="text-center mb-5 position-relative">Pour nous donner les moyens d'interpeller nos proches, nos organisations et nos élus.</p>
+                <a class="btn btn-lobbying" href="https://drive.google.com/file/d/1l8X8F74Y-PVFUj9ZJ3SIYyLjLYFZEi8W/view?usp=drivesdk" target="_blank">En lire +</a>
             </div>
         </div>
         <!------------------------------------->
-        <div class="col-3 border-right card-body text-center">
+        <div class="col-md-3 border-right card-body text-center">
             <div class="bg-white mt-0">
-                <h3 class="text-uppercase text-center danger">Soutien aux<br />Mobilisations</h3>
-                <p class="text-center mb-5 position-relative">Pour en faire de véritables leviers de <br />Transition à travers un appui humain,<br /> logistique et de communication.</p>
-                <button type="button" class="btn btn-danger">En lire +</button>
+                <h3 class="text-uppercase text-center soutien">Soutien aux<br />Mobilisations</h3>
+                <p class="text-center mb-5 position-relative">Pour en faire de véritables leviers de Transition à travers un appui humain, logistique et de communication.</p>
+                <a class="btn btn-soutien" href="https://drive.google.com/file/d/1RwBFSqtVGpMa5TjwCvzf6eCs9rixuhQW/view?usp=drivesdk#page=8" target="_blank">En lire +</a>
             </div>
         </div>
     <!------------------------------------->
     </div>
 </div>
+
 <!---------------------------------------------------------------------------->
-<!-- Modal FAQ -->
+<!-- Section FAQ -->
 <!------------------------------------->
-<div id="section-faq">
+<div id="section-home-faq">
     <div class="container">
         <div class="row">
             <!------------------------------------->
@@ -155,20 +158,23 @@
                     </div>
                 </div>
             </div>
-            <!------------------------------------->
-            <?php include 'inc/modal-faq.php' ?>
-            <?php //get_template_part('inc/modal-faq.php'); ?>
-            <!------------------------------------->
         </div>
     </div>
 </div>
 
 <!---------------------------------------------------------------------------->
+<!-- MODAL FAQ -->
+<!------------------------------------->
+<?php include 'inc/modal-faq.php' ?>
+<?php //get_template_part('inc/modal-faq.php'); ?>
+<!------------------------------------->
+
+<!---------------------------------------------------------------------------->
 <!-- Moi dans tout ça -->
 <!------------------------------------->
-<div id="section-etmoi"> 
-    <div class="container my-5">
-        <h1 class="text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h1>
+<div id="section-home-etmoi"> 
+    <div class="container my-5 text-center justify-content-center align-self-center">
+        <h2 class="text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h2>
         <!------------------------------------->
         <nav class="nav-home-moi">
             <div class="nav nav-tabs my-5 text-center" id="nav-tab" role="tablist">
@@ -176,7 +182,7 @@
                 <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
                     <div class="col-item mx-5">
                         <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_1.svg" alt="trace_1">
-                        <h3 class="bf pt-4">Je <br />m'<span class="text-uppercase">Informe</span></h3>
+                        <h3 class="bf pt-4">Je<br />m'<span class="text-uppercase">Informe</span></h3>
                     </div>
                 </a>
                 <!------------------------------------->
@@ -224,64 +230,64 @@
     </div>
 </div>
 <!---------------------------------------------------------------------------->
-<!-- Une paserelle-->
+<!-- Une passerelle-->
 <!------------------------------------->
-<div class="container my-5">
-    <h1 class="text-center bf">Une <span class="text-uppercase">passerelle</span> vers des solutions existantes</h1>
+<div id="section-home-passerelle" class="container my-5 text-center justify-content-center align-self-center">
+    <h2 class="text-center bf">Une <span class="text-uppercase">passerelle</span> vers des solutions existantes</h2>
+    <!------------------------------------->
+    <div class="row my-5">
         <!------------------------------------->
-        <div class="row my-5">
-            <!------------------------------------->
-            <div class="col-md-4">
-                <div class="card mb-3" style="max-height: 8rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
-                    <div class="card-img-overlay">
-                        <h4 class="bf">Le lieu</h4>
-                        <p>avec lequel te connecter</p>
-                    </div>
+        <div class="col-md-4">
+            <div class="card mb-3" style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
+                <div class="card-img-overlay">
+                    <h4 class="bf">Le lieu</h4>
+                    <p>avec lequel te connecter</p>
                 </div>
             </div>
-            <!------------------------------------->
-            <div class="col-md-4">
-                <div class="card mb-3" style="max-height: 8rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/action.png" class="align-self-end" alt="action"  style="max-height: 8rem;">
-                    <div class="card-img-overlay">
-                        <h4 class="bf">L'action</h4>
-                        <p>qui te convient</p>
-                    </div>
-                </div>
-            </div>
-            <!------------------------------------->
-            <div class="col-md-4">
-                <div class="card mb-3"  style="max-height: 8rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/carto.png" class="card-img" alt="carto" style="max-height: 8rem;">
-                    <div class="card-img-overlay">
-                        <h4 class="bf">La communauté</h4>
-                        <a href=""></a><i class="fas fa-download"></i> <span>Cartographie de la transition</span></a>
-                    </div>
-                </div>
-            </div>
-            <!------------------------------------->
-            <div class="col-md-4">
-                <div class="card mb-3" style="max-height: 8rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/pacte.png" class="card-img" alt="pacte" style="max-height: 8rem;">
-                    <div class="card-img-overlay">
-                        <h4 class="bf">L'engagement'</h4>
-                        <p>pour les municipales 2020</p>
-                    </div>
-                </div>
-            </div>
-            <!------------------------------------->
-            <div class="col-md-8">
-                <div class="card mb-3" style="max-height: 8rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
-                    <div class="card-img-overlay">
-                        <h4 class="bf">Nos coups de coeurs</h4>
-                    </div>
-                </div>
-            </div>
-            <!------------------------------------->
         </div>
         <!------------------------------------->
+        <div class="col-md-4">
+            <div class="card mb-3" style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/action.png" class="align-self-end" alt="action"  style="max-height: 8rem;">
+                <div class="card-img-overlay">
+                    <h4 class="bf">L'action</h4>
+                    <p>qui te convient</p>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------->
+        <div class="col-md-4">
+            <div class="card mb-3"  style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/carto.png" class="card-img" alt="carto" style="max-height: 8rem;">
+                <div class="card-img-overlay">
+                    <h4 class="bf">La communauté</h4>
+                    <a href=""></a><i class="fas fa-download"></i> <span>Cartographie de la transition</span></a>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------->
+        <div class="col-md-4">
+            <div class="card mb-3" style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pacte.png" class="card-img" alt="pacte" style="max-height: 8rem;">
+                <div class="card-img-overlay">
+                    <h4 class="bf">L'engagement'</h4>
+                    <p>pour les municipales 2020</p>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------->
+        <div class="col-md-8">
+            <div class="card mb-3" style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
+                <div class="card-img-overlay">
+                    <h4 class="bf">Nos coups de coeurs</h4>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------->
+    </div>
+    <!------------------------------------->
 </div>
 
 <!---------------------------------------------------------------------------->
