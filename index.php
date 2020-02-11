@@ -17,11 +17,11 @@
             </div>
 
             <div class="col-md-4 text-center">
-                <a id="btn-video-home" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/btn_play_home.png" alt="play" /></a>
+                <a id="btn-video-home" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/btn_play_home.png" alt="play" /></a>
             </div>
 
             <div class="col-md-4 text-center">
-                <img class="logo w-100" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-bascule.svg" alt="logo" />
+                <img class="logo w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/logo-bascule.svg" alt="logo" />
             </div>
 
         </div>
@@ -42,7 +42,7 @@
     <div class="row">
         <!------------------------------------->
         <div class="col-xl text-center justify-content-center align-self-center">
-            <img class="prog_bascule w-75 mt-0" src="<?php echo get_template_directory_uri(); ?>/img/illustration_programmes-actions-la-bascule" alt="Programme d'action"/>
+            <img class="prog_bascule w-75 mt-0" src="<?php echo get_template_directory_uri(); ?>/assets/img/illustration_programmes-actions-la-bascule" alt="Programme d'action"/>
         </div>
         <!------------------------------------->
     </div>
@@ -94,7 +94,7 @@
         <div class="row">
             <!------------------------------------->
             <div class="col-md-3">
-                <img class="block-img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/FAQ.jpg" alt="FAQ"/>
+                <img class="block-img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/FAQ.jpg" alt="FAQ"/>
             </div>
             <!------------------------------------->
             <div class="col-md-9">
@@ -181,42 +181,42 @@
                 <!------------------------------------->
                 <a class="px-5 mx-2 home-moi-item active" id="nav-informe-tab" data-toggle="tab" href="#nav-informe" role="tab" aria-controls="nav-informe" aria-selected="true">
                     <div class="col-item mx-5">
-                        <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_1.svg" alt="trace_1">
+                        <img class="pad-l-50" src="<?php echo get_template_directory_uri(); ?>/assets/img/traces/trace_1.svg" alt="trace_1">
                         <h3 class="bf pt-4">Je<br />m'<span class="text-uppercase">Informe</span></h3>
                     </div>
                 </a>
                 <!------------------------------------->
                 <a class="px-5 mx-2 home-moi-item" id="nav-action-tab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="false">
                     <div class="col-item mx-5">
-                        <img class="pad-l-40" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_2.svg" alt="trace_2">
+                        <img class="pad-l-40" src="<?php echo get_template_directory_uri(); ?>/assets/img/traces/trace_2.svg" alt="trace_2">
                         <h3 class="bf pt-4">Je passe<br />à l'<span class="text-uppercase">Action</span></h3>
                     </div>
                 </a>
                 <!------------------------------------->
                 <a class="px-5 mx-2 home-moi-item" id="nav-rejoins-tab" data-toggle="tab" href="#nav-rejoins" role="tab" aria-controls="nav-rejoins" aria-selected="false">
                     <div class="col-item mx-5">
-                        <img class="pad-l-30" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_3.svg" alt="trace_3">
+                        <img class="pad-l-30" src="<?php echo get_template_directory_uri(); ?>/assets/img/traces/trace_3.svg" alt="trace_3">
                         <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Rejoins</span></h3>
                     </div>
                 </a>
                 <!------------------------------------->
                 <a class="px-5 mx-2 home-moi-item" id="nav-soutien-tab" data-toggle="tab" href="#nav-soutien" role="tab" aria-controls="nav-soutien-tab" aria-selected="false">
                     <div class="col-item mx-5">
-                        <img class="pad-l-20" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_4.svg" alt="trace_4">
+                        <img class="pad-l-20" src="<?php echo get_template_directory_uri(); ?>/assets/img/traces/trace_4.svg" alt="trace_4">
                         <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Soutiens</span></h3>
                     </div>
                 </a>
                 <!------------------------------------->
                 <a class="px-5 mx-2 home-moi-item" id="nav-suis-tab" data-toggle="tab" href="#nav-suis" role="tab" aria-controls="nav-suis" aria-selected="false">
                     <div class="col-item mx-5">
-                        <img class="pad-l-10" src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_5.svg" alt="trace_5">
+                        <img class="pad-l-10" src="<?php echo get_template_directory_uri(); ?>/assets/img/traces/trace_5.svg" alt="trace_5">
                         <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Suis</span></h3>
                     </div>
                 </a>
                 <!------------------------------------->
                 <a class="px-5 mx-2 home-moi-item" id="nav-contacte-tab" data-toggle="tab" href="#nav-contacte" role="tab" aria-controls="nav-contacte" aria-selected="false">
                     <div class="col-item mx-5">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/traces/trace_6.svg" alt="trace_6">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/traces/trace_6.svg" alt="trace_6">
                         <h3 class="bf pt-4">Je vous<br /><span class="text-uppercase">Contacte</span></h3>
                     </div>
                 </a>
@@ -239,7 +239,7 @@
         <!------------------------------------->
         <div class="col-md-4">
             <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan.png" class="card-img" alt="plan" style="max-height: 8rem;">
                 <div class="card-img-overlay">
                     <h4 class="bf">Le lieu</h4>
                     <p>avec lequel te connecter</p>
@@ -249,7 +249,7 @@
         <!------------------------------------->
         <div class="col-md-4">
             <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/action.png" class="align-self-end" alt="action"  style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/place_a_lacte.png" class="align-self-end" alt="Place à l'acte" style="max-height: 8rem;">
                 <div class="card-img-overlay">
                     <h4 class="bf">L'action</h4>
                     <p>qui te convient</p>
@@ -259,7 +259,7 @@
         <!------------------------------------->
         <div class="col-md-4">
             <div class="card mb-3"  style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/carto.png" class="card-img" alt="carto" style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/carto.png" class="card-img" alt="carto" style="max-height: 8rem;">
                 <div class="card-img-overlay">
                     <h4 class="bf">La communauté</h4>
                     <a href=""></a><i class="fas fa-download"></i> <span>Cartographie de la transition</span></a>
@@ -269,7 +269,7 @@
         <!------------------------------------->
         <div class="col-md-4">
             <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/pacte.png" class="card-img" alt="pacte" style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/pacte_transition.png" class="card-img" alt="Pacte de la Transition" style="max-height: 8rem;">
                 <div class="card-img-overlay">
                     <h4 class="bf">L'engagement'</h4>
                     <p>pour les municipales 2020</p>
@@ -279,7 +279,7 @@
         <!------------------------------------->
         <div class="col-md-8">
             <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
                 <div class="card-img-overlay">
                     <h4 class="bf">Nos coups de coeurs</h4>
                 </div>

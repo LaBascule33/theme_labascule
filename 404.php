@@ -27,7 +27,7 @@ get_header();
 				
 		    </div>
 		    <div class="row m-auto col-md-5" style="justify-content: center;">
-		    	<img style="width: 50%;" src="<?php echo get_template_directory_uri(); ?>/img/logos/dominos.png">	
+		    	<img style="width: 50%;" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/dominos.png">	
 		    </div>
 		    <div class="mt-5">
 	            <a href="<?php echo esc_url(home_url('/'));?>" class="btn btn-primary deco">Retour à l'accueil</a>

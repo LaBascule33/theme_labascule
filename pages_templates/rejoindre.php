@@ -163,7 +163,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/drapeau.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/drapeau.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h3 class="pt-4 pb-4">Rejoindre des équipes locales de la Bascule</h3>
@@ -171,8 +171,8 @@ get_header();?>
                 </div>
     
                 <div class="button text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/BordeauxBascule.png" alt="bordeauxbascule">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/ParisBascule.png" alt="parisbascule">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/BordeauxBascule.png" alt="Bordeaux Bascule">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/ParisBascule.png" alt="Paris Bascule">
                 </div>
           </div>
           </div>
@@ -183,7 +183,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/soutenir.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/soutenir.svg" alt="petit logo top">
                     </div>
 
                     <div class="name-text">
@@ -204,7 +204,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/action.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/action.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h3 class="pt-4 pb-4">Trouver mon action</h3>
@@ -225,7 +225,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/orga.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/orga.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h3 class="pt-4 pb-4">Rejoindre un groupe local de transition</h3>
@@ -234,13 +234,13 @@ get_header();?>
     
                 <div class="text">
                     <ul class="list-style-custom">
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Alternatiba <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Attac <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_heart.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Colibris <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Extinction Rebellion <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_smiley.svg" alt="picto_smiley"> <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>I-buycott/boycott <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Il est encore temps <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Youth For Climate <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Alternatiba <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Attac <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Colibris <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Extinction Rebellion <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>I-buycott/boycott <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Il est encore temps <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Youth For Climate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
                     </ul>
                 </div>
             </div>
@@ -252,7 +252,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/lieux.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
@@ -271,7 +271,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/communauté.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/communaute.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>

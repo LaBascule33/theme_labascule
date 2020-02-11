@@ -20,7 +20,7 @@
                         <div class="block d-md-flex">
                         <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Cest_Quoi.jpg" alt="CestQuoi"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Cest_Quoi.jpg" alt="CestQuoi"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -53,7 +53,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/CestQui.jpg" alt="CestQui"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/CestQui.jpg" alt="CestQui"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -83,7 +83,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Pourquoi.jpg" alt="Pourquoi"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Pourquoi.jpg" alt="Pourquoi"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -114,7 +114,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Pour_Quoi.jpg" alt="Quoi"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Pour_Quoi.jpg" alt="Quoi"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -145,7 +145,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/prog_bascule.png" alt="prog_bascule"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/prog_bascule.png" alt="prog_bascule"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -179,7 +179,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Concretement.jpg" alt="Concretement"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Concretement.jpg" alt="Concretement"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -213,7 +213,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Avec_Quels_Moyens.jpg" alt="moyens"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Avec_Quels_Moyens.jpg" alt="moyens"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -251,7 +251,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Depuis_Quand.jpg" alt="Quand"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Depuis_Quand.jpg" alt="Quand"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">
@@ -282,7 +282,7 @@
                         <div class="block d-md-flex">
                             <!------------------------------------->
                             <div class="image">
-                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/img/faq/Ile_Archipel.jpg" alt="Ou"/>
+                                <img class="img-faq" src="<?php echo get_template_directory_uri(); ?>/assets/img/faq/Ile_Archipel.jpg" alt="Ou"/>
                             </div>
                             <!------------------------------------->
                             <div class="text">

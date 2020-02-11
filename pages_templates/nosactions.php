@@ -27,7 +27,7 @@ get_header();?>
             <div class="col-md-12">
                 <div class="block d-md-flex">
                     <div class="image bg-light">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_association/prog-actions.svg" alt="action-prog">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/p_association/prog-actions.svg" alt="action-prog">
     
                         <div class="heading">
                             <h2>Nos actions</h2>

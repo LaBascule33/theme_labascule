@@ -7,12 +7,12 @@
             <div class="col-4 px-3">
                 <div class="py-4">
                     <div class="row m-auto">
-                        <a href="https://www.imagotv.fr/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/imago2.png" alt="imago"></a>
-                        <a href="https://sidh.eco/articles" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/sidh2.png" alt="sidh"></a>
+                        <a href="https://www.imagotv.fr/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/imago.png" alt="Imago"></a>
+                        <a href="https://sidh.eco/articles" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/sidh.png" alt="SIDH"></a>
                     </div>
                     <div class="row m-auto">
-                        <a href="https://www.conventioncitoyennepourleclimat.fr/ressources-documentaires/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/climat2.png" alt="climat"></a>
-                        <a href="https://osonscomprendre.com/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/img/png/osons2.png" alt="osons"></a>
+                        <a href="https://www.conventioncitoyennepourleclimat.fr/ressources-documentaires/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/convention_citoyenne_climat.png" alt="Convention CItoyenne pour le Climat"></a>
+                        <a href="https://osonscomprendre.com/" target="_blank"><img class="img-home-moi m-1" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/osons_comprendre.png" alt="Osons comprendre"></a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
         <div class="row row-home-moi position-relative">
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
-                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/p_rejoindre/soutenir.svg" alt="petit logo top">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/soutenir.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Faire un don</h2>
                     <p class="text-soutien">pour contribuer à l'indépendance financière du mouvement</p>
                     <a href="https://www.helloasso.com/associations/la-bascule/formulaires/3" target="_blank" class="btn btn-dons r-100"> <i class="fas fa-heart"></i> </a>
@@ -82,21 +82,21 @@
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
-                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/citoyens.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Offrir ses compétences</h2>
                     <p class="text-soutien">pour contribuer à la qualité des actions</p>
                 </div>
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
-                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/citoyens.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Mettre un lieu à disposition</h2>
                     <p class="text-soutien">pour contribuer à grandir la communauté</p>
                 </div>
             </div>
             <div class="col-3 text-center">
                 <div class="card-soutien px-1">
-                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/img/organisations.svg" alt="petit logo top">
+                    <img class="p-auto picto-home-moi" src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/organisations.svg" alt="petit logo top">
                     <h2 class="bf pt-4 title-soutien">Relayer des actions</h2>
                     <p class="text-soutien">pour contribuer à leur diffusion au plus grand nombre</p>
                 </div>
@@ -112,9 +112,9 @@
                 <div class="tab-suivre px-2 text-center">
                     <h2 class="bf">Réseaux sociaux</h2>
                     <ul class="nav justify-content-center mt-4">
-                        <li><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter.svg" alt=""></a></li>
-                        <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook.svg" alt=""></a></li>
-                        <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram.svg" alt=""></a></li>
+                        <li><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/twitter.svg" alt=""></a></li>
+                        <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/facebook.svg" alt=""></a></li>
+                        <li class="ml-3"><a href=""><img class="img-tab-suivre" src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/instagram.svg" alt=""></a></li>
                     </ul>
                 </div>
             </div>

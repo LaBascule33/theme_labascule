@@ -77,7 +77,7 @@ get_header();?>
                     <div class="text bgbc">
                         <div class="row mt-4">
                             <div class="col-3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/gouvernance-partagee.svg" alt="logo gouvernance">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/gouvernance-partagee.svg" alt="logo gouvernance">
                             </div>
                             <div class="col-9">
                                 <span class="bf">Gouvernance partagée</span>
@@ -87,7 +87,7 @@ get_header();?>
             
                         <div class="row mt-4">
                             <div class="col-3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/mobilisation.svg" alt="logo force de mobilisation">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/mobilisation.svg" alt="logo force de mobilisation">
                             </div>
                             <div class="col-9">
                                 <span class="bf">Force de mobilisation</span>
@@ -97,7 +97,7 @@ get_header();?>
             
                         <div class="row mt-4 mb-4">
                             <div class="col-3">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/independance-financiere.svg" alt="logo independance financiere">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/independance-financiere.svg" alt="logo independance financiere">
                             </div>
                             <div class="col-9">
                                 <span class="bf">Indépendance financière</span>
@@ -115,7 +115,7 @@ get_header();?>
             <div class="block d-md-flex">
 
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_association/prog-actions.svg" alt="action-prog">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/p_association/prog-actions.svg" alt="action-prog">
                     </div>
 
                     <div class="text">
@@ -150,7 +150,7 @@ get_header();?>
                     </div>
 
                     <div class="image bgj">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/p_association/archipel.jpg" alt="archipel">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/p_association/archipel.jpg" alt="archipel">
                     </div>   
 
             </div>
@@ -241,7 +241,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/citoyens.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/citoyens.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h1 class="pt-4">000</h1>
@@ -260,7 +260,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/lieux.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/lieux.svg" alt="petit logo top">
                     </div>
 
                     <div class="name-text">
@@ -284,7 +284,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/event.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/event.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h1 class="pt-4">000</h1>
@@ -308,7 +308,7 @@ get_header();?>
     
                 <div class="vcard text-center">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/organisations.svg" alt="petit logo top">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/organisations.svg" alt="petit logo top">
                     </div>
                     <div class="name-text">
                         <h1 class="pt-4">000</h1>

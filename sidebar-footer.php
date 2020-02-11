@@ -4,14 +4,14 @@
 <footer class="row footer">
     <nav class="navbar container">
         <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
-            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-blc.svg" alt="logo">
+            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/logo-blc.svg" alt="logo">
         </a>
 
         <ul class="nav">
-            <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter-blc.svg" alt=""></a></li>
-            <li class="ml-3"><a href="https://www.facebook.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook-blc.svg" alt=""></a></li>
-            <li class="ml-3"><a href="https://www.instagram.com/lblabascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram-blc.svg" alt=""></a></li>
-            <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/contact-bascule-blc.svg" alt=""></a></li>
+            <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/twitter-blc.svg" alt=""></a></li>
+            <li class="ml-3"><a href="https://www.facebook.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/facebook-blc.svg" alt=""></a></li>
+            <li class="ml-3"><a href="https://www.instagram.com/lblabascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/instagram-blc.svg" alt=""></a></li>
+            <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/contact-bascule-blc.svg" alt=""></a></li>
         </ul>
 
         <a href="" class="btn ml-auto">Plan du site</a>

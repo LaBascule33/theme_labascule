@@ -23,15 +23,15 @@
             <div class="container">
 
                 <ul class="nav">
-                    <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/twitter.svg" alt=""></a></li>
-                    <li class="ml-3"><a href="https://www.facebook.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/facebook.svg" alt=""></a></li>
-                    <li class="ml-3"><a href="https://www.instagram.com/lblabascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/instagram.svg" alt=""></a></li>
-                    <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/pictos/contact-bascule.svg" alt=""></a></li>
+                    <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/twitter.svg" alt=""></a></li>
+                    <li class="ml-3"><a href="https://www.facebook.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/facebook.svg" alt=""></a></li>
+                    <li class="ml-3"><a href="https://www.instagram.com/lblabascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/instagram.svg" alt=""></a></li>
+                    <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/contact-bascule.svg" alt=""></a></li>
                 </ul>
 
                 <div class="justify-content-end">
                     <a class="pr-5 agenda" href="<?php echo esc_url(home_url('/agenda'));?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/pictos/agenda.svg" class="pr-3" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/agenda.svg" class="pr-3" alt="">
                         <span class="bf">Agenda</span>
                     </a>
                     <a class="pl-5" href="<?php echo esc_url(home_url('/chroniques'));?>">
@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="bascule-navbar">
             <div class="container">
                 <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
-                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-bascule.svg" alt="logo">
+                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/logo-bascule.svg" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bascule-nav" aria-controls="#bascule-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

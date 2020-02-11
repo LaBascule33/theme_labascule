@@ -302,7 +302,7 @@ _MMMMMMM9'    YMMMMM9     _MM_       _MM_      YMMMM9   _M_      \M MYMMMM9
     right: -40px;
     width: 37px;
     height: 29px;
-    background-image: url('../../img/apostrophes-gris.png');
+    background-image: url('../../assets/img/traces/apostrophes-gris.png');
     content: "";
 }
 
@@ -573,7 +573,7 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM__MM_  _MM_ 
 #section-home-intro {
     position: relative;
     padding-top:36px;
-    background: url('../../img/background/bg_video.png') no-repeat;
+    background: url('../../assets/img/backgrounds/bg_video.png') no-repeat;
     background-size: cover;
     background-position-y: 36px;
     height: 536px;
@@ -660,7 +660,7 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_     _dM_  
 /* ---------------------------------------- */
 #section-home-faq{
     position: relative;
-    background: url('../../img/faq/Bckgd-FAQ.svg') no-repeat;
+    background: url('../../assets/img/faq/Bckgd-FAQ.svg') no-repeat;
     background-size: cover;
     padding: 4% 0 5% 0;
 }
@@ -674,7 +674,7 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_     _dM_  
     z-index: -1;
     content: "";
 
-    background: url('../../img/background/Bckgd-FAQ2.png') 0 0 no-repeat;
+    background: url('../../assets/img/backgrounds/Bckgd-FAQ2.png') 0 0 no-repeat;
     background-size: cover;
 }*/
 
@@ -949,11 +949,11 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
 /*.border-right-accolade {
     border-right: 10px;
-    border-image: url('../../img/accolade_right.png');
+    border-image: url('../../assets/img/accolade_right.png');
 }*/
 
 .row-tab-bg{
-    background: url('../../img/jevousrejoins.png');
+    background: url('../../assets/img/jevousrejoins.jpg');
     background-size: cover;
 }
 
@@ -1033,22 +1033,22 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 }
 
 .card-action.action-1{
-    background: url('../../img/png/action-1.png');
+    background: url('../../assets/img/action-1.png');
     background-size: cover;
 }
 
 .card-action.action-2{
-    background: url('../../img/png/action-2.png');
+    background: url('../../assets/img/action-2.png');
     background-size: cover;
 }
 
 .card-action.action-3{
-    background: url('../../img/png/action-3.png');
+    background: url('../../assets/img/action-3.png');
     background-size: cover;
 }
 
 .card-action.action-4{
-    background: url('../../img/png/action-4.png');
+    background: url('../../assets/img/action-4.png');
     background-size: cover;
 
 }
@@ -1164,46 +1164,46 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
 /* Img - p_asso */
 .img-asso{
-    background-image: url('../../img/p_association/img_titre_association.jpg');
+    background-image: url('../../assets/img/p_association/img_titre_association.jpg');
 }
 
 .img-archipel{
-    background-image: url('../../img/p_association/archipel.jpg');
+    background-image: url('../../assets/img/p_association/archipel.jpg');
 }
 
 .img-team{
-    background-image: url('../../img/p_association/img_bloc_equipe.jpg');
+    background-image: url('../../assets/img/p_association/img_bloc_equipe.jpg');
 }
 
 .bg-team{
-    background:rgba(233, 241, 255, 0.6) url('../../img/texture-bleu.svg');
+    background:rgba(233, 241, 255, 0.6) url('../../assets/img/backgrounds/texture-bleu.svg');
     background-size: cover;
 }
 
 /* Img - p_actions */
 .img-transition{
-    background-image: url('../../img/p_nosactions/Service_Transition.jpg');
+    background-image: url('../../assets/img/p_nosactions/Service_Transition.jpg');
 }
 
 .img-event{
-    background-image: url('../../img/p_nosactions/Cooperation_Evenements.jpg');
+    background-image: url('../../assets/img/p_nosactions/Cooperation_Evenements.jpg');
 }
 
 .img-lobby{
-    background-image: url('../../img/p_nosactions/LobbyingCitoyen.jpg');
+    background-image: url('../../assets/img/p_nosactions/LobbyingCitoyen.jpg');
 }
 
 /* Img - p_rejoindre */
 .img-postule{
-    background-image: url('../../img/p_rejoindre/Img_postuler.png');
+    background-image: url('../../assets/img/p_rejoindre/img_bloc_postule.jpg');
 }
 
 .img-bascule{
-    background-image: url('../../img/p_rejoindre/QB_1.jpg');
+    background-image: url('../../assets/img/p_rejoindre/QB_1.jpg');
 }
 
 .img-quartier{
-    background-image: url('../../img/p_rejoindre/img_bloc_mengageant.png');
+    background-image: url('../../assets/img/p_rejoindre/img_bloc_mengageant.png');
 }
 
 /*-----------------------------------------------*/
