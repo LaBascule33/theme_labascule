@@ -166,7 +166,7 @@
 <!-- MODAL FAQ -->
 <!------------------------------------->
 <?php include 'inc/modal-faq.php' ?>
-<?php //get_template_part('inc/modal-faq.php'); ?>
+<?php //get_template_part('modal-faq'); ?>
 <!------------------------------------->
 
 <!---------------------------------------------------------------------------->
@@ -174,7 +174,7 @@
 <!------------------------------------->
 <div id="section-home-etmoi"> 
     <div class="container my-5 text-center justify-content-center align-self-center">
-        <h2 class="text-center bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h2>
+        <h2 class="bf"><span class="text-uppercase">& moi</span> dans tout ça ?</span></h2>
         <!------------------------------------->
         <nav class="nav-home-moi">
             <div class="nav nav-tabs my-5 text-center" id="nav-tab" role="tablist">
@@ -225,63 +225,77 @@
         </nav>
     <!------------------------------------->
     <?php include 'inc/contenu-home-moi.php' ?>
-    <?php //get_template_part('inc/contenu-home-moi.php'); ?>
+    <?php //get_template_part('contenu-home-moi'); ?>
     <!------------------------------------->
     </div>
 </div>
+
 <!---------------------------------------------------------------------------->
 <!-- Une passerelle-->
 <!------------------------------------->
 <div id="section-home-passerelle" class="container my-5 text-center justify-content-center align-self-center">
-    <h2 class="text-center bf">Une <span class="text-uppercase">passerelle</span> vers des solutions existantes</h2>
+    <h2 class="bf">Une <span class="text-uppercase">passerelle</span> vers des solutions existantes</h2>
     <!------------------------------------->
-    <div class="row my-5">
+    <div class="row my-5 text-left">
         <!------------------------------------->
         <div class="col-md-4">
-            <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan.png" class="card-img" alt="plan" style="max-height: 8rem;">
+            <div class="card mb-3" style="max-height: 9rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img-transiscope.png" class="card-img" alt="Transiscope" style="max-height: 9rem;">
                 <div class="card-img-overlay">
-                    <h4 class="bf">Le lieu</h4>
+                    <h3 class="bf">Le lieu</h3>
                     <p>avec lequel te connecter</p>
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i><a href="https://transiscope.org/" target="_blank">Transiscope</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <!------------------------------------->
         <div class="col-md-4">
-            <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/place_a_lacte.png" class="align-self-end" alt="Place à l'acte" style="max-height: 8rem;">
+            <div class="card mb-3" style="height:9rem; max-height: 9rem; background: transparent linear-gradient(249deg, #FFFFFF 0%, #F8F8F8 100%) 0% 0% no-repeat padding-box;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/img-place-a-l-action.png" class="align-self-end" alt="Place à l'acte" style="max-height: 9rem;">
                 <div class="card-img-overlay">
-                    <h4 class="bf">L'action</h4>
+                    <h3 class="bf">L'action</h3>
                     <p>qui te convient</p>
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i><a href="https://www.placealacte.fr/" target="_blank">Place à l'acte</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <!------------------------------------->
         <div class="col-md-4">
-            <div class="card mb-3"  style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/carto.png" class="card-img" alt="carto" style="max-height: 8rem;">
+            <div class="card mb-3"  style="max-height: 9rem;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img-cartographie-la-bascule.png" class="card-img" alt="Cartographie de la Transition" style="max-height: 9rem;">
                 <div class="card-img-overlay">
-                    <h4 class="bf">La communauté</h4>
-                    <a href=""></a><i class="fas fa-download"></i> <span>Cartographie de la transition</span></a>
+                    <h3 class="bf">La communauté</h3>
+                    <p>&nbsp;</p>
+                    <ul class="list-style-custom">
+                        <li><i class="fas fa-download"></i> <a href="https://www.placealacte.fr/" target="_blank">Cartographie de la transition</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <!------------------------------------->
         <div class="col-md-4">
-            <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/pacte_transition.png" class="card-img" alt="Pacte de la Transition" style="max-height: 8rem;">
+            <div class="card mb-3" style="height:9rem; max-height: 9rem; background: transparent linear-gradient(249deg, #FFFFFF 0%, #F8F8F8 100%) 0% 0% no-repeat padding-box;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/img-pacte-transition.png" class="align-self-end" alt="Pacte pour la Transition" style="max-height: 9rem;">
                 <div class="card-img-overlay">
-                    <h4 class="bf">L'engagement'</h4>
+                    <h3 class="bf">L'engagement'</h3>
                     <p>pour les municipales 2020</p>
+                    <ul class="list-style-custom">
+                        <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i><a href="https://www.actioncommune.fr/" target="_blank">Soutenir des listes participatives Citoyennes</a></li>
+                        <li><i class="arrow-right-home fas fa-arrow-right bc mr-2"></i><a href="https://www.pacte-transition.org/" target="_blank">Pacte pour la transition</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <!------------------------------------->
         <div class="col-md-8">
-            <div class="card mb-3" style="max-height: 8rem;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan.png" class="card-img" alt="plan"  style="max-height: 8rem;">
+            <div class="card mb-3" style="height:9rem; max-height: 9rem; background-color: #F8F8F8;">
                 <div class="card-img-overlay">
-                    <h4 class="bf">Nos coups de coeurs</h4>
+                    <h3 class="bf">Nos coups de coeurs</h3>
+                    <p>&Agrave; venir</p>
                 </div>
             </div>
         </div>

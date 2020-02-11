@@ -222,9 +222,9 @@ h1::before {
 /* ---------------------------------------- */
 /* --- Specials Titles --- */
 /* ---------------------------------------- */
-.text-center {
+/*.text-center {
     text-align: center;
-}
+}*/
 
 h3.text-center{
     letter-spacing: 6px;
@@ -988,8 +988,13 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     background-color: #fff;
     margin-top: 59px;
     height: 238px;
-    padding-top: 47px;
+    padding-top: 15px;
 }
+
+.card-soutien h3 {
+    height: 88px;
+}
+
 .picto-home-moi{
     position: absolute;
     top: 5%;
@@ -998,12 +1003,21 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
 
 .tab-suivre{
     height: 238px;
+    padding-top: 45px;
     background-color: #fff;
 }
 
 .tab-suivre h2.bf{
-    padding-top: 47px;
-    padding-bottom: 45px;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.tab-suivre .nav {
+    padding-top:15px;
+}
+
+.tab-suivre form, .tab-suivre p{
+    padding-top:45px;
 }
 
 .col-suivre{
@@ -1017,7 +1031,8 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     padding-bottom: auto;
 }
 .img-tab-suivre{
-    height: 44px;
+    height: 55px;
+    margin: 15px;
 }
 
 .list-style-contact{
@@ -1032,25 +1047,8 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     height: 169px;
 }
 
-.card-action.action-1{
-    background: url('../../assets/img/action-1.png');
-    background-size: cover;
-}
-
-.card-action.action-2{
-    background: url('../../assets/img/action-2.png');
-    background-size: cover;
-}
-
-.card-action.action-3{
-    background: url('../../assets/img/action-3.png');
-    background-size: cover;
-}
-
-.card-action.action-4{
-    background: url('../../assets/img/action-4.png');
-    background-size: cover;
-
+.card-action img {
+    width: 100%;
 }
 
 .btn-home-moi {
@@ -1065,6 +1063,39 @@ _MMMMMMMMM   YMMM9       _MM_  _MM_  _MM_ YMMMMM9  _MM_       YMMMMMM_`YMMM9'Yb.
     opacity: 0.45;
 }
 
+/* ---------------------------------------- */
+/* 
+  ____                                                           ________                                                         ___ ___
+ 6MMMMb\                           68b                           `MMMMMMMb.                                                       `MM `MM
+6M'    `                     /     Y89                            MM    `Mb                                                        MM  MM
+MM         ____     ____    /M     ___   _____   ___  __          MM     MM    ___      ____     ____     ____   ___  __   ____    MM  MM   ____
+YM.       6MMMMb   6MMMMb. /MMMMM  `MM  6MMMMMb  `MM 6MMb         MM     MM  6MMMMb    6MMMMb\  6MMMMb\  6MMMMb  `MM 6MM  6MMMMb   MM  MM  6MMMMb
+ YMMMMb  6M'  `Mb 6M'   Mb  MM      MM 6M'   `Mb  MMM9 `Mb        MM    .M9 8M'  `Mb  MM'    ` MM'    ` 6M'  `Mb  MM69 " 6M'  `Mb  MM  MM 6M'  `Mb
+     `Mb MM    MM MM    `'  MM      MM MM     MM  MM'   MM        MMMMMMM9'     ,oMM  YM.      YM.      MM    MM  MM'    MM    MM  MM  MM MM    MM
+      MM MMMMMMMM MM        MM      MM MM     MM  MM    MM        MM        ,6MM9'MM   YMMMMb   YMMMMb  MMMMMMMM  MM     MMMMMMMM  MM  MM MMMMMMMM
+      MM MM       MM        MM      MM MM     MM  MM    MM        MM        MM'   MM       `Mb      `Mb MM        MM     MM        MM  MM MM
+L    ,M9 YM    d9 YM.   d9  YM.  ,  MM YM.   ,M9  MM    MM        MM        MM.  ,MM  L    ,MM L    ,MM YM    d9  MM     YM    d9  MM  MM YM    d9
+MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_       `YMMM9'Yb.MYMMMM9  MYMMMM9   YMMMM9  _MM_     YMMMM9  _MM__MM_ YMMMM9
+
+ */
+/* ---------------------------------------- */
+#section-home-passerelle .card-img-overlay {
+    padding: 0.75rem;
+}
+
+#section-home-passerelle h3 {
+    font-family: "Avenir-Medium";
+    margin-bottom: 0;
+}
+
+#section-home-passerelle li {
+    padding-inline-start: 0 !important;
+    margin-bottom: 5px;
+}
+
+#section-home-passerelle p {
+    margin-bottom: 1rem;
+}
 
 /*-----------------------------------------------*/
 /* CONTENT */
