@@ -1,3 +1,6 @@
+<!-- close page content opened in header.php -->
+</div>
+
 <?php
 
 $has_footer_1 = is_active_sidebar( 'footer-1' );

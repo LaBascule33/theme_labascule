@@ -1,6 +1,3 @@
-<!-- close page content opened in header.php -->
-</div>
-
 <footer class="row footer">
     <nav class="navbar container">
         <a href="<?php echo esc_url(home_url('/'));?>" class="navbar-brand">
@@ -18,10 +15,10 @@
     </nav>
 
     <nav class="navbar container">
-        <a class="bc mr-auto" href="">Mentions légales</a>
+        <a class="bc mr-auto" href="<?php echo esc_url(home_url('/mentions-legales'));?>">Mentions légales</a>
 
         <p class="ml-auto p-blc text-right">
-            Co-conception & réalisation<br/> <a href="http://t4code.fr" class="bc">Thomas Dubernet</a> + <a  class="bc" href="https://spiritvy.com">John Vÿ</a> + <a  class="bc" href="https://www.jpgraphie.com">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>
+            Co-conception & réalisation @ La Bascule 2020 <!--<br/> <a href="http://t4code.fr" class="bc">Thomas Dubernet</a> + <a  class="bc" href="https://spiritvy.com">John Vÿ</a> + <a  class="bc" href="https://www.jpgraphie.com">www.jpgraphie.com</a> + <a  class="bc" href="">Patte Blanche</a>-->
         </p>
     </nav>
 </footer>

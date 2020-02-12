@@ -1,13 +1,14 @@
-<!---------------------------------------------------------------------------->
-<!-- HEADER -->
 <?php 
 /**
  * Template name: page_association
  *  
  * 
  */
+?>
 
-get_header();?>
+<!---------------------------------------------------------------------------->
+<!-- HEADER -->
+<?php get_header(); ?>
 <!---------------------------------------------------------------------------->
 
 <!---------------------------------------------------------------------------->
@@ -127,7 +128,7 @@ get_header();?>
                         </div>
             
                         <div class="mt-5">
-                            <a href="" class="btn btn-primary">En savoir +</a>
+                            <a href="" class="btn btn-primary deco">En savoir +</a>
                         </div>
                     </div>
 
@@ -147,7 +148,7 @@ get_header();?>
                         </div>
 
                         <div class="mt-5">
-                            <a href="" class="btn btn-primary">Plonger dans l'archipel</a>
+                            <a href="" class="btn btn-primary deco">Plonger dans l'archipel</a>
                         </div>
                     </div>
 
@@ -174,7 +175,7 @@ get_header();?>
                         </div>
 
                         <div class="mt-5">
-                            <a href="" class="btn btn-primary">Faire connaissance avec l'équipe</a>
+                            <a href="" class="btn btn-primary deco">Faire connaissance avec l'équipe</a>
                         </div>
                     </div>   
 
@@ -199,7 +200,7 @@ get_header();?>
                         </div>
 
                         <div class="mt-5">
-                            <a href="" class="btn btn-primary">En savoir +</a>
+                            <a href="" class="btn btn-primary deco">En savoir +</a>
                         </div>
                     </div>
 

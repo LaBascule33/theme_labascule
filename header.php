@@ -4,6 +4,8 @@
 
 <head>
 
+    <title><?php bloginfo('name') ?><?php if ( is_404() ) : ?> &raquo; <?php _e('Not Found') ?><?php elseif ( is_home() ) : ?> &raquo; <?php bloginfo('description') ?><?php else : ?><?php wp_title() ?><?php endif ?></title>
+
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
@@ -26,7 +28,7 @@
                     <li><a href="https://twitter.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/twitter.svg" alt=""></a></li>
                     <li class="ml-3"><a href="https://www.facebook.com/LBLaBascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/facebook.svg" alt=""></a></li>
                     <li class="ml-3"><a href="https://www.instagram.com/lblabascule/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/instagram.svg" alt=""></a></li>
-                    <li class="ml-3"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/contact-bascule.svg" alt=""></a></li>
+                    <li class="ml-3"><a href="<?php echo esc_url(home_url('/contact'));?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/contact-bascule.svg" alt=""></a></li>
                 </ul>
 
                 <div class="justify-content-end">
