@@ -6,10 +6,10 @@
  */
 ?>
 
-<div class="container">   
-	<div class="row" style="margin: 0; padding-top:50px;">
+<div id="pStandard" class="container">   
+	<div class="row m-auto w-75 mw-100 pt-5 pb-5">
 		
-		<h1><?php the_title(); ?></h1>
+		<div> <h1><?php the_title(); ?></h1> </div>
     	
     	<div>
     		<?php the_content(); ?>

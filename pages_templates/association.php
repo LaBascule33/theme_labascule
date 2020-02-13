@@ -16,7 +16,7 @@
 <!------------------------------------->
 <!-- Heading -->
 <!---------------------------------------------------------------------------->
-<div id="pAssociation">
+<div id="pAssociation" class="pCorpo">
     <div class="container">   
 <!---------------------------------------------------------------------------->
 <!-- Content - Part.1 -->
@@ -28,9 +28,7 @@
             <div class="col-md-12">
                 <div class="block d-md-flex">
                     <div class="image img-asso">
-                        <div class="heading">
-                            <h2>L'association</h2>
-                        </div>
+                        <h1>L'association</h1>
                     </div>
 
                     
@@ -235,15 +233,15 @@
 <!------------------------------------->
 <div class="site-section bg-light">
     <div class="container">
-          <div class="heading">
-                <h1 class="text-center text-uppercase">Chiffres clés</h1>
-          </div>
+        <div class="heading">
+            <h2 class="text-center text-uppercase">Chiffres clés</h2>
+        </div>
     
     <!-- UserCom - Section 2 -->
     <!------------------------------------->
     <div class="row pt-4">
     <!-- UserCom - Citoyens --> 
-            <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-3">
             <div class="block-user">
                   
                 <div class="vcard text-center">
@@ -261,11 +259,11 @@
                 </div>
 
             </div>
-            </div>
+        </div>
     <!-- UserCom - Lieux --> 
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
+        <div class="col-md-6 col-lg-3">
+            <div class="block-user">
+
                 <div class="vcard text-center">
                     <div class="image">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/lieux.svg" alt="petit logo top">
@@ -275,7 +273,7 @@
                         <h1 class="pt-4">3</h1>
                     </div>
                 </div>
-    
+
                 <div class="text text-center">
                     <ul class="list-unstyled">
                         <li><span class="bf">Joigny</span> (89), à l'echelle nationale</li>
@@ -284,13 +282,13 @@
                     </ul>
                 </div>
 
-          </div>
-          </div>
+            </div>
+        </div>
     
     <!-- UserCom - Events -->           
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
+        <div class="col-md-6 col-lg-3">
+            <div class="block-user">
+
                 <div class="vcard text-center">
                     <div class="image">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/event.svg" alt="petit logo top">
@@ -299,7 +297,7 @@
                         <h1 class="pt-4">000</h1>
                     </div>
                 </div>
-    
+
                 <div class="text text-center">
                     <p><span class="bf">Evénements animés</span></br> dans le cadre de</p>
                     <ul class="list-unstyled">
@@ -310,12 +308,12 @@
                 </div>
 
             </div>
-            </div>
+        </div>
 
     <!-- UserCom - Organisations -->           
-          <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-3">
           <div class="block-user">
-    
+
                 <div class="vcard text-center">
                     <div class="image">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/organisations.svg" alt="petit logo top">
@@ -324,16 +322,15 @@
                         <h1 class="pt-4">000</h1>
                     </div>
                 </div>
-    
+
                 <div class="text text-center">
                     <p><span class="bf">Organisations</span> différentes ont participé à un de vos événements</p>
                 </div>
                 
             </div>
-            </div>
+        </div>
     
-      </div>
-</div>
+    </div>
 </div>
 <!---------------------------------------------------------------------------->
 <!-- FOOTER -->

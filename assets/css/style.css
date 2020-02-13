@@ -133,30 +133,85 @@ span.bf,.bf-under{
     font-family: "Avenir-Black";
 }
 
+/* ---------------------------------------- */
+/* --- Colors --- */
+/* ---------------------------------------- */
+
+/* Bleu foncé */
+.bf{
+    color: #1F2650;
+}
+
+.bf-under{
+    text-decoration: underline;
+    color: #1F2650;
+}
+
+/* Bleu clair  */
+.bc{
+    color: #83B4FF;
+}
+
+.bgbc{
+    background: #E9F1FF;
+}
+
+/* Background jaune */
+.bgj{
+    background: #F4E1A0;
+}
+
 .p-blc{
     color: #fff;
 }
 
 /* ---------------------------------------- */
-/* --- Titles --- */
+/* --- Lists --- */
+/* ---------------------------------------- */
+.list-style-custom{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.list-style-custom li {
+    padding-inline-start: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.arrow-right{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+/* ---------------------------------------- */
+/* --- 
+
+__________             ___
+MMMMMMMMMM 68b         `MM
+/   MM   \ Y89   /      MM
+    MM     ___  /M      MM   ____     ____
+    MM     `MM /MMMMM   MM  6MMMMb   6MMMMb\
+    MM      MM  MM      MM 6M'  `Mb MM'    `
+    MM      MM  MM      MM MM    MM YM.
+    MM      MM  MM      MM MMMMMMMM  YMMMMb
+    MM      MM  MM      MM MM            `Mb
+    MM      MM  YM.  ,  MM YM    d9 L    ,MM
+   _MM_    _MM_  YMMM9 _MM_ YMMMM9  MYMMMM9
+
+
+ --- */
 /* ---------------------------------------- */
 
 
 /* titles */
-h1{
-    font-family: "Avenir-Black";
-    font-size: 2rem;
-    color: #1F2650;
-    position: relative;
-}
-
-/* 2nd titles */
-/*h2, h3{
+h1, h3 {
     font-family: "Avenir-Black";
     font-size: 1.5rem;
     color: #1F2650;
     position: relative;
-}*/
+}
 
 h2 {
     font-family: "Avenir-Black";
@@ -180,12 +235,12 @@ h2::before {
     content: "";
 }
 
-h3{
+/*h3{
     font-family: "Avenir-Black";
     font-size: 1.5rem;
     color: #1F2650;
     position: relative;
-}
+}*/
 
 
 /* subtitles */
@@ -196,60 +251,11 @@ h4,h5,h6{
 }
 
 /* paragraphes */
-p{  
-    font-family: "Avenir-Medium";
-    font-size: 1rem;
+p {  
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-/* line 
-h1::before {
-    width: 50%;
-    height: 50%;
-    background-color: #83B4FF;
-    border-radius: 1rem;
-    opacity: 1;
-    position: absolute;
-    z-index: -1;
-    top: 70%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%) translateX(-2%);
-    content: "";
-} */
-
-
-/* ---------------------------------------- */
-/* --- Specials Titles --- */
-/* ---------------------------------------- */
-/*.text-center {
-    text-align: center;
-}*/
-
-h3.text-center{
-    letter-spacing: 6px;
-    font-size: 1.25rem;
-}
-
-/* title-soutien */
-.text-center.soutien{
-    color: #83B4FF;
-}
-
-/* title-SCT */
-.text-center.SCT{
-    color: #F786BE;
-}
-
-/* title-cooperation */
-.text-center.cooperation{
-    color: #F9A485;
-}
-
-/* title-lobbying */
-.text-center.lobbying{
-    color: #C4E36A;
-}
 
 
 /*----------------------------------------------------------------------------------------------*/
@@ -403,8 +409,7 @@ _MM_    _MM__MMMMMMMMM _dM_     _dMM__MMMMMMM9' _MMMMMMMMM _MM_    \M\_
 /* ---------------------------------------- */
 #header{
     position: fixed;
-    top: 0; /*sans wpadminbar */
-    /*top: 32px; /* avec wpadminbar */
+    top: 0;
     width: 100%;
     z-index: 999;
 }
@@ -421,8 +426,7 @@ _MM_    _MM__MMMMMMMMM _dM_     _dMM__MMMMMMM9' _MMMMMMMMM _MM_    \M\_
     color: #002B5E;
     border: 1px solid #fff;
 }
-#menu-home-menu > li
-a:hover{
+#menu-home-menu > li a:hover, #menu-home-menu > li.current_page_item a {
     background: #002B5E !important;
     color: #fff !important;
     border: 1px solid #fff !important;
@@ -595,7 +599,6 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM__MM_  _MM_ 
 }
 
 #section-home-intro h1 {
-   /* padding: 25% 0 15% 0;*/
     font-size: 1.375rem;
     line-height: 1.5;
 }
@@ -641,6 +644,35 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_       _MM_
 }
 
 /* ---------------------------------------- */
+/* --- Titre Programmes d'action --- */
+/* ---------------------------------------- */
+
+#section-home-programme-blocs h3 {
+    letter-spacing: 6px;
+    font-size: 1.25rem;
+}
+
+/* title-soutien */
+h3.soutien{
+    color: #83B4FF;
+}
+
+/* title-SCT */
+h3.SCT{
+    color: #F786BE;
+}
+
+/* title-cooperation */
+h3.cooperation{
+    color: #F9A485;
+}
+
+/* title-lobbying */
+h3.lobbying{
+    color: #C4E36A;
+}
+
+/* ---------------------------------------- */
 /* --- 
 
   ____                                                           ________        _         ____
@@ -660,23 +692,33 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_     _dM_  
 /* ---------------------------------------- */
 #section-home-faq{
     position: relative;
-    background: url('../../assets/img/faq/Bckgd-FAQ.svg') no-repeat;
-    background-size: cover;
-    padding: 4% 0 5% 0;
+    padding: 2% 0 5% 0;
 }
 
-/*#section-home-faq::before {
+#section-home-faq::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    content: "";
+    background: url('../../assets/img/backgrounds/Bckgd-FAQ.svg') 0 0 no-repeat;
+    background-size: cover;
+}
+
+#section-home-faq::after {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height:110%;
+    height:20%;
     z-index: -1;
     content: "";
-
     background: url('../../assets/img/backgrounds/Bckgd-FAQ2.png') 0 0 no-repeat;
     background-size: cover;
-}*/
+    background-position: bottom;
+}
 
 .block-img-faq {
     height: 80%;
@@ -1097,6 +1139,43 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_       `YMM
     margin-bottom: 1rem;
 }
 
+
+
+/*-----------------------------------------------*/
+/* --- Basic Page ---
+________          _         ____   __________   ____           ____   __________        _      ___      ___________          _      ________    ________
+`MMMMMMMb.       dM.       6MMMMb/ `MMMMMMMMM  6MMMMb\        6MMMMb\ MMMMMMMMMM       dM.     `MM\     `M'`MMMMMMMb.       dM.     `MMMMMMMb.  `MMMMMMMb.
+ MM    `Mb      ,MMb      8P    YM  MM      \ 6M'    `       6M'    ` /   MM   \      ,MMb      MMM\     M  MM    `Mb      ,MMb      MM    `Mb   MM    `Mb
+ MM     MM      d'YM.    6M      Y  MM        MM             MM           MM          d'YM.     M\MM\    M  MM     MM      d'YM.     MM     MM   MM     MM
+ MM     MM     ,P `Mb    MM         MM    ,   YM.            YM.          MM         ,P `Mb     M \MM\   M  MM     MM     ,P `Mb     MM     MM   MM     MM
+ MM    .M9     d'  YM.   MM         MMMMMMM    YMMMMb         YMMMMb      MM         d'  YM.    M  \MM\  M  MM     MM     d'  YM.    MM    .M9   MM     MM
+ MMMMMMM9'    ,P   `Mb   MM     ___ MM    `        `Mb            `Mb     MM        ,P   `Mb    M   \MM\ M  MM     MM    ,P   `Mb    MMMMMMM9'   MM     MM
+ MM           d'    YM.  MM     `M' MM              MM             MM     MM        d'    YM.   M    \MM\M  MM     MM    d'    YM.   MM  \M\     MM     MM
+ MM          ,MMMMMMMMb  YM      M  MM              MM             MM     MM       ,MMMMMMMMb   M     \MMM  MM     MM   ,MMMMMMMMb   MM   \M\    MM     MM
+ MM          d'      YM.  8b    d9  MM      / L    ,M9       L    ,M9     MM       d'      YM.  M      \MM  MM    .M9   d'      YM.  MM    \M\   MM    .M9
+_MM_       _dM_     _dMM_  YMMMM9  _MMMMMMMMM MYMMMM9        MYMMMM9     _MM_    _dM_     _dMM__M_      \M _MMMMMMM9' _dM_     _dMM__MM_    \M\__MMMMMMM9'
+
+ */
+/*-----------------------------------------------*/
+ 
+/*#pStandard .row {
+    
+}*/
+
+/* underline */
+#pStandard h1::before {
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background-color: #83B4FF;
+    border-radius: 1rem;
+    opacity: 1;
+    z-index: -1;
+    top: 100%;
+    content: "";
+}
+
+
 /*-----------------------------------------------*/
 /* CONTENT */
 /*-----------------------------------------------*/
@@ -1104,53 +1183,54 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_       `YMM
     padding: 2rem 0 2rem 0;
 }
 
-/* ---------------------------------------- */
-/* --- Colors --- */
-/* ---------------------------------------- */
 
-/* Bleu foncé */
-.bf{
-    color: #1F2650;
-}
+/*-----------------------------------------------*/
+/* 
+________          _         ____   __________   ____            ____      ____    ________    ________      ____
+`MMMMMMMb.       dM.       6MMMMb/ `MMMMMMMMM  6MMMMb\         6MMMMb/   6MMMMb   `MMMMMMMb.  `MMMMMMMb.   6MMMMb
+ MM    `Mb      ,MMb      8P    YM  MM      \ 6M'    `        8P    YM  8P    Y8   MM    `Mb   MM    `Mb  8P    Y8
+ MM     MM      d'YM.    6M      Y  MM        MM             6M      Y 6M      Mb  MM     MM   MM     MM 6M      Mb
+ MM     MM     ,P `Mb    MM         MM    ,   YM.            MM        MM      MM  MM     MM   MM     MM MM      MM
+ MM    .M9     d'  YM.   MM         MMMMMMM    YMMMMb        MM        MM      MM  MM    .M9   MM    .M9 MM      MM
+ MMMMMMM9'    ,P   `Mb   MM     ___ MM    `        `Mb       MM        MM      MM  MMMMMMM9'   MMMMMMM9' MM      MM
+ MM           d'    YM.  MM     `M' MM              MM       MM        MM      MM  MM  \M\     MM        MM      MM
+ MM          ,MMMMMMMMb  YM      M  MM              MM       YM      6 YM      M9  MM   \M\    MM        YM      M9
+ MM          d'      YM.  8b    d9  MM      / L    ,M9        8b    d9  8b    d8   MM    \M\   MM         8b    d8
+_MM_       _dM_     _dMM_  YMMMM9  _MMMMMMMMM MYMMMM9          YMMMM9    YMMMM9   _MM_    \M\__MM_         YMMMM9
 
-.bf-under{
-    text-decoration: underline;
-    color: #1F2650;
-}
+ */
+/*-----------------------------------------------*/
 
-/* Bleu clair  */
-.bc{
-    color: #83B4FF;
-}
-
-.bgbc{
-    background: #E9F1FF;
-}
-
-/* Background jaune */
-.bgj{
-    background: #F4E1A0;
-}
-
-
-/* ---------------------------------------- */
-/* --- Lists --- */
-/* ---------------------------------------- */
-.list-style-custom{
-    list-style-type: none;
-    padding-inline-start: 0;
-}
-
-.list-style-custom li {
-    padding-inline-start: 30px;
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.arrow-right{
+.pCorpo .container::before {
     position: absolute;
-    top: 5px;
+    top: -50%;
     left: 0;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    content:"";
+    background-image: url('../../assets/img/backgrounds/Bckgd-top_pages.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pCorpo h1 {
+    z-index: 1;
+    top:-50px;
+}
+
+/* underline */
+.pCorpo h1::before {
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background-color: #83B4FF;
+    border-radius: 1rem;
+    opacity: 1;
+    z-index: -1;
+    top: 100%;
+    content: "";
 }
 
 
@@ -1190,7 +1270,7 @@ MYMMMM9   YMMMM9   YMMMM9    YMMM9 _MM_ YMMMMM9  _MM_  _MM_      _MM_       `YMM
 }
 
 .block .heading{
-    position: absolute;
+    position: relative;
 }
 
 /* Img - p_asso */

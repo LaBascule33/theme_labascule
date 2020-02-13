@@ -15,7 +15,7 @@ get_header();?>
 <!------------------------------------->
 <!-- Heading -->
 <!---------------------------------------------------------------------------->
-<div id="pRejoindre">
+<div id="pRejoindre" class="pCorpo">
     <div class="container">   
 <!---------------------------------------------------------------------------->
 <!-- Content - Part.1 -->
@@ -27,9 +27,7 @@ get_header();?>
             <div class="col-md-12">
                 <div class="block d-md-flex">
                     <div class="image img-team">
-                        <div class="heading">
-                            <h2>Nous rejoindre</h2>
-                        </div>
+                        <h1>Nous rejoindre</h1>
                     </div>
 
                     
@@ -150,138 +148,138 @@ get_header();?>
 <!------------------------------------->
 <div class="site-section bg-light">
     <div class="container">
-          <div class="heading">
-                <h3 class="text-center text-uppercase">Je m'engage dans l'élan de bascule</h3>
-          </div>
+        <div class="heading">
+            <h3 class="text-center text-uppercase">Je m'engage dans l'élan de bascule</h3>
+        </div>
     
     <!-- UserCom - Section 2 -->
     <!------------------------------------->
         <div class="row pt-4">
     <!-- UserCom - Locales --> 
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/drapeau.svg" alt="petit logo top">
-                    </div>
-                    <div class="name-text">
-                        <h3 class="pt-4 pb-4">Rejoindre des équipes locales de la Bascule</h3>
-                    </div>
-                </div>
-    
-                <div class="button text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/BordeauxBascule.png" alt="Bordeaux Bascule">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/ParisBascule.png" alt="Paris Bascule">
-                </div>
-          </div>
-          </div>
-    
-    <!-- UserCom - Soutenir à sa manière --> 
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/soutenir.svg" alt="petit logo top">
+            <div class="col-md-6 col-lg-3">
+              <div class="block-user">
+
+                    <div class="vcard text-center">
+                        <div class="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/drapeau.svg" alt="petit logo top">
+                        </div>
+                        <div class="name-text">
+                            <h3 class="pt-4 pb-4">Rejoindre des équipes locales de la Bascule</h3>
+                        </div>
                     </div>
 
-                    <div class="name-text">
-                        <h3 class="pt-4 pb-4">Soutenir la Bascule à ma manière</h3>
+                    <div class="button text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/BordeauxBascule.png" alt="Bordeaux Bascule">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/ParisBascule.png" alt="Paris Bascule">
                     </div>
-                </div>
+              </div>
+            </div>
     
-                <div class="text">
-                    <ul class="list-style-custom">
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Je signale<span class="bf"> un lieu pour devenir un futur lieu de Bascule</span></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Je relaie des actions sur mon réseau</li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i><span class="bf">J'offre mes compétences</span> sur des missions précises et ponctuelles</li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i><span class="bf">Je finance le mouvement</span></li>
-                    </ul>
-                </div>
-          </div>
-          <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/action.svg" alt="petit logo top">
+    <!-- UserCom - Soutenir à sa manière --> 
+            <div class="col-md-6 col-lg-3">
+              <div class="block-user">
+
+                    <div class="vcard text-center">
+                        <div class="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/soutenir.svg" alt="petit logo top">
+                        </div>
+
+                        <div class="name-text">
+                            <h3 class="pt-4 pb-4">Soutenir la Bascule à ma manière</h3>
+                        </div>
                     </div>
-                    <div class="name-text">
-                        <h3 class="pt-4 pb-4">Trouver mon action</h3>
+
+                    <div class="text">
+                        <ul class="list-style-custom">
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Je signale<span class="bf"> un lieu pour devenir un futur lieu de Bascule</span></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Je relaie des actions sur mon réseau</li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i><span class="bf">J'offre mes compétences</span> sur des missions précises et ponctuelles</li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i><span class="bf">Je finance le mouvement</span></li>
+                        </ul>
                     </div>
-                </div>
-    
-                <div class="text">
-                    <ul class="list-style-custom">
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Place à l'acte</li>
-                    </ul>
-                </div>
-          </div>
-          </div>
+              </div>
+              <div class="block-user">
+
+                    <div class="vcard text-center">
+                        <div class="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/action.svg" alt="petit logo top">
+                        </div>
+                        <div class="name-text">
+                            <h3 class="pt-4 pb-4">Trouver mon action</h3>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <ul class="list-style-custom">
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Place à l'acte</li>
+                        </ul>
+                    </div>
+              </div>
+            </div>
     
     <!-- UserCom - Groupes -->           
-          <div class="col-md-6 col-lg-3">
-          <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/orga.svg" alt="petit logo top">
+            <div class="col-md-6 col-lg-3">
+                <div class="block-user">
+
+                    <div class="vcard text-center">
+                        <div class="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/orga.svg" alt="petit logo top">
+                        </div>
+                        <div class="name-text">
+                            <h3 class="pt-4 pb-4">Rejoindre un groupe local de transition</h3>
+                        </div>
                     </div>
-                    <div class="name-text">
-                        <h3 class="pt-4 pb-4">Rejoindre un groupe local de transition</h3>
+
+                    <div class="text">
+                        <ul class="list-style-custom">
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Alternatiba <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Attac <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Colibris <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Extinction Rebellion <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>I-buycott/boycott <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Il est encore temps <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Youth For Climate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
+                        </ul>
                     </div>
                 </div>
-    
-                <div class="text">
-                    <ul class="list-style-custom">
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Alternatiba <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Attac <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Colibris <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Extinction Rebellion <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_heart"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_smiley.svg" alt="picto_smiley"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>I-buycott/boycott <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_heart.svg" alt="picto_heart"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Il est encore temps <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Youth For Climate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pictos/Picto_recycle.svg" alt="picto_recycle"></li>
-                    </ul>
-                </div>
-            </div>
             </div>
 
     <!-- UserCom - Lieux -->           
             <div class="col-md-6 col-lg-3">
-            <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/lieux.svg" alt="petit logo top">
+                <div class="block-user">
+        
+                    <div class="vcard text-center">
+                        <div class="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/lieux.svg" alt="petit logo top">
+                        </div>
+                        <div class="name-text">
+                            <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
+                        </div>
                     </div>
-                    <div class="name-text">
-                        <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
-                    </div>
-                </div>
-    
-                <div class="text">
-                    <p class="text-center">adapté à ma volonté d'engagement</p>
-                    <ul class="list-style-custom">
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Oasis Colibris</li>
-                        <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Transiscope</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="block-user">
-    
-                <div class="vcard text-center">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/communaute.svg" alt="petit logo top">
-                    </div>
-                    <div class="name-text">
-                        <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
+        
+                    <div class="text">
+                        <p class="text-center">adapté à ma volonté d'engagement</p>
+                        <ul class="list-style-custom">
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Oasis Colibris</li>
+                            <li><i class="arrow-right fas fa-arrow-right bc mr-2"></i>Transiscope</li>
+                        </ul>
                     </div>
                 </div>
-    
-                <div class="text text-center">
-                    <a href=""><i class="fas fa-download bc pr-2"></i> <span class="bf">Télécharger la charte</span></a>
+                <div class="block-user">
+        
+                    <div class="vcard text-center">
+                        <div class="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icones/communaute.svg" alt="petit logo top">
+                        </div>
+                        <div class="name-text">
+                            <h3 class="pt-4 pb-4">Rejoindre un lieu de transition</h3>
+                        </div>
+                    </div>
+        
+                    <div class="text text-center">
+                        <a href=""><i class="fas fa-download bc pr-2"></i> <span class="bf">Télécharger la charte</span></a>
+                    </div>
                 </div>
-            </div>
             </div>
     
       </div>

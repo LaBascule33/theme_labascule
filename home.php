@@ -26,7 +26,7 @@
 
         </div>
         
-        <div  id="video-home" class="row d-none">
+        <div id="video-home" class="row d-none">
             <iframe width="100%" height="500" src="https://www.youtube.com/embed/AnVLJqyhSXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 

@@ -24,7 +24,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est quoi ?</span></h2>
 
                                 <div class="mt-4">
                                     <p>La Bascule est un mouvement citoyen lancé en <span class="bf-under">février 2019</span>.
@@ -57,7 +57,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">c'est qui ?</span></h2>
 
                                 <div class="mt-4">
                                     <p>Composé de plusieurs dizaines de volontaires à temps plein dans des lieux de bascule et secondés par des citoyens engagés sur leur territoire, l’équipe de La Bascule est aujourd’hui entièrement bénévole. L’équipe est ouverte à tous les profils, expériences et âges. Pour la rejoindre, il suffit de partager sincèrement cette détermination profonde à transformer notre modèle de société et vouloir s’épanouir dans une posture de coopération et mise au service des solutions existantes.</p>
@@ -87,11 +87,11 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pourquoi ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pourquoi ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <p>Parce que nous n’avons plus le choix. Parce qu’il n’est pas question de laisser le dernier mot au “business as usual” ni aux effondrements qu’il cause. Malgré les cris d’alarme des scientifiques sur les catastrophes écologiques et le soulèvement des peuples face à des mesures inéquitables et éloignées des réels enjeux,
-                                    <span class="bf">l’immense majorité des entreprises et des politiques continue de nous propulser vers le ravin.</span> La Bascule naît d’une d’une <span class="bf">détermination sincère et profonde à changer de cap chez des milliers de citoyens.</span> Elle s’est formé sur les principes suivants:</p>
+                                    <span class="bf">l’immense majorité des entreprises et des politiques continue de nous propulser vers le ravin.</span> La Bascule naît d’une d’une <span class="bf">détermination sincère et profonde à changer de cap chez des milliers de citoyens.</span></p>
                                     
                                     <div class="pt-4 text-center">
                                         <a href="" class="btn btn-primary btn-faq">En lire +</a>
@@ -118,11 +118,11 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pour quoi ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">pour quoi ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <p>Pour être au service de tous ceux qui s’engagent pour un futur souhaitable. Pour réveiller et outiller le citoyen qui sommeille en chacun d’entre nous. Pour faire partie de la solution plutôt que de la dénonciation.</p>
-                                    <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'humain.</span> Nous agissons pour:</p>
+                                    <p>La Bascule a pour ambition de <span class="bf">pousser notre société vers un modèle viable et respectueux de la nature et de l'humain.</span></p>
                                     
                                     <div class="pt-4 text-center">
                                         <a href="" class="btn btn-primary btn-faq">En lire +</a>
@@ -149,7 +149,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">comment faites-vous ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">comment faites-vous ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <p>Proposer une démarche personnelle d’engagements que chacun peut s’approprier que ce soit avec ou sans La Bascule autour de 5 types d’actions:</p>
@@ -183,7 +183,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">oui mais concrètement ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">oui mais concrètement ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <p>Nous agissons au travers de 4 programmes d’actions:</p>
@@ -217,7 +217,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">avec quels moyens ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">avec quels moyens ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <span class="bf-under">Tout cela est rendu possible grâce:</span>
@@ -255,7 +255,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">depuis quand ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">depuis quand ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <p><span class="bf-under">La Bascule s’est lancé en février 2019</span> à l’initiative de Maxime de Rostolan (entrepreneur fondateur de <span class="bf-under">Blue Bees</span> et <span class="bf-under">Fermes d’Avenirs</span>) et d’une dizaine d’étudiants. Durant les 6 premiers mois nous avons vécu une phase de structuration (mise en place de notre gouvernance partagée, accompagné par <span class="bf-under">l’Université Du Nous</span>) de montée en compétences (diagnostic des solutions existantes, outils de gestion de projets, outils de facilitation, etc) et d’expérimentations marqués notamment par l’aventure de l’<span class="bf-under">An Zéro</span>. Ce rassemblement n’a finalement pas pu avoir lieu sous son format initial (ouvert au grand public) et s’est transformée en événement de coopération regroupant une centaine d’organisations de la Transition pendant 3 jours. 
@@ -286,7 +286,7 @@
                             </div>
                             <!------------------------------------->
                             <div class="text">
-                                <h1 class="text-center bf pt-4 pb-4 js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">ça se passe ou ?</span></h1>
+                                <h2 class="js-title-faq">La <span class="text-uppercase">BASCULE,</span> <span class="bc">ça se passe ou ?</span></h2>
                                 
                                 <div class="mt-4">
                                     <p>Dans sa volonté de jouer un rôle moteur dans l’amplification des solutions existantes et l’entraide entre porteurs de projets, La Bascule s’inscrit totalement dans 

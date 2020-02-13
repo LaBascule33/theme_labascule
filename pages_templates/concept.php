@@ -17,6 +17,7 @@ get_header();?>
 <!---------------------------------------------------------------------------->
 
 <section id="category" role="main">
+    <header></header>
     <div class="content">
 
             <!------------------------------------->
@@ -26,7 +27,7 @@ get_header();?>
                 <div class="block d-md-flex">
                     <div class="image img-asso">
                         <div class="heading">
-                            <h2>L'association</h2>
+                            <h1>Le concept toto</h1>
                         </div>
                     </div>
 

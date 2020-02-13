@@ -30,7 +30,7 @@ get_header();?>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/p_association/prog-actions.svg" alt="action-prog">
     
                         <div class="heading">
-                            <h2>Nos actions</h2>
+                            <h1>Nos actions</h1>
                         </div>
                     </div>
 
